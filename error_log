@@ -1,0 +1,1 @@
+[04-Feb-2015 22:14:38 UTC] PHP Fatal error:  Call to undefined method Wedding::get_include_view() in /home1/fourplat/public_html/wedding/wp-content/plugins/main.php on line 21
