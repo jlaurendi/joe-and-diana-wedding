@@ -1,2 +1,0 @@
-msgid Welcome to Joe and Diana's Wedding!
-msgstr 你好
