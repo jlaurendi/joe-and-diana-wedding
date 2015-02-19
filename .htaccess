@@ -1,0 +1,10 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/ [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^www\.josephanddiana\.com$ [NC] 
+RewriteRule ^$ index-en.php [NC,QSA] 
+
+RewriteCond %{HTTP_HOST} ^www\.achiaohemeiying\.com$ [NC] 
+RewriteRule ^$ index-zh.php [NC,QSA] 
+

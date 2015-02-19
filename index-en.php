@@ -736,6 +736,7 @@
                             foreach ($posts as $post) {
                                 $date = $post['date'];
                                 // $year = ...;
+echo print_r($post);
 
                                 if (empty($posts_by_year[$year])) $posts_by_year[$year] = array();
                                 $posts_by_year[$year][] = $post;
@@ -745,7 +746,11 @@
                     ?>
                             <div class="timeline-year start"><span><?php echo $year; ?></span></div>
 
-                            <?php foreach ($posts as $post) { ?>
+                            <?php foreach ($posts as $post) { 
+								$comment = htmlspecialchars($post['comment']);
+								$name = htmlspecialchars($post['name']);
+								$date = $post['date'];
+							?>
                                 <?php $position = ($position == 'left') ? 'right' : 'left'; ?>
                                 <div class="column six heart <?php echo $position; ?>">
                                     <div class="box pattern">
@@ -768,7 +773,7 @@
                 </header>
                 <div class="container smaller">
                     <div class="row">
-                        <form action="action.php">
+                        <form action="guestbook.php" method="POST">
                             <div class="column six">
                                 <label for="name">Name</label>
                                 <input type="text" id="name" name="name">
