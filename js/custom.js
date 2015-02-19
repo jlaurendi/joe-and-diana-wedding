@@ -820,16 +820,16 @@ if (!Array.prototype.indexOf) {
         // Guestbook submission
         $('#guestbook').on('submit', function(e) {
             var data = {};
-            data['name'] = $('#guestbook').find('#name');
-            data['email'] = $('#guestbook').find('#email');
-            data['comment'] = $('#guestbook').find('#comment');
+            data['name'] = $('.guestbook').find('#name').val();
+            data['email'] = $('.guestbook').find('#email').val();
+            data['comment'] = $('.guestbook').find('textarea').val();
             $.ajax({
                 'url': 'guestbook.php',
                 'type': 'POST',
                 'dataType': 'json',
                 'data': data
             }).done(function(response) {
-                $this.find('.notification')
+                $('.guestbook').find('.notification')
                     .addClass(response.type + 'msg')
                     .text(response.message);
             });

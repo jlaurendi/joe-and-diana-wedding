@@ -734,14 +734,14 @@
                             $posts = $db->query($query);
                             $posts_by_year = array();
                             foreach ($posts as $post) {
-                                $date = $post['date'];
-                                // $year = ...;
-echo print_r($post);
+                                $date = new DateTime($post['date']);
+                                $year = $date->format('Y');
 
                                 if (empty($posts_by_year[$year])) $posts_by_year[$year] = array();
                                 $posts_by_year[$year][] = $post;
                             }
                             $position = 'left';
+							$movetop = true;
                             foreach ($posts_by_year as $year => $posts) {
                     ?>
                             <div class="timeline-year start"><span><?php echo $year; ?></span></div>
@@ -749,14 +749,24 @@ echo print_r($post);
                             <?php foreach ($posts as $post) { 
 								$comment = htmlspecialchars($post['comment']);
 								$name = htmlspecialchars($post['name']);
-								$date = $post['date'];
+								$date = new DateTime($post['date']);
+								$date = $date->format('d F');
+
 							?>
-                                <?php $position = ($position == 'left') ? 'right' : 'left'; ?>
-                                <div class="column six heart <?php echo $position; ?>">
+                                <?php 
+									$position = ($position == 'left') ? 'right' : 'left'; 
+									if ($movetop && $position == 'left') {
+										$class = $position.' movetop';
+										$movetop = false;
+									} else {
+										$class = $position;
+									}
+								?>
+                                <div class="column six heart <?php echo $class; ?>">
                                     <div class="box pattern">
                                         <span class="date"><?php echo $date; ?></span>
                                         <div class="guest">
-                                            <p><?php echo $comment; ?></p>
+                                            <p style="white-space: pre-line;"><?php echo $comment; ?></p>
                                             <span class="name"><?php echo $name; ?></span>
                                         </div>
                                     </div>
@@ -773,7 +783,7 @@ echo print_r($post);
                 </header>
                 <div class="container smaller">
                     <div class="row">
-                        <form action="guestbook.php" method="POST">
+                        <form action="guestbook.php" method="POST" class="guestbook">
                             <div class="column six">
                                 <label for="name">Name</label>
                                 <input type="text" id="name" name="name">

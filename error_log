@@ -3,3 +3,11 @@
 [19-Feb-2015 01:22:11 America/Denver] PHP Parse error:  syntax error, unexpected '$db' (T_VARIABLE) in /home1/fourplat/public_html/wedding/guestbook.php on line 29
 [19-Feb-2015 01:22:58 America/Denver] PHP Parse error:  syntax error, unexpected '$db' (T_VARIABLE) in /home1/fourplat/public_html/wedding/guestbook.php on line 29
 [19-Feb-2015 01:23:16 America/Denver] PHP Parse error:  syntax error, unexpected '$db' (T_VARIABLE) in /home1/fourplat/public_html/wedding/guestbook.php on line 29
+[19-Feb-2015 01:41:35 America/Denver] PHP Parse error:  syntax error, unexpected '$db' (T_VARIABLE) in /home1/fourplat/public_html/wedding/guestbook.php on line 29
+[19-Feb-2015 01:47:58 America/Denver] PHP Parse error:  syntax error, unexpected '$db' (T_VARIABLE) in /home1/fourplat/public_html/wedding/guestbook.php on line 29
+[19-Feb-2015 01:54:50 America/Denver] PHP Parse error:  syntax error, unexpected '$db' (T_VARIABLE) in /home1/fourplat/public_html/wedding/guestbook.php on line 29
+[19-Feb-2015 01:55:30 America/Denver] PHP Parse error:  syntax error, unexpected '$db' (T_VARIABLE) in /home1/fourplat/public_html/wedding/guestbook.php on line 29
+[19-Feb-2015 01:56:44 America/Denver] PHP Parse error:  syntax error, unexpected '$db' (T_VARIABLE) in /home1/fourplat/public_html/wedding/guestbook.php on line 29
+[19-Feb-2015 01:57:00 America/Denver] PHP Parse error:  syntax error, unexpected '$db' (T_VARIABLE) in /home1/fourplat/public_html/wedding/guestbook.php on line 29
+[19-Feb-2015 02:19:29 America/Denver] PHP Notice:  Undefined variable: message in /home1/fourplat/public_html/wedding/guestbook.php on line 40
+[19-Feb-2015 02:20:44 America/Denver] PHP Notice:  Undefined variable: message in /home1/fourplat/public_html/wedding/guestbook.php on line 40
