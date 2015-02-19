@@ -817,6 +817,26 @@ if (!Array.prototype.indexOf) {
 
         });
 
+        // Guestbook submission
+        $('#guestbook').on('submit', function(e) {
+            var data = {};
+            data['name'] = $('#guestbook').find('#name');
+            data['email'] = $('#guestbook').find('#email');
+            data['comment'] = $('#guestbook').find('#comment');
+            $.ajax({
+                'url': 'guestbook.php',
+                'type': 'POST',
+                'dataType': 'json',
+                'data': data
+            }).done(function(response) {
+                $this.find('.notification')
+                    .addClass(response.type + 'msg')
+                    .text(response.message);
+            });
+
+            e.preventDefault();
+            return false;
+        });
 
     });
 
