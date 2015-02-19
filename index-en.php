@@ -1,3 +1,5 @@
+<?php error_reporting(0); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -720,60 +722,44 @@
         <section id="guestbook">
             <header class="section-header">
                 <h3 class="section-title">Guestbook</h3>
-                <p class="section-tagline">Quisque aliquet erat condimentum sit aptent varius convallis quam a scelerisque nulla accumsan suspendisse scelerisque  aliquet erat aliquet porta erat.</p>
             </header>
             <div class="container timeline">
                 <span class="arrow-up"></span>
                 <span class="arrow-down"></span>
                 <div class="row">
-                    <div class="timeline-year start"><span>2014</span></div>
-                    <div class="column six heart right">
-                        <div class="box pattern">
-                            <span class="date">24 July</span>
-                            <div class="guest">
-                                <p>Quisque aliquet erat condimentum sit aptent varius convallis quam a scelerisque nulla accumsan suspendisse scelerisque  aliquet erat aliquet porta erat.</p>
-                                <span class="name">John Doe</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="column six heart left movetop">
-                        <div class="box pattern">
-                            <span class="date">24 July</span>
-                            <div class="guest">
-                                <p>Quisque aliquet erat condimentum sit aptent varius convallis quam a scelerisque nulla accumsan suspendisse scelerisque  aliquet erat aliquet porta erat.</p>
-                                <span class="name">John Doe</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="column six heart right">
-                        <div class="box pattern">
-                            <span class="date">24 July</span>
-                            <div class="guest">
-                                <p>Quisque aliquet erat condimentum sit aptent varius convallis quam a scelerisque nulla accumsan suspendisse scelerisque  aliquet erat aliquet porta erat.Aptent varius convallis quam a scelerisque nulla accumsan suspendisse scelerisque  aliquet erat aliquet porta erat</p>
-                                <span class="name">John Doe</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="column six heart left">
-                        <div class="box pattern">
-                            <span class="date">24 July</span>
-                            <div class="guest">
-                                <p>Quisque aliquet erat condimentum sit aptent varius convallis quam a scelerisque nulla accumsan suspendisse scelerisque  aliquet erat aliquet porta erat.Quisque aliquet erat condimentum sit aptent varius convallis quam a scelerisque nulla accumsan suspendisse scelerisque  aliquet erat aliquet porta erat</p>
-                                <span class="name">John Doe</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="column six heart right">
-                        <div class="box pattern">
-                            <span class="date">24 July</span>
-                            <div class="guest">
-                                <p>Quisque aliquet erat condimentum sit aptent varius convallis quam a scelerisque nulla accumsan suspendisse scelerisque  aliquet erat aliquet porta erat.</p>
-                                <span class="name">John Doe</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="timeline-button"><a href="#" class="button">Load more</a></div>
+                    <?php
+                        $db = new mysqli('localhost', 'fourplat_admin', 'l%9,wPfmG;k}', 'fourplat_wedding');
+                        if ($db->connect_errno == 0) {
+                            $query = "SELECT * FROM guestbook";
+                            $posts = $db->query($query);
+                            $posts_by_year = array();
+                            foreach ($posts as $post) {
+                                $date = $post['date'];
+                                // $year = ...;
+
+                                if (empty($posts_by_year[$year])) $posts_by_year[$year] = array();
+                                $posts_by_year[$year][] = $post;
+                            }
+                            $position = 'left';
+                            foreach ($posts_by_year as $year => $posts) {
+                    ?>
+                            <div class="timeline-year start"><span><?php echo $year; ?></span></div>
+
+                            <?php foreach ($posts as $post) { ?>
+                                <?php $position = ($position == 'left') ? 'right' : 'left'; ?>
+                                <div class="column six heart <?php echo $position; ?>">
+                                    <div class="box pattern">
+                                        <span class="date"><?php echo $date; ?></span>
+                                        <div class="guest">
+                                            <p><?php echo $comment; ?></p>
+                                            <span class="name"><?php echo $name; ?></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php } ?>
+                        <?php } ?>
+                    <?php } ?>
+
                 </div>
             </div>
             <div class="form color">
@@ -812,14 +798,7 @@
                 <h3 class="section-title">Instagram</h3>
                 <p class="section-tagline">Copy the hashtag below and share your experience from our Wedding :)</p>
             </header>
-            <span class="hash">#rubyandnickwedding</span>
-            <div class="container">
-                <div class="instagram-images">
-                </div>
-            </div>
-            <div class="load-more">
-                <a href="#" class="button">Load more</a>
-            </div>
+            <span class="hash">#joeanddianawedding</span>
         </section>
         <!-- #Instagram Section Ends -->
 
