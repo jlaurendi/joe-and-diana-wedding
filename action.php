@@ -1,6 +1,7 @@
 <?php
 
 session_start();
+$db = new mysqli('localhost', 'fourplat_admin', 'l%9,wPfmG;k}', 'fourplat_wedding');
 
 //for use with javascript unescape function
 function encode($input) {
@@ -18,16 +19,17 @@ if(isset($_POST['submit'])) {
 	$return = array('type' => 'error', 'session' => $_SESSION);
 	$answer = isset($_POST['autovalue']) ? trim($_POST['autovalue']) : false;
 
-	if(!isset($_SESSION['_form_validate']) || !$answer || $_SESSION['_form_validate'] != $answer) {
-		$return['message'] = 'Error validating security question.';
-	} else {
-		$to = 'jlaurendi@gmail.com, darkplumwu@gmail.com';
+	// if(!isset($_SESSION['_form_validate']) || !$answer || $_SESSION['_form_validate'] != $answer) {
+	// 	$return['message'] = 'Error validating security question.';
+	// } else {
+		$to = 'jlaurendi@gmail.com';
 
 		$name = isset($_POST['name']) ? trim($_POST['name']) : '';
 		$email = isset($_POST['email']) ? trim($_POST['email']) : '';
 		$persons = isset($_POST['persons']) ? trim($_POST['persons']) : '';
-		$message = isset($_POST['message']) ? trim($_POST['message']) : '';
-		// $phone = isset($_POST['phone']) ? trim($_POST['phone']) : '';
+		// $message = isset($_POST['message']) ? trim($_POST['message']) : '';
+		$phone = isset($_POST['phone']) ? trim($_POST['phone']) : '';
+		$which_wedding = isset($_POST['which-wedding']) ? trim($_POST['which-wedding']) : '';
 		$subject = isset($_POST['subject']) ? trim($_POST['subject']) : 'Contact Form Submission';
 
 		if($name && $email && filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -41,6 +43,7 @@ if(isset($_POST['submit'])) {
 			if($persons) {
 				$message .= ' <br /> Number of Persons: ' . $persons;
 			}
+			$message .= ' <br /> Wedding: '. $which_wedding;
 
 			@$send = mail($to, $subject, $message, $headers);
 
@@ -53,7 +56,26 @@ if(isset($_POST['submit'])) {
 		} else {
 			$return['message'] = 'Error validating email.';
 		}
-	}
+
+		$attend_usa = 0;
+		$attend_taiwan = 0;
+		if ($which_wedding == 'USA') {
+			$attend_usa = 1;
+		} elseif ($which_wedding == 'Taiwan') {
+			$attend_taiwan = 1;
+		} else {
+			$attend_usa = 1;
+			$attend_taiwan = 1;
+		}
+
+	  $insert_query = "INSERT INTO rsvps (name, email, guests, phone, attend_taiwan, attend_usa) VALUES ('$name', '$email', $persons, '$phone', '$which_wedding', $attend_taiwan, $attend_usa);";
+	  if (!$result = $db->query($insert_query)) {
+	    $return['message'] = $db->error;
+	  } else {
+	    $return['message'] = "Success!";
+	  }
+
+	// }
 
 	die(json_encode($return));
 }

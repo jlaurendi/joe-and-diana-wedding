@@ -1,6 +1,8 @@
 <?php
 
 session_start();
+$db = new mysqli('localhost', 'fourplat_admin', 'l%9,wPfmG;k}', 'fourplat_wedding');
+
 //for use with javascript unescape function
 function encode($input) {
         $temp = '';
@@ -18,7 +20,6 @@ if (empty($_POST['name']) || empty($_POST['email']) || empty($_POST['comment']))
   die(json_encode($return));
 }
 
-$db = new mysqli('localhost', 'fourplat_admin', 'l%9,wPfmG;k}', 'fourplat_wedding');
 if ($db->connect_errno == 0) {
   $name = $db->real_escape_string($_POST['name']);
   $email = $db->real_escape_string($_POST['email']);

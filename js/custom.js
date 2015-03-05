@@ -333,9 +333,14 @@ if (!Array.prototype.indexOf) {
         google.maps.event.addDomListener(window, 'load', init);
 
         function init() {
-            if (typeof markers == 'undefined' || $.type(markers) != 'array') {
+            if (typeof taiwan_markers == 'undefined' || $.type(taiwan_markers) != 'array') {
                 return;
             }
+
+            if (typeof usa_markers == 'undefined' || $.type(usa_markers) != 'array') {
+                return;
+            }
+
 
             var markerImages = {
                 airport: { url:'images/map/MapPins-small-red1.png',size: new google.maps.Size(35, 58),origin: new google.maps.Point(0, 0),anchor: new google.maps.Point(0, 0),scaledSize: new google.maps.Size(35, 344)},
@@ -436,29 +441,33 @@ if (!Array.prototype.indexOf) {
                 }]
             };
 
-            var mapElement = document.getElementById('map');
-            var map = new google.maps.Map(mapElement, mapOptions);
-            var infoWindow = new google.maps.InfoWindow();
-            var bound = new google.maps.LatLngBounds();
-            for (var i = 0; i < markers.length; i++) {
+            var map_ids = {'taiwan-map': taiwan_markers, 'usa-map': usa_markers};
+            for (var map_id in map_ids) {
+                var markers = map_ids[map_id];
+                var mapElement = document.getElementById(map_id);
+                var map = new google.maps.Map(mapElement, mapOptions);
+                var infoWindow = new google.maps.InfoWindow();
+                var bound = new google.maps.LatLngBounds();
+                for (var i = 0; i < markers.length; i++) {
 
-                var marker = new google.maps.Marker({
-                    position: new google.maps.LatLng(markers[i][1], markers[i][2]),
-                    map: map,
-                    icon: markerImages[markers[i][3]],
-                    title: markers[i][0],
-                    infoContent: markers[i][4]
-                });
+                    var marker = new google.maps.Marker({
+                        position: new google.maps.LatLng(markers[i][1], markers[i][2]),
+                        map: map,
+                        icon: markerImages[markers[i][3]],
+                        title: markers[i][0],
+                        infoContent: markers[i][4]
+                    });
 
-                bound.extend(marker.position);
-                google.maps.event.addListener(marker, 'click', function() {
+                    bound.extend(marker.position);
+                    google.maps.event.addListener(marker, 'click', function() {
 
-                    infoWindow.setContent('<div class="info_content"><h3>' + this.title + '</h3><p>' + this.infoContent + '</p></div>');
-                    infoWindow.open(map, this);
-                });
+                        infoWindow.setContent('<div class="info_content"><h3>' + this.title + '</h3><p>' + this.infoContent + '</p></div>');
+                        infoWindow.open(map, this);
+                    });
 
-            };
-            map.fitBounds(bound);
+                };
+                map.fitBounds(bound);
+            }
         }
 
         /* Theme Tabs

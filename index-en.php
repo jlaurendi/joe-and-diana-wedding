@@ -287,7 +287,7 @@
         <section id="wedding-events" class="pattern">
             <header class="section-header">
                 <h3 class="section-title">Wedding Events</h3>
-                <p class="section-tagline">Quisque aliquet erat condimentum sit aptent varius convallis quam a scelerisque nulla accumsan suspendisse scelerisque  aliquet erat aliquet porta erat.</p>
+                <p class="section-tagline"></p>
             </header>
             <div class="container timeline">
                 <span class="arrow-up"></span>
@@ -364,9 +364,13 @@
         <!-- #Wedding Events Section Ends -->
 
         <!-- #Map Section -->
-        <section id="map-section">
+        <section id="taiwan-map-section" class="map-section pattern">
+            <header class="section-header">
+                <h3 class="section-title">Taiwan Wedding Map</h3>
+                <p class="section-tagline"></p>
+            </header>
             <div class="container">
-                <div id="map-pins">
+                <div id="taiwan-map-pins" class="map-pins">
                     <ul>
                         <li class="wedding">Wedding</li>
                         <li class="weddingParty">Wedding Party</li>
@@ -381,15 +385,42 @@
                     </ul>
                 </div>
             </div>
-            <div id="map"></div>
+            <div id="taiwan-map" class="map"></div>
         </section>
         <!-- #Map Section Ends -->
+
+        <!-- #Map Section -->
+        <section id="usa-map-section" class="map-section pattern">
+            <header class="section-header">
+                <h3 class="section-title">USA Wedding Map</h3>
+                <p class="section-tagline"></p>
+            </header>
+            <div class="container">
+                <div id="usa-map-pins" class="map-pins">
+                    <ul>
+                        <li class="wedding">Wedding</li>
+                        <li class="weddingParty">Wedding Party</li>
+                        <li class="bachelor">Bachelor</li>
+                        <li class="bachelorette">Bachelorette</li>
+                        <li class="hotels">Hotels</li>
+                        <li class="airport">Airport</li>
+                        <li class="attractions">Attractions</li>
+                        <li class="restoraunts">Restoraunts</li>
+                        <li class="shopping">Shopping</li>
+                        <li class="special">Special</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="usa-map" class="map"></div>
+        </section>
+        <!-- #Map Section Ends -->
+
 
         <!-- Important People Section -->
         <section id="important-people">
             <header class="section-header">
                 <h3 class="section-title">Important People</h3>
-                <p class="section-tagline">Quisque aliquet erat condimentum sit aptent varius convallis quam a scelerisque nulla accumsan suspendisse scelerisque  aliquet erat aliquet porta erat.</p>
+                <p class="section-tagline"></p>
             </header>
             <div class="container timeline">
                 <span class="arrow-up"></span>
@@ -404,9 +435,9 @@
                         </div>
                         <div class="tab-content-wrap">
                             <div id="person1" class="tab-content">
-                                <h2>Amy Lo</h2>
+                                <h2>Bridesmaid 1</h2>
                                 <div class="story">
-                                    <p>Vestibulum cras ullamcorper a ullamcorper scelerisque iaculis per hac proin duis vestibulum ullamcorper tempor ultricies. Eu non sociosqu magna adipiscing ad consectetur a parturient justo praesent sem tempor imperdiet vestibulum a condimentum in magna.</p>
+                                    <p></p>
                                 </div>
                                 <div class="social">
                                     <ul>
@@ -420,9 +451,9 @@
                                 </div>
                             </div>
                             <div id="person2" class="tab-content">
-                                <h2>Angela Smith</h2>
+                                <h2>Bridesmaid 2</h2>
                                 <div class="story">
-                                    <p>Vestibulum cras ullamcorper a  parturient sem a euismod tempus phasellus ornare a dapibus sit ullamcorper justo praesent sem tempor imperdiet vestibulum a condimentum in magna.</p>
+                                    <p></p>
                                 </div>
                                 <div class="social">
                                     <ul>
@@ -436,9 +467,9 @@
                                 </div>
                             </div>
                             <div id="person3" class="tab-content">
-                                <h2>Mary Johnson</h2>
+                                <h2>Bridesmaid 3</h2>
                                 <div class="story">
-                                    <p>Vestibulum cras ullamcorper a ullamcorper scelerisque iaculis per hac proin duis vestibulum ullamcorper tempor ultricies. Eu non sociosqu magna adipiscing ad consectetur a parturient sem .</p>
+                                    <p></p>
                                 </div>
                                 <div class="social">
                                     <ul>
@@ -463,9 +494,9 @@
                         </div>
                         <div class="tab-content-wrap">
                             <div id="person4" class="tab-content">
-                                <h2>Chandler Knuckless</h2>
+                                <h2>Richard Yau</h2>
                                 <div class="story">
-                                    <p>Vestibulum cras ullamcorper a ullamcorper scelerisque iaculis per hac proin duis vestibulum ullamcorper tempor ultricies. Eu non sociosqu magna adipiscing ad consectetur a parturient justo praesent sem tempor imperdiet vestibulum a condimentum in magna.</p>
+                                    <p>Best man.</p>
                                 </div>
                                 <div class="social">
                                     <ul>
@@ -479,9 +510,9 @@
                                 </div>
                             </div>
                             <div id="person5" class="tab-content">
-                                <h2>Mark Baywater</h2>
+                                <h2>Mike Kling</h2>
                                 <div class="story">
-                                    <p>Vestibulum cras ullamcorper a  parturient sem a euismod tempus phasellus ornare a dapibus sit ullamcorper justo praesent sem tempor imperdiet vestibulum a condimentum in magna.</p>
+                                    <p>Kling</p>
                                 </div>
                                 <div class="social">
                                     <ul>
@@ -495,9 +526,9 @@
                                 </div>
                             </div>
                             <div id="person6" class="tab-content">
-                                <h2>Lee Mcfly</h2>
+                                <h2></h2>
                                 <div class="story">
-                                    <p>Vestibulum cras ullamcorper a ullamcorper scelerisque iaculis per hac proin duis vestibulum ullamcorper tempor ultricies. Eu non sociosqu magna adipiscing ad consectetur a parturient sem .</p>
+                                    <p></p>
                                 </div>
                                 <div class="social">
                                     <ul>
@@ -746,15 +777,15 @@
                     ?>
                             <div class="timeline-year start"><span><?php echo $year; ?></span></div>
 
-                            <?php foreach ($posts as $post) { 
+                            <?php foreach ($posts as $post) {
 								$comment = htmlspecialchars($post['comment']);
 								$name = htmlspecialchars($post['name']);
 								$date = new DateTime($post['date']);
 								$date = $date->format('d F');
 
 							?>
-                                <?php 
-									$position = ($position == 'left') ? 'right' : 'left'; 
+                                <?php
+									$position = ($position == 'left') ? 'right' : 'left';
 									if ($movetop && $position == 'left') {
 										$class = $position.' movetop';
 										$movetop = false;
@@ -837,6 +868,10 @@
                                 <input type="text" id="email" name="email">
                             </div>
                             <div class="column six">
+                                <label for="phone">Phone</label>
+                                <input type="text" id="phone" name="phone">
+                            </div>
+                            <div class="column six">
                                 <label for="persons">Number of guests</label>
                                 <select name="persons" id="persons">
                                     <option value="One" disabled selected="selected"> How many persons?</option>
@@ -848,11 +883,22 @@
                                     <option value="Six">Six</option>
                                 </select>
                             </div>
-                            <div class="column six auto-safe">
+
+                            <div class="column six">
+                                <label for="which-wedding">Which wedding?</label>
+                                <select name="which-wedding" id="which-wedding">
+                                    <option value="" disabled selected="selected"> Which wedding?</option>
+                                    <option value="Taiwan">Taiwan Only</option>
+                                    <option value="USA">USA Only</option>
+                                    <option value="Both">Both</option>
+                                </select>
+                            </div>
+
+<!--                             <div class="column six auto-safe">
                                 <label for="autovalue">Security question</label>
                                 <input type="text" id="autovalue" name="autovalue">
                                 <i class="fa fa-refresh auto-refresh" title="Reload security question"></i>
-                            </div>
+                            </div> -->
                             <input type="hidden" name="submit">
                             <div class="clearfix"></div>
                             <input type="submit" value="I am attending &rarr;">
@@ -894,9 +940,15 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&amp;sensor=false"></script>
     <script src="js/custom.js"></script>
     <script>
-        var markers = [
+        var taiwan_markers = [
+            ['TPE Airport', 25.081668, 121.234130, 'airport', 'Taipei Airport'],
             ['Kaohsiung City, Taiwan', 22.710418, 120.306155, 'wedding','Kaohsiung City'],
             ['Zuoying HSR Station, Kaohsiung', 22.687145, 120.307822, 'restaurant','HSR Station']
+        ];
+
+        var usa_markers = [
+            ['CHS Airport', 32.894547, -80.038164, 'airport', 'Charleston Airport'],
+            ['Parents', 33.029564, -80.248404, 'house', 'Parents House']
         ];
     </script>
 </body>
