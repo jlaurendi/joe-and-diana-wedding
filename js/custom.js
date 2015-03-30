@@ -441,33 +441,62 @@ if (!Array.prototype.indexOf) {
                 }]
             };
 
-            var map_ids = {'taiwan-map': taiwan_markers, 'usa-map': usa_markers};
-            for (var map_id in map_ids) {
-                var markers = map_ids[map_id];
-                var mapElement = document.getElementById(map_id);
-                var map = new google.maps.Map(mapElement, mapOptions);
-                var infoWindow = new google.maps.InfoWindow();
-                var bound = new google.maps.LatLngBounds();
-                for (var i = 0; i < markers.length; i++) {
+            // Taiwan map
+            var map_id = 'taiwan-map';
+            var markers = taiwan_markers;
+            var mapElement = document.getElementById(map_id);
+            var taiwan_map = new google.maps.Map(mapElement, mapOptions);
+            var infoWindow = new google.maps.InfoWindow();
+            var bound = new google.maps.LatLngBounds();
+            for (var i = 0; i < markers.length; i++) {
 
-                    var marker = new google.maps.Marker({
-                        position: new google.maps.LatLng(markers[i][1], markers[i][2]),
-                        map: map,
-                        icon: markerImages[markers[i][3]],
-                        title: markers[i][0],
-                        infoContent: markers[i][4]
-                    });
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(markers[i][1], markers[i][2]),
+                    map: taiwan_map,
+                    icon: markerImages[markers[i][3]],
+                    title: markers[i][0],
+                    infoContent: markers[i][4]
+                });
 
-                    bound.extend(marker.position);
-                    google.maps.event.addListener(marker, 'click', function() {
+                bound.extend(marker.position);
+                google.maps.event.addListener(marker, 'click', function() {
 
-                        infoWindow.setContent('<div class="info_content"><h3>' + this.title + '</h3><p>' + this.infoContent + '</p></div>');
-                        infoWindow.open(map, this);
-                    });
+                    infoWindow.setContent('<div class="info_content"><h3>' + this.title + '</h3><p>' + this.infoContent + '</p></div>');
+                    infoWindow.open(taiwan_map, this);
+                });
 
-                };
-                map.fitBounds(bound);
-            }
+            };
+            taiwan_map.fitBounds(bound);
+            // End Taiwan Map
+
+            // USA Map
+            var map_id = 'usa-map';
+            var markers = usa_markers;
+            var mapElement = document.getElementById(map_id);
+            var usa_map = new google.maps.Map(mapElement, mapOptions);
+            var infoWindow = new google.maps.InfoWindow();
+            var bound = new google.maps.LatLngBounds();
+            for (var i = 0; i < markers.length; i++) {
+
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(markers[i][1], markers[i][2]),
+                    map: usa_map,
+                    icon: markerImages[markers[i][3]],
+                    title: markers[i][0],
+                    infoContent: markers[i][4]
+                });
+
+                bound.extend(marker.position);
+                google.maps.event.addListener(marker, 'click', function() {
+
+                    infoWindow.setContent('<div class="info_content"><h3>' + this.title + '</h3><p>' + this.infoContent + '</p></div>');
+                    infoWindow.open(usa_map, this);
+                });
+
+            };
+            usa_map.fitBounds(bound);
+            // End USA Map
+
         }
 
         /* Theme Tabs

@@ -141,31 +141,27 @@
                     <div class="column six right">
                         <h2 class="vibe">Bride’s story</h2>
                         <div class="story">
-                            <p>Diana is the best woman in the whole world :)</p>
+                            <p>Diana was born and raised in Taiwan and has lived there her entire life. She's an incredibly strong-willed, independent woman whom puts family and friends above all else. She strives for excellence in everything that she does and her passion is to live life to the fullest, which is embodied by her daily approach to life. Her hobbies include traveling the world, enjoying the outdoors, and experiencing new cultures.</p>
+                            <p>Currently Diana just recently graduated from college and has started her career as a front-end web programmer.</p>
                         </div>
                         <div class="social">
                             <ul>
-                                <li><a href="http://www.facebook.com/darkplum"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                </li>
-                                <li><a href="https://www.linkedin.com/profile/view?id=325163428"><i class="fa fa-linkedin"></i></a>
-                                </li>
+                                <li><a href="http://www.facebook.com/darkplum"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.linkedin.com/profile/view?id=325163428"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="column six left">
                         <h2 class="vibe">Groom’s story</h2>
                         <div class="story">
-                            <p>Joe loves working and running.</p>
+                            <p>Joe was born and raised in the USA. He shares in Diana's passion for life and pursuit of excellence with intellectual challenges at the forefront of his attention. Math, computer science, and entrepreurship are the main disciplines he focuses on. Beyond intellectual pursuits, he loves running and exploring the world (which he often combines).</p>
+                            <p>Currently Joe is working on scaling <a href="www.brightcellars.com">Bright Cellars</a>, a wine subscription company that makes discovering wine fun and easy. He founded the company with his best man, Richard Yau.</p>
                         </div>
                         <div class="social">
                             <ul>
-                                <li><a href="http://www.facebook.com/jlaurendi"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li><a href="https://twitter.com/jlaurendi"><i class="fa fa-twitter"></i></a>
-                                </li>
-                                <li><a href="https://www.linkedin.com/profile/view?id=18122897"><i class="fa fa-linkedin"></i></a>
-                                </li>
+                                <li><a href="http://www.facebook.com/jlaurendi"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/jlaurendi"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.linkedin.com/profile/view?id=18122897"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -177,7 +173,7 @@
                             <div class="corners-bottomleft"></div>
                             <div class="corners-topright"></div>
                             <div class="corners-bottomright"></div>
-                “From opposite ends of the world, our paths crossed for the first time one summer day in Taiwan. We fell in love on the beach and have weathered many storms since. True love conquers all.”
+                “From opposite ends of the world, our paths crossed one summer day in Taiwan. A love sprouted, and despite all obstacles, grew to heights we'd never imagined. True love indeed conquers all.”
                         </div>
                     </div>
                 </div>
@@ -299,10 +295,42 @@
                             <div class="corners-bottomleft"></div>
                             <div class="corners-topright"></div>
                             <div class="corners-bottomright"></div>
-                            <h2>Bachelorette Party</h2>
+                            <h2>Bachelor / Bachelorette Party</h2>
                             <div class="details">
-                                <span class="waddress">Club Insomnia</span>
-                                <span class="waddress">60 Switch Street, New York NY</span>
+                                <span class="waddress">where?</span>
+                                <span class="waddress">where??</span>
+                                <span class="wdate">when?</span>
+                                <span class="wtime">when??</span>
+                            </div>
+                            <a href="event.html" class="button">Read More</a>
+                        </div>
+                    </div>
+                    <div class="column six heart left movetop">
+                        <div class="box center corner">
+                            <div class="corners-topleft"></div>
+                            <div class="corners-bottomleft"></div>
+                            <div class="corners-topright"></div>
+                            <div class="corners-bottomright"></div>
+                            <h2>Wedding Ceremony (Taiwan)</h2>
+                            <div class="details">
+                                <span class="waddress">Restaurant</span>
+                                <span class="waddress">Kaohsiung, Taiwan</span>
+                                <span class="wdate">Thursday, January 9, 2015</span>
+                                <span class="wtime">12:00 PM - 5:00 PM</span>
+                            </div>
+                            <a href="event.html" class="button">Read More</a>
+                        </div>
+                    </div>
+                    <div class="column six heart right">
+                        <div class="box center corner">
+                            <div class="corners-topleft"></div>
+                            <div class="corners-bottomleft"></div>
+                            <div class="corners-topright"></div>
+                            <div class="corners-bottomright"></div>
+                            <h2>Wedding Ceremony (USA)</h2>
+                            <div class="details">
+                                <span class="waddress">TBD</span>
+                                <span class="waddress">TBD, SC</span>
                                 <span class="wdate">Thursday, 16 August 2014</span>
                                 <span class="wtime">8:00 PM - 5:00 AM</span>
                             </div>
@@ -315,44 +343,12 @@
                             <div class="corners-bottomleft"></div>
                             <div class="corners-topright"></div>
                             <div class="corners-bottomright"></div>
-                            <h2>Bachelor Party</h2>
+                            <h2>Wedding Reception (USA)</h2>
                             <div class="details">
-                                <span class="waddress">Club Insomnia</span>
-                                <span class="waddress">60 Switch Street, New York NY</span>
-                                <span class="wdate">Thursday, 16 August 2014</span>
-                                <span class="wtime">8:00 PM - 5:00 AM</span>
-                            </div>
-                            <a href="event.html" class="button">Read More</a>
-                        </div>
-                    </div>
-                    <div class="column six heart right">
-                        <div class="box center corner">
-                            <div class="corners-topleft"></div>
-                            <div class="corners-bottomleft"></div>
-                            <div class="corners-topright"></div>
-                            <div class="corners-bottomright"></div>
-                            <h2>Wedding Ceremony</h2>
-                            <div class="details">
-                                <span class="waddress">Club Insomnia</span>
-                                <span class="waddress">60 Switch Street, New York NY</span>
-                                <span class="wdate">Thursday, 16 August 2014</span>
-                                <span class="wtime">8:00 PM - 5:00 AM</span>
-                            </div>
-                            <a href="event.html" class="button">Read More</a>
-                        </div>
-                    </div>
-                    <div class="column six heart left">
-                        <div class="box center corner">
-                            <div class="corners-topleft"></div>
-                            <div class="corners-bottomleft"></div>
-                            <div class="corners-topright"></div>
-                            <div class="corners-bottomright"></div>
-                            <h2>Wedding Party</h2>
-                            <div class="details">
-                                <span class="waddress">Club Insomnia</span>
-                                <span class="waddress">60 Switch Street, New York NY</span>
-                                <span class="wdate">Thursday, 16 August 2014</span>
-                                <span class="wtime">8:00 PM - 5:00 AM</span>
+                                <span class="waddress">where?</span>
+                                <span class="waddress">SC</span>
+                                <span class="wdate">when?</span>
+                                <span class="wtime">when??</span>
                             </div>
                             <a href="event.html" class="button">Read More</a>
                         </div>
@@ -379,7 +375,7 @@
                         <li class="hotels">Hotels</li>
                         <li class="airport">Airport</li>
                         <li class="attractions">Attractions</li>
-                        <li class="restoraunts">Restoraunts</li>
+                        <li class="restaurants">Restaurants</li>
                         <li class="shopping">Shopping</li>
                         <li class="special">Special</li>
                     </ul>
@@ -405,7 +401,7 @@
                         <li class="hotels">Hotels</li>
                         <li class="airport">Airport</li>
                         <li class="attractions">Attractions</li>
-                        <li class="restoraunts">Restoraunts</li>
+                        <li class="restaurants">Restaurants</li>
                         <li class="shopping">Shopping</li>
                         <li class="special">Special</li>
                     </ul>
@@ -486,7 +482,7 @@
                     </div>
 
                     <div class="column six left">
-                        <h2 class="vibe">Groomsman</h2>
+                        <h2 class="vibe">Groomsmen</h2>
                         <div class="tabs people-image">
                             <li><a href="#person4" class="active"><img src="images/important-people/groomsman1.jpg" alt="" /></a></li>
                             <li><a href="#person5"><img src="images/important-people/groomsman2.jpg" alt="" /></a></li>
@@ -496,15 +492,13 @@
                             <div id="person4" class="tab-content">
                                 <h2>Richard Yau</h2>
                                 <div class="story">
-                                    <p>Best man.</p>
+                                    <p>Richard and Joe go back to college where they were friends, roommates, and brothers in ZBT. After college they both stayed in Boston and remained close friends. In 2014 they finally embarked on their dream of starting a company together, <a href="www.brightcellars.com">Bright Cellars</a>.</p>
                                 </div>
                                 <div class="social">
                                     <ul>
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                                        <li><a href="https://twitter.com/richard_yau"><i class="fa fa-twitter"></i></a>
                                         </li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a>
-                                        </li>
-                                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                                        <li><a href="www.linkedin.com/profile/view?id=38969067"><i class="fa fa-linkedin"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -512,31 +506,27 @@
                             <div id="person5" class="tab-content">
                                 <h2>Mike Kling</h2>
                                 <div class="story">
-                                    <p>Kling</p>
+                                    <p>Mike and Joe were also roommates at MIT (and brothers in ZBT). They interned together along with taking many classes together. Mike is now working as a trader in NYC.</p>
                                 </div>
                                 <div class="social">
                                     <ul>
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                                        <li><a href="https://www.facebook.com/mike.kling"><i class="fa fa-facebook"></i></a>
                                         </li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a>
-                                        </li>
-                                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                                        <li><a href="www.linkedin.com/profile/view?id=169949679"><i class="fa fa-linkedin"></i></a>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                             <div id="person6" class="tab-content">
-                                <h2></h2>
+                                <h2>David Hutchings</h2>
                                 <div class="story">
-                                    <p></p>
+                                    <p>David, along with Richard, is another member of Joe's class in ZBT. After college Joe and David remained close friends. David currently works at The Brattle Group in Boston.</p>
                                 </div>
                                 <div class="social">
                                     <ul>
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                                        <li><a href="https://www.facebook.com/david.hutchings.184"><i class="fa fa-facebook"></i></a>
                                         </li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a>
-                                        </li>
-                                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                                        <li><a href="www.linkedin.com/profile/view?id=73006531"><i class="fa fa-linkedin"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -561,9 +551,11 @@
                         </li>
                         <li><a href="#" data-filter=".wedding">Wedding Day</a>
                         </li>
-                        <li><a href="#" data-filter=".paris">Trip to Paris</a>
+                        <li><a href="#" data-filter=".seasia">Malaysia, Singapore, Cambodia, and Vietnam 2014</a>
                         </li>
-                        <li><a href="#" data-filter=".photography">Summer in Greece</a>
+                        <li><a href="#" data-filter=".usa">USA Summer 2014</a>
+                        </li>
+                        <li><a href="#" data-filter=".photography">China, Thailand, and Taiwan 2013-2014</a>
                         </li>
                     </ul>
                 </div>
@@ -874,7 +866,7 @@
                             <div class="column six">
                                 <label for="persons">Number of guests</label>
                                 <select name="persons" id="persons">
-                                    <option value="One" disabled selected="selected"> How many persons?</option>
+                                    <option value="One" disabled selected="selected"> How many people?</option>
                                     <option value="One">One</option>
                                     <option value="Two">Two</option>
                                     <option value="Three">Three</option>
@@ -914,9 +906,9 @@
         <footer>
             <div class="container">
                 <div class="row">
-                    <div class="column four copyright">Wedding planning by Belle Peng</div>
+                    <div class="column four copyright"><i class="fa fa-heart"></i> Love our parents,</div>
                     <div class="column four logo">J<span>&</span>D</div>
-                    <div class="column four info"><i class="fa fa-heart"></i> our parents</div>
+                    <div class="column four info">family, and friends <i class="fa fa-heart"></i></div>
                 </div>
             </div>
         </footer>
