@@ -97,7 +97,7 @@
                    <div id="countdown"> 365 <span>days</span> 0 <span>hours</span> 0 <span>mins</span> 0 <span>secs</span></div>
                     <span class="date">
                         January 9th, 2016 - Kaohsiung, Taiwan<br>
-                        TBD - United States
+                        April 16th, 2016 - Charleston, SC, United States
                     </span>
                 </div>
                 <a href="#couple" class="mouse scrollTo"><i class="fa fa-long-arrow-down"></i></a>
@@ -289,7 +289,7 @@
                 <span class="arrow-up"></span>
                 <span class="arrow-down"></span>
                 <div class="row">
-                    <div class="column six heart right">
+<!--                     <div class="column six heart right">
                         <div class="box center corner">
                             <div class="corners-topleft"></div>
                             <div class="corners-bottomleft"></div>
@@ -304,8 +304,8 @@
                             </div>
                             <a href="event.html" class="button">Read More</a>
                         </div>
-                    </div>
-                    <div class="column six heart left movetop">
+                    </div> -->
+                    <div class="column six heart right">
                         <div class="box center corner">
                             <div class="corners-topleft"></div>
                             <div class="corners-bottomleft"></div>
@@ -321,7 +321,7 @@
                             <a href="event.html" class="button">Read More</a>
                         </div>
                     </div>
-                    <div class="column six heart right">
+                    <div class="column six heart left movetop">
                         <div class="box center corner">
                             <div class="corners-topleft"></div>
                             <div class="corners-bottomleft"></div>
@@ -330,14 +330,14 @@
                             <h2>Wedding Ceremony (USA)</h2>
                             <div class="details">
                                 <span class="waddress">TBD</span>
-                                <span class="waddress">TBD, SC</span>
-                                <span class="wdate">Thursday, 16 August 2014</span>
+                                <span class="waddress">Charleston, SC</span>
+                                <span class="wdate">Saturday, April 16, 2016</span>
                                 <span class="wtime">8:00 PM - 5:00 AM</span>
                             </div>
                             <a href="event.html" class="button">Read More</a>
                         </div>
                     </div>
-                    <div class="column six heart left movetop">
+                    <div class="column six heart left">
                         <div class="box center corner">
                             <div class="corners-topleft"></div>
                             <div class="corners-bottomleft"></div>
@@ -549,13 +549,11 @@
                     <ul id="gallery-filter">
                         <li class="active"><a href="#" data-filter="*">All</a>
                         </li>
-                        <li><a href="#" data-filter=".wedding">Wedding Day</a>
-                        </li>
-                        <li><a href="#" data-filter=".seasia">Malaysia, Singapore, Cambodia, and Vietnam 2014</a>
+                        <li><a href="#" data-filter=".seasia">Southeast Asia 2014</a>
                         </li>
                         <li><a href="#" data-filter=".usa">USA Summer 2014</a>
                         </li>
-                        <li><a href="#" data-filter=".photography">China, Thailand, and Taiwan 2013-2014</a>
+                        <li><a href="#" data-filter=".photography">Asia 2013-2014</a>
                         </li>
                     </ul>
                 </div>
@@ -929,7 +927,7 @@
     <script src="js/wow.min.js"></script>
     <script src="js/retina.min.js"></script>
     <script src="js/jquery.soc-share.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&amp;sensor=false"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApYs2sM_nF1OI_udCnH5Jyyz4U2xe_-QA&amp;sensor=false"></script>
     <script src="js/custom.js"></script>
     <script>
         var taiwan_markers = [
