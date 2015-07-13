@@ -12,7 +12,7 @@
 
     <!-- Title
     ================================================== -->
-    <title>啊喬和玫盈的婚禮</title>
+    <title>阿喬和玫盈的婚禮</title>
 
     <!-- Google Fonts
     ================================================== -->
@@ -59,24 +59,23 @@
 
     <div class="loaderOverlay"><i class="fa fa-heart animate-spin"></i></div>
     <!-- Hero Section -->
-    <div id="logo">啊喬 <span>&amp;</span> 玫盈</div>
+    <div id="logo">阿喬 <span>&amp;</span> 玫盈</div>
     <section id="top" class="hero" data-type="parallax">
         <header id="main-menu">
             <div class="container">
                 <div class="row">
-                    <div id="menu-logo" >N <span>&amp;</span> R</div>
+                    <div id="menu-logo" >J <span>&amp;</span> D</div>
                     <nav id="navigation" class="column twelve">
                         <ul>
-                            <li><a href="#logo">Home</a></li>
-                            <li><a href="#couple">Story</a></li>
-                            <li><a href="#loveline">Loveline</a></li>
-                            <li><a href="#wedding-events">Events</a></li>
-                            <li><a href="#important-people">People</a></li>
-                            <li><a href="#wedding-gallery">Gallery</a></li>
-                            <li><a href="#gift-registry">Gifts</a></li>
-                            <li><a href="#guestbook">GuestBook</a></li>
-                            <li><a href="#contact">RSVP</a></li>
-                            <li><a href="www.josephanddiana.com">English</a></li>
+                            <li><a href="#logo">主頁</a></li>
+                            <li><a href="#couple">才子佳人</a></li>
+                            <li><a href="#loveline">愛情大事記</a></li>
+                            <li><a href="#wedding-events">婚禮與活動</a></li>
+                            <li><a href="#important-people">儐相介紹</a></li>
+                            <li><a href="#wedding-gallery">生活相片</a></li>
+                            <li><a href="#guestbook">貴賓留言區</a></li>
+                            <li><a href="#contact">我要參加</a></li>
+                            <li><a href="http://www.josephanddiana.com/index-en.php">English</a></li>
                         </ul>
                     </nav>
                     <a href="#" id="menu-toggle-wrapper">
@@ -92,8 +91,11 @@
             <div class="hero-inner">
                 <h1>We’re getting married.</h1>
                 <div class="info">
-                   <div id="countdown"> 462 <span>days</span> 18 <span>hours</span> 46 <span>mins</span> 34 <span>secs</span></div>
-                    <span class="date">on August 19th 2015, Los Angeles, CA</span>
+                    <div id="countdown"> 462 <span>days</span> 18 <span>hours</span> 46 <span>mins</span> 34 <span>secs</span></div>
+                    <span class="date">
+                        2016年1月9日 - 台灣高雄市<br>
+                        2016年4月16日 - 美國南卡羅來納州
+                    </span>
                 </div>
                 <a href="#couple" class="mouse scrollTo"><i class="fa fa-long-arrow-down"></i></a>
             </div>
@@ -105,8 +107,8 @@
 
         <!-- RSVP Now -->
         <section id="invitation" class="pattern">
-            <span>You’re invited to our Wedding!</span>
-            <a id="to-rsvp" href="#contact" class="button scrollTo">RSVP NOW</a>
+            <span>誠摯邀請您來參加我們的婚禮！</span>
+            <a id="to-rsvp" href="#contact" class="button scrollTo">我要參加</a>
         </section>
         <!-- #RSVP Now -->
 
@@ -116,12 +118,12 @@
             <div class="hero-heart"></div>
             <div class="images">
                 <div class="column six girl">
-                    <span class="fname">Ruby</span>
-                    <span class="lname">Williams</span>
+                    <span class="fname">Diana</span>
+                    <span class="lname">Wu</span>
                 </div>
                 <div class="column six boy">
-                    <span class="fname">Nick</span>
-                    <span class="lname">Lewis</span>
+                    <span class="fname">Joseph</span>
+                    <span class="lname">Laurendi</span>
                 </div>
             </div>
         </section>
@@ -136,35 +138,30 @@
                     <div class="column six right">
                         <h2 class="vibe">Bride’s story</h2>
                         <div class="story">
-                            <p>Vestibulum cras ullamcorper a ullamcorper scelerisque iaculis per hac proin duis vestibulum ullamcorper tempor ultricies. Eu non sociosqu magna adipiscing ad consectetur a parturient sem a euismod tempus phasellus ornare a dapibus sit ullamcorper justo praesent sem tempor imperdiet vestibulum a condimentum in magna.</p>
-                            <p>
-                            Condimentum sit parturient varius at facilisi tempus dignissim sodales a faucibus curae suspendisse suspendisse a odio a. Elit sodales vestibulum nec varius scelerisque commodo parturient.</p>
+                            <p>吳玫盈，道地台灣人，在熱情的南台灣－高雄長大，大學在台北度過，短暫住過上海，現在是雲遊四方的SOHO族，往職業旅者邁進。</p>
+                            <p>獨立、個性堅毅、勇氣十足的女生，最喜歡看到身邊的人開開心心，家人與朋友都很重要，相信「天下無難事，只怕有心人」，總是極己所能達成目標，不停歇地綻放熱情往前邁進，使生命不留下遺憾。喜歡戶外活動，醉心於環遊世界，體驗不同文化，出國最喜歡逛市場、與無法用語言溝通的當地人比手畫腳。</p>
+                            <p>喜歡冒險，學習新事物的她，大學畢業後，決定放下商科背景，跳出舒適圈，正在展開新旅程－前端網頁程式設計師。</p>                      
                         </div>
                         <div class="social">
                             <ul>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a>
-                                </li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                                </li>
+                                <li><a href="http://www.facebook.com/darkplum"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/darkplumwu"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.linkedin.com/profile/view?id=325163428"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="column six left">
                         <h2 class="vibe">Groom’s story</h2>
                         <div class="story">
-                            <p>Vestibulum cras ullamcorper a ullamcorper scelerisque iaculis per hac proin duis vestibulum ullamcorper tempor ultricies. Eu non sociosqu magna adipiscing ad consectetur a parturient sem a euismod tempus phasellus ornare a dapibus sit ullamcorper justo praesent sem tempor imperdiet vestibulum a condimentum in magna.</p>
-                            <p>Condimentum sit parturient varius at facilisi tempus dignissim sodales a faucibus curae suspendisse suspendisse a odio a. Elit sodales vestibulum nec varius scelerisque commodo parturient.</p>
+                            <p>Joseph Laurendi，道地美利堅合眾國人，出生在馬里蘭州，住過佛羅里達州、南卡羅來納州，大學時搬到麻薩諸塞州，開始一連串的冒險。</p>
+                            <p>對生命充滿熱情，無可救藥地熱衷於追求卓越的益智表現，喜歡接受挑戰，享受抽絲剝繭的腦力激盪，數學、電腦科學與創業是最愛。在智力挑戰以外，熱愛跑步與探索新世界，已經跑過13個馬拉松的他，目標是跑遍全世界的馬拉松。人生最大的夢想就是成為「對這個世界有貢獻」的人。</p>
+                            <p>和主伴郎 Richard Yau 一起創立了正在持續成長的<a href="www.brightcellars.com"> Bright Cellars</a>－致力於讓消費者以更有趣、簡單的方式品味葡萄酒的公司。</p>
                         </div>
                         <div class="social">
                             <ul>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a>
-                                </li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                                </li>
+                                <li><a href="http://www.facebook.com/jlaurendi"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/jlaurendi"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.linkedin.com/profile/view?id=18122897"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -185,130 +182,169 @@
         <!-- #Story Section Ends -->
 
         <!-- Loveline Section -->
-        <section id="loveline">
+        <section id="timeline">
             <header class="section-header">
                 <h3 class="section-title">OUR LOVELINE</h3>
-                <p class="section-tagline">Quisque aliquet erat condimentum sit aptent varius convallis quam a scelerisque nulla accumsan suspendisse scelerisque  aliquet erat aliquet porta erat.</p>
+                <p class="section-tagline">A brief timeline of our relationship together.</p>
             </header>
             <div class="container timeline">
                 <span class="arrow-up"></span>
                 <span class="arrow-down"></span>
                 <div class="row">
                     <div class="timeline-year start"><span>2013</span></div>
+
                     <div class="column six heart right">
                         <div class="box pattern">
-                            <span class="date">March 25</span>
+                            <span class="date">August 24</span>
                             <h2>The day we met</h2>
                             <div class="box-content">
-                                <p>This is some dummy text, while bufi is dumy. Or it might be billy ,but someone is while evnayon is affected by his sutpidiyty whoha</p>
-                                <a href="single-post.html" class="more">Read More</a>
+                                <p>阿喬第一次的亞洲行，來到台灣，這一天他和兩位朋友 Sherry 與孜力來到了高雄，也就是這一天阿喬和玫盈相遇了。</p>
                             </div>
-
                         </div>
                     </div>
+
                     <div class="column six heart left movetop">
                         <div class="box pattern">
-                            <span class="date">April 5</span>
-                            <h2>First dinner together</h2>
+                            <span class="date">August 25</span>
+                            <h2>Falling in love</h2>
                             <div class="box-content">
-                                <p>This is some dummy text, while bufi is dumy. Or it might be billy ,but someone is while evnayon is affected by his sutpidiyty whoha, This is some dummy text, while bufi is dumy. Or it might be billy ,but someone is while evnayon is affected by his sutpidiyty whoha,This is some dummy text, while bufi is dumy. Or it might be billy ,but someone is while evnayon is affected by his sutpidiyty whoha</p>
-                                <a href="single-post.html" class="more">Read More</a>
+                                <p>玫盈決定加入他們的環島之旅，一起前往墾丁二日遊。也就是在這個時候，兩人漸漸地認識彼此，也萌生愛意。</p>
                             </div>
 
                         </div>
                     </div>
+
                     <div class="column six heart right">
                         <div class="box pattern">
-                            <span class="date">April 12</span>
-                            <h2>Our first holiday</h2>
+                            <span class="date">December 30</span>
+                            <h2>Officially started dating</h2>
                             <div class="box-content">
-                                <div class="gallery">
-                                    <img src="images/album/post1.jpg" alt="">
-                                    <img src="images/album/post2.jpg" alt="">
-                                    <img src="images/album/post3.jpg" alt="">
-                                    <img src="images/album/post4.jpg" alt="">
-                                </div>
-                                <p>This is some dummy text, while bufi is dumy. Or it might be billy ,but someone is while evnayon is affected by his sutpidiyty whoha</p>
-                                <a href="single-post.html" class="more">Read More</a>
+                                <p>幾個月後，阿喬和玫盈在上海見面並一起旅行了一個月，也是在這裡，阿喬問：「你願意當我的女朋友嗎？」。</p>
                             </div>
-
                         </div>
                     </div>
-                    <div class="column six heart left">
-                        <div class="box pattern">
-                            <span class="date">May 11</span>
-                            <h2>The Proposal</h2>
-                            <div class="box-content">
-                                <img src="images/album/WeddCouple8.jpg" alt="">
-                                <p>This is some dummy text, while bufi is dumy. Or it might be billy ,but someone is while evnayon is affected by his sutpidiyty whoha</p>
-                                <a href="single-post.html" class="more">Read More</a>
-                            </div>
 
-                        </div>
-                    </div>
-                    <div class="column six heart right">
-                        <div class="box pattern">
-                            <span class="date">June 17</span>
-                            <h2>Here comes the baby</h2>
-                            <div class="box-content">
-                                <iframe src="//player.vimeo.com/video/71737050" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                                <p>This is some dummy text, while bufi is dumy. Or it might be billy ,but someone is while evnayon is affected by his sutpidiyty whoha</p>
-                                <a href="single-post.html" class="more">Read More</a>
-                            </div>
-
-                        </div>
-                    </div>
                     <div class="clearfix"></div>
                     <div class="timeline-year"><span>2014</span></div>
+
+                    <div class="column six heart left">
+                        <div class="box pattern">
+                            <span class="date">January 13</span>
+                            <h2>Trip in Thailand</h2>
+                            <div class="box-content">
+                                <p>清邁－曼谷－普吉島－PhiPhi島</p>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="column six heart right">
                         <div class="box pattern">
-                            <span class="date">January 1</span>
-                            <h2>New Year's Eve in NY</h2>
+                            <span class="date">June 10</span>
+                            <h2>Summer in the US</h2>
                             <div class="box-content">
-                                <p>This is some dummy text, while bufi is dumy. Or it might be billy ,but someone is while evnayon is affected by his sutpidiyty whoha</p>
-                                <a href="single-post.html" class="more">Read More</a>
+                                <p>玫盈第一次飛去美國，和阿喬一起共渡了三個月的快樂時光。</p>
                             </div>
 
                         </div>
                     </div>
+
+                    <div class="column six heart left">
+                        <div class="box pattern">
+                            <span class="date">August 15</span>
+                            <h2>East Coast Road Trip</h2>
+                            <div class="box-content">
+                                <p>波士頓－華盛頓特區－馬里蘭－南卡羅來納－奧蘭多－邁阿密－基韋斯特</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column six heart right movetop">
+                        <div class="box pattern">
+                            <span class="date">October 24</span>
+                            <h2>Fall in Taichung</h2>
+                            <div class="box-content">
+                                <p>阿喬第二次來到台灣，我們決定在新的城市－台中落腳，一起進駐共同工作空間，對我們來說都是很新鮮、好玩的體驗。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column six heart left">
+                        <div class="box pattern">
+                            <span class="date">November 16</span>
+                            <h2>Sun Moon Lake Marathon</h2>
+                            <div class="box-content">
+                                <p>阿喬的第一個海外馬拉松在台灣！</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column six heart right movetop">
+                        <div class="box pattern">
+                            <span class="date">November 23</span>
+                            <h2>Southeast Asia Trip</h2>
+                            <div class="box-content">
+                                <p>阿喬和玫盈的東南亞之旅，一起去了馬來西亞、新加坡、柬埔寨和越南。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="clearfix"></div>
+                    <div class="timeline-year"><span>2015</span></div>
+
                     <div class="column six heart left movetop">
                         <div class="box pattern">
-                            <span class="date">January 18</span>
-                            <h2>First Holiday</h2>
+                            <span class="date">January 27</span>
+                            <h2>The Proposal</h2>
                             <div class="box-content">
-                                <p>This is some dummy text, while bufi is dumy. Or it might be billy ,but someone is while evnayon is affected by his sutpidiyty whoha</p>
-                                <a href="single-post.html" class="more">Read More</a>
+                                <p>一起回到520天前我們相識相戀的同個地方－墾丁，下午5點20分，玫盈：「Yes, I do.」。</p>
                             </div>
-
                         </div>
                     </div>
-                    <div class="clearfix"></div>
-                    <div class="timeline-button"><a href="#" class="button">Load more</a></div>
+
+                    <div class="column six heart right movetop">
+                        <div class="box pattern">
+                            <span class="date">April 15</span>
+                            <h2>US Trip</h2>
+                            <div class="box-content">
+                                <p>玫盈第二次飛去美國，兩個多月的時間，我們終於搬進威斯康辛州的新家了。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column six heart left movetop">
+                        <div class="box pattern">
+                            <span class="date">May 10</span>
+                            <h2>First Running Race Together</h2>
+                            <div class="box-content">
+                                <p>第一次一起參加跑步活動，我們來到威斯康辛州的伊格爾里弗市，阿喬完成了全馬，玫盈跑了第一個5K，希望未來我們可以一起參加更多賽事。</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- #Loveline Section Ends -->
 
         <!-- Parallax Section -->
-        <section class="parallax" data-type="parallax">
+        <!--<section class="parallax" data-type="parallax">
             <div class="overlay"></div>
             <div class="container">
                 <h2 class="quote">“We’ve met one summer night in the club. The music was to loud so we really didn’t speak that much. One great thing led to another and the rest is history”</h2>
             </div>
-        </section>
+        </section> -->
         <!-- #Parallax Section Ends -->
 
         <!-- Wedding Events Section -->
         <section id="wedding-events" class="pattern">
             <header class="section-header">
                 <h3 class="section-title">Wedding Events</h3>
-                <p class="section-tagline">Quisque aliquet erat condimentum sit aptent varius convallis quam a scelerisque nulla accumsan suspendisse scelerisque  aliquet erat aliquet porta erat.</p>
+                <p class="section-tagline"></p>
             </header>
             <div class="container timeline">
                 <span class="arrow-up"></span>
                 <span class="arrow-down"></span>
                 <div class="row">
-                    <div class="column six heart right">
+                    <!--<div class="column six heart right">
                         <div class="box center corner">
                             <div class="corners-topleft"></div>
                             <div class="corners-bottomleft"></div>
@@ -323,8 +359,8 @@
                             </div>
                             <a href="event.html" class="button">Read More</a>
                         </div>
-                    </div>
-                    <div class="column six heart left movetop">
+                    </div> -->
+                    <!--<div class="column six heart left movetop">
                         <div class="box center corner">
                             <div class="corners-topleft"></div>
                             <div class="corners-bottomleft"></div>
@@ -339,19 +375,19 @@
                             </div>
                             <a href="event.html" class="button">Read More</a>
                         </div>
-                    </div>
+                    </div>-->
                     <div class="column six heart right">
                         <div class="box center corner">
                             <div class="corners-topleft"></div>
                             <div class="corners-bottomleft"></div>
                             <div class="corners-topright"></div>
                             <div class="corners-bottomright"></div>
-                            <h2>Wedding Ceremony</h2>
+                            <h2>訂婚與結婚儀式</h2>
                             <div class="details">
-                                <span class="waddress">Club Insomnia</span>
-                                <span class="waddress">60 Switch Street, New York NY</span>
-                                <span class="wdate">Thursday, 16 August 2014</span>
-                                <span class="wtime">8:00 PM - 5:00 AM</span>
+                                <span class="waddress">全美婚宴會館</span>
+                                <span class="waddress">高雄縣鳳山市經武路78號1樓</span>
+                                <span class="wdate">2016年1月9日</span>
+                                <span class="wtime">10:00 AM - 10:30 AM</span>
                             </div>
                             <a href="event.html" class="button">Read More</a>
                         </div>
@@ -362,12 +398,60 @@
                             <div class="corners-bottomleft"></div>
                             <div class="corners-topright"></div>
                             <div class="corners-bottomright"></div>
-                            <h2>Wedding Party</h2>
+                            <h2>午宴</h2>
                             <div class="details">
-                                <span class="waddress">Club Insomnia</span>
-                                <span class="waddress">60 Switch Street, New York NY</span>
-                                <span class="wdate">Thursday, 16 August 2014</span>
-                                <span class="wtime">8:00 PM - 5:00 AM</span>
+                                <span class="waddress">全美婚宴會館</span>
+                                <span class="waddress">高雄縣鳳山市經武路78號1樓</span>
+                                <span class="wdate">2016年1月9日</span>
+                                <span class="wtime">12:00 PM - 2:30 PM</span>
+                            </div>
+                            <a href="event.html" class="button">Read More</a>
+                        </div>
+                    </div>
+                    <div class="column six heart right">
+                        <div class="box center corner">
+                            <div class="corners-topleft"></div>
+                            <div class="corners-bottomleft"></div>
+                            <div class="corners-topright"></div>
+                            <div class="corners-bottomright"></div>
+                            <h2>派對</h2>
+                            <div class="details">
+                                <span class="waddress">TBD</span>
+                                <span class="waddress">TBD</span>
+                                <span class="wdate">2016年1月9日</span>
+                                <span class="wtime">07:00 PM - 10:00 PM</span>
+                            </div>
+                            <a href="event.html" class="button">Read More</a>
+                        </div>
+                    </div>
+                    <div class="column six heart left">
+                        <div class="box center corner">
+                            <div class="corners-topleft"></div>
+                            <div class="corners-bottomleft"></div>
+                            <div class="corners-topright"></div>
+                            <div class="corners-bottomright"></div>
+                            <h2>結婚儀式</h2>
+                            <div class="details">
+                                <span class="waddress">Charisma by the Sea</span>
+                                <span class="waddress">Folly Beach, SC</span>
+                                <span class="wdate">2016年4月16日</span>
+                                <span class="wtime">10:00 AM - 10:30 AM</span>
+                            </div>
+                            <a href="event.html" class="button">Read More</a>
+                        </div>
+                    </div>
+                    <div class="column six heart right">
+                        <div class="box center corner">
+                            <div class="corners-topleft"></div>
+                            <div class="corners-bottomleft"></div>
+                            <div class="corners-topright"></div>
+                            <div class="corners-bottomright"></div>
+                            <h2>晚宴</h2>
+                            <div class="details">
+                                <span class="waddress">Charisma by the Sea</span>
+                                <span class="waddress">Folly Beach, SC</span>
+                                <span class="wdate">2016年4月16日</span>
+                                <span class="wtime">12:00 PM - 2:30 PM</span>
                             </div>
                             <a href="event.html" class="button">Read More</a>
                         </div>
@@ -379,9 +463,13 @@
         <!-- #Wedding Events Section Ends -->
 
         <!-- #Map Section -->
-        <section id="map-section">
+        <section id="taiwan-map-section" class="map-section pattern">
+            <header class="section-header">
+                <h3 class="section-title">Taiwan Wedding Map</h3>
+                <p class="section-tagline"></p>
+            </header>
             <div class="container">
-                <div id="map-pins">
+                <div id="taiwan-map-pins" class="map-pins">
                     <ul>
                         <li class="wedding">Wedding</li>
                         <li class="weddingParty">Wedding Party</li>
@@ -390,13 +478,39 @@
                         <li class="hotels">Hotels</li>
                         <li class="airport">Airport</li>
                         <li class="attractions">Attractions</li>
-                        <li class="restoraunts">Restoraunts</li>
+                        <li class="restaurants">Restaurants</li>
                         <li class="shopping">Shopping</li>
                         <li class="special">Special</li>
                     </ul>
                 </div>
             </div>
-            <div id="map"></div>
+            <div id="taiwan-map" class="map"></div>
+        </section>
+        <!-- #Map Section Ends -->
+
+        <!-- #Map Section -->
+        <section id="usa-map-section" class="map-section pattern">
+            <header class="section-header">
+                <h3 class="section-title">USA Wedding Map</h3>
+                <p class="section-tagline"></p>
+            </header>
+            <div class="container">
+                <div id="usa-map-pins" class="map-pins">
+                    <ul>
+                        <li class="wedding">Wedding</li>
+                        <li class="weddingParty">Wedding Party</li>
+                        <li class="bachelor">Bachelor</li>
+                        <li class="bachelorette">Bachelorette</li>
+                        <li class="hotels">Hotels</li>
+                        <li class="airport">Airport</li>
+                        <li class="attractions">Attractions</li>
+                        <li class="restaurants">Restaurants</li>
+                        <li class="shopping">Shopping</li>
+                        <li class="special">Special</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="usa-map" class="map"></div>
         </section>
         <!-- #Map Section Ends -->
 
@@ -650,176 +764,64 @@
         </section>
         <!-- #Small Gallery Section Ends -->
 
-        <!-- Our Tweets -->
-        <section id="twitter">
-            <header class="section-header">
-                <h3 class="section-title">Our Tweets</h3>
-                <p class="section-tagline">Quisque aliquet erat condimentum sit aptent varius convallis quam a scelerisque nulla accumsan suspendisse scelerisque  aliquet erat aliquet porta erat.</p>
-            </header>
-            <div class="container timeline">
-                <span class="arrow-up"></span>
-                <span class="arrow-down"></span>
-                <div class="row">
-                    <div class="column six right">
-                        <h2 class="vibe">Ruby</h2>
-                        <span>@rubynick</span>
-                        <div id="twitter_one" class="tweets">
-                            <a href="#" class="follow">&rarr; Follow Ruby on Twitter</a>
-                        </div>
-                    </div>
-                    <div class="column six left">
-                        <h2 class="vibe">Nick</h2>
-                        <span>@rubynick</span>
-                        <div id="twitter_two" class="tweets">
-                            <a href="#" class="follow">&rarr; Follow Nick on Twitter</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- #Our Tweets Ends -->
-
-        <!-- Gift Registry Section -->
-        <section id="gift-registry" class="pattern">
-            <header class="section-header">
-                <h3 class="section-title">Gift Registry</h3>
-                <p class="section-tagline">Quisque aliquet erat condimentum sit aptent varius convallis quam a scelerisque nulla accumsan suspendisse scelerisque  aliquet erat aliquet porta erat.</p>
-            </header>
-            <div class="container">
-                <ul class="small-box corner">
-                    <li>
-                        <a class="product" href="#"><img src="images/gifts/registry-amazon.png" alt=""></a>
-                        <div class="corners-topleft"></div>
-                        <div class="corners-bottomleft"></div>
-                        <div class="corners-topright"></div>
-                        <div class="corners-bottomright"></div>
-                    </li>
-                    <li>
-                        <a class="product" href="#"><img src="images/gifts/registry-crate.png" alt=""></a>
-                        <div class="corners-topleft"></div>
-                        <div class="corners-bottomleft"></div>
-                        <div class="corners-topright"></div>
-                        <div class="corners-bottomright"></div>
-                    </li>
-                    <li>
-                        <a class="product" href="#"><img src="images/gifts/registry-macys.png" alt=""></a>
-                        <div class="corners-topleft"></div>
-                        <div class="corners-bottomleft"></div>
-                        <div class="corners-topright"></div>
-                        <div class="corners-bottomright"></div>
-                    </li>
-                    <li>
-                        <a class="product" href="#"><img src="images/gifts/registry-tiffany.png" alt=""></a>
-                        <div class="corners-topleft"></div>
-                        <div class="corners-bottomleft"></div>
-                        <div class="corners-topright"></div>
-                        <div class="corners-bottomright"></div>
-                    </li>
-                </ul>
-                <ul class="small-box corner">
-                    <li>
-                        <div class="money">
-                            <span class="amount">$100</span>
-                            <a href="#" class="button donate">DONATE</a>
-                            <div class="corners-topleft"></div>
-                            <div class="corners-bottomleft"></div>
-                            <div class="corners-topright"></div>
-                            <div class="corners-bottomright"></div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="money">
-                            <span class="amount">$200</span>
-                            <a href="#" class="button donate">DONATE</a>
-                            <div class="corners-topleft"></div>
-                            <div class="corners-bottomleft"></div>
-                            <div class="corners-topright"></div>
-                            <div class="corners-bottomright"></div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="money">
-                            <span class="amount">$400</span>
-                            <a href="#" class="button donate">DONATE</a>
-                            <div class="corners-topleft"></div>
-                            <div class="corners-bottomleft"></div>
-                            <div class="corners-topright"></div>
-                            <div class="corners-bottomright"></div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="money">
-                            <span class="amount">$1000</span>
-                            <a href="#" class="button donate">DONATE</a>
-                            <div class="corners-topleft"></div>
-                            <div class="corners-bottomleft"></div>
-                            <div class="corners-topright"></div>
-                            <div class="corners-bottomright"></div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <!-- #Gift Registry Section Ends -->
-
+        
         <!-- Guestbook Section -->
         <section id="guestbook">
             <header class="section-header">
                 <h3 class="section-title">Guestbook</h3>
-                <p class="section-tagline">Quisque aliquet erat condimentum sit aptent varius convallis quam a scelerisque nulla accumsan suspendisse scelerisque  aliquet erat aliquet porta erat.</p>
             </header>
             <div class="container timeline">
                 <span class="arrow-up"></span>
                 <span class="arrow-down"></span>
                 <div class="row">
-                    <div class="timeline-year start"><span>2014</span></div>
-                    <div class="column six heart right">
-                        <div class="box pattern">
-                            <span class="date">24 July</span>
-                            <div class="guest">
-                                <p>Quisque aliquet erat condimentum sit aptent varius convallis quam a scelerisque nulla accumsan suspendisse scelerisque  aliquet erat aliquet porta erat.</p>
-                                <span class="name">John Doe</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="column six heart left movetop">
-                        <div class="box pattern">
-                            <span class="date">24 July</span>
-                            <div class="guest">
-                                <p>Quisque aliquet erat condimentum sit aptent varius convallis quam a scelerisque nulla accumsan suspendisse scelerisque  aliquet erat aliquet porta erat.</p>
-                                <span class="name">John Doe</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="column six heart right">
-                        <div class="box pattern">
-                            <span class="date">24 July</span>
-                            <div class="guest">
-                                <p>Quisque aliquet erat condimentum sit aptent varius convallis quam a scelerisque nulla accumsan suspendisse scelerisque  aliquet erat aliquet porta erat.Aptent varius convallis quam a scelerisque nulla accumsan suspendisse scelerisque  aliquet erat aliquet porta erat</p>
-                                <span class="name">John Doe</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="column six heart left">
-                        <div class="box pattern">
-                            <span class="date">24 July</span>
-                            <div class="guest">
-                                <p>Quisque aliquet erat condimentum sit aptent varius convallis quam a scelerisque nulla accumsan suspendisse scelerisque  aliquet erat aliquet porta erat.Quisque aliquet erat condimentum sit aptent varius convallis quam a scelerisque nulla accumsan suspendisse scelerisque  aliquet erat aliquet porta erat</p>
-                                <span class="name">John Doe</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="column six heart right">
-                        <div class="box pattern">
-                            <span class="date">24 July</span>
-                            <div class="guest">
-                                <p>Quisque aliquet erat condimentum sit aptent varius convallis quam a scelerisque nulla accumsan suspendisse scelerisque  aliquet erat aliquet porta erat.</p>
-                                <span class="name">John Doe</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="timeline-button"><a href="#" class="button">Load more</a></div>
+                    <?php
+                        $db = new mysqli('localhost', 'fourplat_admin', 'l%9,wPfmG;k}', 'fourplat_wedding');
+                        if ($db->connect_errno == 0) {
+                            $query = "SELECT * FROM guestbook";
+                            $posts = $db->query($query);
+                            $posts_by_year = array();
+                            foreach ($posts as $post) {
+                                $date = new DateTime($post['date']);
+                                $year = $date->format('Y');
+
+                                if (empty($posts_by_year[$year])) $posts_by_year[$year] = array();
+                                $posts_by_year[$year][] = $post;
+                            }
+                            $position = 'left';
+                            $movetop = true;
+                            foreach ($posts_by_year as $year => $posts) {
+                    ?>
+                            <div class="timeline-year start"><span><?php echo $year; ?></span></div>
+
+                            <?php foreach ($posts as $post) {
+                                $comment = htmlspecialchars($post['comment']);
+                                $name = htmlspecialchars($post['name']);
+                                $date = new DateTime($post['date']);
+                                $date = $date->format('d F');
+
+                            ?>
+                                <?php
+                                    $position = ($position == 'left') ? 'right' : 'left';
+                                    if ($movetop && $position == 'left') {
+                                        $class = $position.' movetop';
+                                        $movetop = false;
+                                    } else {
+                                        $class = $position;
+                                    }
+                                ?>
+                                <div class="column six heart <?php echo $class; ?>">
+                                    <div class="box pattern">
+                                        <span class="date"><?php echo $date; ?></span>
+                                        <div class="guest">
+                                            <p style="white-space: pre-line;"><?php echo $comment; ?></p>
+                                            <span class="name"><?php echo $name; ?></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php } ?>
+                        <?php } ?>
+                    <?php } ?>
+
                 </div>
             </div>
             <div class="form color">
@@ -828,17 +830,17 @@
                 </header>
                 <div class="container smaller">
                     <div class="row">
-                        <form action="action.php">
+                        <form action="guestbook.php" method="POST" class="guestbook">
                             <div class="column six">
-                                <label for="name">Name</label>
+                                <label for="name">姓名</label>
                                 <input type="text" id="name" name="name">
                             </div>
                             <div class="column six">
-                                <label for="email">Email</label>
+                                <label for="email">電子信箱</label>
                                 <input type="text" id="email" name="email">
                             </div>
                             <div class="column twelve">
-                                <label for="comment">Comment</label>
+                                <label for="comment">想說的話</label>
                                 <textarea name="comment" cols="30" rows="10"></textarea>
                             </div>
                             <div class="clearfix"></div>
@@ -858,14 +860,7 @@
                 <h3 class="section-title">Instagram</h3>
                 <p class="section-tagline">Copy the hashtag below and share your experience from our Wedding :)</p>
             </header>
-            <span class="hash">#rubyandnickwedding</span>
-            <div class="container">
-                <div class="instagram-images">
-                </div>
-            </div>
-            <div class="load-more">
-                <a href="#" class="button">Load more</a>
-            </div>
+            <span class="hash">#joeanddianawedding</span>
         </section>
         <!-- #Instagram Section Ends -->
 
@@ -873,7 +868,7 @@
         <section id="contact" class="bgcolor">
             <header class="section-header">
                 <h3 class="section-title">SIGN YOUR RSVP</h3>
-                <p class="section-tagline"></p>
+                <p class="section-tagline">請於2015年11月31日前回覆</p>
             </header>
             <div class="form">
                 <div class="container smaller">
@@ -881,30 +876,43 @@
                         <form action="action.php"  method="POST" autocomplete="off" class="actionform">
                             <div class="notification"></div>
                             <div class="column six">
-                                <label for="name">Name</label>
+                                <label for="name">姓名</label>
                                 <input type="text" id="name" name="name">
                             </div>
                             <div class="column six">
-                                <label for="email">Email</label>
+                                <label for="email">電子信箱</label>
                                 <input type="text" id="email" name="email">
                             </div>
                             <div class="column six">
-                                <label for="persons">Number of guests</label>
+                                <label for="phone">聯絡電話</label>
+                                <input type="text" id="phone" name="phone">
+                            </div>
+                            <div class="column six">
+                                <label for="persons">賓客人數</label>
                                 <select name="persons" id="persons">
-                                    <option value="One" disabled selected="selected"> How many persons?</option>
-                                    <option value="One">One</option>
-                                    <option value="Two">Two</option>
-                                    <option value="Three">Three</option>
-                                    <option value="Four">Four</option>
-                                    <option value="Five">Five</option>
-                                    <option value="Six">Six</option>
+                                    <option value="One" disabled selected="selected"> 幾位？</option>
+                                    <option value="One">1位</option>
+                                    <option value="Two">2位</option>
+                                    <option value="Three">3位</option>
+                                    <option value="Four">4位</option>
+                                    <option value="Five">5位</option>
+                                    <option value="Six">6位</option>
                                 </select>
                             </div>
-                            <div class="column six auto-safe">
+
+                            <div class="column six">
+                                <label for="which-wedding">哪一場婚禮</label>
+                                <select name="which-wedding" id="which-wedding">
+                                    <option value="" disabled selected="selected"> 哪一場婚禮?</option>
+                                    <option value="Taiwan">台灣</option>
+                                </select>
+                            </div>
+
+<!--                             <div class="column six auto-safe">
                                 <label for="autovalue">Security question</label>
                                 <input type="text" id="autovalue" name="autovalue">
                                 <i class="fa fa-refresh auto-refresh" title="Reload security question"></i>
-                            </div>
+                            </div> -->
                             <input type="hidden" name="submit">
                             <div class="clearfix"></div>
                             <input type="submit" value="I am attending &rarr;">
@@ -946,17 +954,15 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&amp;sensor=false"></script>
     <script src="js/custom.js"></script>
     <script>
-        var markers = [
-            ['Name of Place, Paris', 48.8666436, 2.3199989, 'hotel','Insert Some Demo Text Here'],
-            ['Name of Place, Paris', 48.8588589, 2.3470599, 'restaurant','Insert Some Demo Text Here'],
-            ['Name of Place, Paris', 48.8656488, 2.3709794, 'airport','Insert Some Demo Text Here'],
-            ['Name of Place, Paris', 48.8777566, 2.3369444, 'attraction','Insert Some Demo Text Here'],
-            ['Name of Place, Paris', 48.8589917, 2.3106827, 'bachelor','Insert Some Demo Text Here'],
-            ['Name of Place, Paris', 48.8785204, 2.3201107, 'bachelorette','Insert Some Demo Text Here'],
-            ['Name of Place, Paris', 48.8845034, 2.3599466, 'shopping','Insert Some Demo Text Here'],
-            ['Name of Place, Paris', 48.8894376, 2.3495625, 'special','Insert Some Demo Text Here'],
-            ['Name of Place, Paris', 48.8888826, 2.3477870, 'wedding','Insert Some Demo Text Here'],
-            ['Name of Place, Paris', 48.8922916, 2.3407284, 'weddingParty','Insert Some Demo Text Here']
+        var taiwan_markers = [
+            ['TPE Airport', 25.081668, 121.234130, 'airport', 'Taipei Airport'],
+            ['Kaohsiung City, Taiwan', 22.710418, 120.306155, 'wedding','Kaohsiung City'],
+            ['Zuoying HSR Station, Kaohsiung', 22.687145, 120.307822, 'restaurant','HSR Station']
+        ];
+
+        var usa_markers = [
+            ['CHS Airport', 32.894547, -80.038164, 'airport', 'Charleston Airport'],
+            ['Parents', 33.029564, -80.248404, 'house', 'Parents House']
         ];
     </script>
 </body>

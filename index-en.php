@@ -78,7 +78,7 @@
                             <li><a href="#gift-registry">Gifts</a></li>
                             <li><a href="#guestbook">GuestBook</a></li>
                             <li><a href="#contact">RSVP</a></li>
-                            <li><a href="http://www.achiaohemeiying.com">中文</a></li>
+                            <li><a href="http://www.achiaohemeiying.com/index-zh.php">中文</a></li>
                         </ul>
                     </nav>
                     <a href="#" id="menu-toggle-wrapper">
@@ -147,6 +147,7 @@
                         <div class="social">
                             <ul>
                                 <li><a href="http://www.facebook.com/darkplum"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/darkplumwu"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="https://www.linkedin.com/profile/view?id=325163428"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
@@ -154,7 +155,7 @@
                     <div class="column six left">
                         <h2 class="vibe">Groom’s story</h2>
                         <div class="story">
-                            <p>Joe was born and raised in the USA. He shares in Diana's passion for life and pursuit of excellence with intellectual challenges at the forefront of his attention. Math, computer science, and entrepreurship are the main disciplines he focuses on. Beyond intellectual pursuits, he loves running and exploring the world (which he often combines).</p>
+                            <p>Joe was born and raised in the USA. He shares in Diana's passion for life and pursuit of excellence with intellectual challenges at the forefront of his attention. Math, computer science, and entrepreneurship are the main disciplines he focuses on. Beyond intellectual pursuits, he loves running and exploring the world (which he often combines).</p>
                             <p>Currently Joe is working on scaling <a href="www.brightcellars.com">Bright Cellars</a>, a wine subscription company that makes discovering wine fun and easy. He founded the company with his best man, Richard Yau.</p>
                         </div>
                         <div class="social">
@@ -184,7 +185,7 @@
         <!-- Timeline Section -->
         <section id="timeline">
             <header class="section-header">
-                <h3 class="section-title">OUR TIMELINE</h3>
+                <h3 class="section-title">OUR LOVELINE</h3>
                 <p class="section-tagline">A brief timeline of our relationship together.</p>
             </header>
             <div class="container timeline">
@@ -200,6 +201,7 @@
                                 <p>Joe was traveling around Taiwan with one of his friends, Sherry, and one of her friends, Tzu-li. They had just made it to Kaohsiung where they met up with Diana.</p>
                             </div>
                         </div>
+
                     </div>
                     <div class="column six heart left movetop">
                         <div class="box pattern">
@@ -211,6 +213,7 @@
 
                         </div>
                     </div>
+
                     <div class="column six heart right">
                         <div class="box pattern">
                             <span class="date">December 30</span>
@@ -220,8 +223,20 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="clearfix"></div>
                     <div class="timeline-year"><span>2014</span></div>
+
+                    <div class="column six heart left">
+                        <div class="box pattern">
+                            <span class="date">January 13</span>
+                            <h2>Trip in Thailand</h2>
+                            <div class="box-content">
+                                <p>清邁－曼谷－普吉島－PhiPhi島</p>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="column six heart left">
                         <div class="box pattern">
                             <span class="date">June 10</span>
@@ -232,12 +247,33 @@
 
                         </div>
                     </div>
+
+                    <div class="column six heart left">
+                        <div class="box pattern">
+                            <span class="date">August 15</span>
+                            <h2>East Coast Road Trip</h2>
+                            <div class="box-content">
+                                <p>波士頓－華盛頓特區－馬里蘭－南卡羅來納－奧蘭多－邁阿密－基韋斯特</p>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="column six heart right movetop">
                         <div class="box pattern">
                             <span class="date">October 24</span>
                             <h2>Fall in Taichung</h2>
                             <div class="box-content">
                                 <p>Joe goes to Taichung for the fall</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column six heart left">
+                        <div class="box pattern">
+                            <span class="date">November 16</span>
+                            <h2>Sun Moon Lake Marathon</h2>
+                            <div class="box-content">
+                                <p>阿喬的第一個海外馬拉松在台灣！</p>
                             </div>
                         </div>
                     </div>
@@ -261,6 +297,26 @@
                             <h2>The Proposal</h2>
                             <div class="box-content">
                                 <p>Joe proposes!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column six heart right movetop">
+                        <div class="box pattern">
+                            <span class="date">April 15</span>
+                            <h2>US Trip</h2>
+                            <div class="box-content">
+                                <p>玫盈第二次飛去美國，兩個多月的時間，我們終於搬進威斯康辛州的新家了。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column six heart right movetop">
+                        <div class="box pattern">
+                            <span class="date">May 10</span>
+                            <h2>First Running Race Together</h2>
+                            <div class="box-content">
+                                <p>第一次一起參加跑步活動，我們來到威斯康辛州的伊格爾里弗市，阿喬完成了全馬，玫盈跑了第一個5K，希望未來我們可以一起參加更多賽事。</p>
                             </div>
                         </div>
                     </div>
@@ -313,15 +369,47 @@
                             <div class="corners-bottomright"></div>
                             <h2>Wedding Ceremony (Taiwan)</h2>
                             <div class="details">
-                                <span class="waddress">Restaurant</span>
-                                <span class="waddress">Kaohsiung, Taiwan</span>
+                                <span class="waddress">全美婚宴會館</span>
+                                <span class="waddress">高雄縣鳳山市經武路78號1樓</span>
                                 <span class="wdate">Thursday, January 9, 2015</span>
-                                <span class="wtime">12:00 PM - 5:00 PM</span>
+                                <span class="wtime">10:00 AM - 10:30 AM</span>
                             </div>
                             <a href="event.html" class="button">Read More</a>
                         </div>
                     </div>
-                    <div class="column six heart left movetop">
+                    <div class="column six heart left">
+                        <div class="box center corner">
+                            <div class="corners-topleft"></div>
+                            <div class="corners-bottomleft"></div>
+                            <div class="corners-topright"></div>
+                            <div class="corners-bottomright"></div>
+                            <h2>Wedding Reception (Taiwan)</h2>
+                            <div class="details">
+                                <span class="waddress">全美婚宴會館</span>
+                                <span class="waddress">高雄縣鳳山市經武路78號1樓</span>
+                                <span class="wdate">Thursday, January 9, 2015</span>
+                                <span class="wtime">12:00 PM - 2:30 PM</span>
+                            </div>
+                            <a href="event.html" class="button">Read More</a>
+                        </div>
+                    </div>
+                    <div class="column six heart left">
+                        <div class="box center corner">
+                            <div class="corners-topleft"></div>
+                            <div class="corners-bottomleft"></div>
+                            <div class="corners-topright"></div>
+                            <div class="corners-bottomright"></div>
+                            <h2>After Party (Taiwan)</h2>
+                            <div class="details">
+                                <span class="waddress">TBD</span>
+                                <span class="waddress">TBD</span>
+                                <span class="wdate">Thursday, January 9, 2015</span>
+                                <span class="wtime">07:00 PM - 10:00 PM</span>
+                            </div>
+                            <a href="event.html" class="button">Read More</a>
+                        </div>
+                    </div>
+                    <div class="column six heart right movetop">
                         <div class="box center corner">
                             <div class="corners-topleft"></div>
                             <div class="corners-bottomleft"></div>
@@ -329,8 +417,8 @@
                             <div class="corners-bottomright"></div>
                             <h2>Wedding Ceremony (USA)</h2>
                             <div class="details">
-                                <span class="waddress">TBD</span>
-                                <span class="waddress">Charleston, SC</span>
+                                <span class="waddress">Charisma by the Sea</span>
+                                <span class="waddress">Folly Beach, SC</span>
                                 <span class="wdate">Saturday, April 16, 2016</span>
                                 <span class="wtime">8:00 PM - 5:00 AM</span>
                             </div>
@@ -345,9 +433,9 @@
                             <div class="corners-bottomright"></div>
                             <h2>Wedding Reception (USA)</h2>
                             <div class="details">
-                                <span class="waddress">where?</span>
-                                <span class="waddress">SC</span>
-                                <span class="wdate">when?</span>
+                                <span class="waddress">Charisma by the Sea</span>
+                                <span class="waddress">Folly Beach, SC</span>
+                                <span class="wdate">Saturday, April 16, 2016</span>
                                 <span class="wtime">when??</span>
                             </div>
                             <a href="event.html" class="button">Read More</a>
