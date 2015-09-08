@@ -706,7 +706,7 @@ a.button i {
     left: 50%;
     margin-left: -6px;
 }
-.hero #countdown {
+.hero .countdown {
     position: absolute;
     display: inline-block;
     line-height: 52px;
@@ -717,7 +717,10 @@ a.button i {
     right: 0;
     font-weight: 100;
 }
-.hero #countdown span {
+.hero #countdown2 {
+    bottom: 55px;
+}
+.hero .countdown span {
     font-family: 'Playfair Display', serif;
     font-style: italic;
     font-size: 16px;
@@ -2757,7 +2760,7 @@ ul.double-angle li:before {
         font-size: 46px;
         line-height: 52px;
     }
-    .hero #countdown {
+    .hero .countdown {
         font-size: 16px;
         line-height: 28px;
         padding: 5px 0;
@@ -2772,7 +2775,7 @@ ul.double-angle li:before {
     #couple .hero-heart {
         top: 335px;
     }
-    .hero #countdown {
+    .hero .countdown {
         display: none;
     }
     /* Story */
