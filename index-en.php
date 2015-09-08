@@ -748,9 +748,9 @@
         <section id="gift-registry" class="pattern">
             <header class="section-header">
                 <h3 class="section-title">Gift Registry</h3>
-                <p class="section-tagline">Quisque aliquet erat condimentum sit aptent varius convallis quam a scelerisque nulla accumsan suspendisse scelerisque  aliquet erat aliquet porta erat.</p>
+                <p class="section-tagline">We're currently working on our registries. Come back soon!</p>
             </header>
-            <div class="container">
+<!--             <div class="container">
                 <ul class="small-box corner">
                     <li>
                         <a class="product" href="#"><img src="images/gifts/registry-amazon.png" alt=""></a>
@@ -824,6 +824,7 @@
                     </li>
                 </ul>
             </div>
+ -->
         </section>
         <!-- #Gift Registry Section Ends -->
 

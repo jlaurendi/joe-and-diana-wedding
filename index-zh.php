@@ -59,7 +59,7 @@
 
     <div class="loaderOverlay"><i class="fa fa-heart animate-spin"></i></div>
     <!-- Hero Section -->
-    <div id="logo">阿喬 <span>&amp;</span> 玫盈</div>
+    <div id="logo">阿喬 <span>和</span> 玫盈</div>
     <section id="top" class="hero" data-type="parallax">
         <header id="main-menu">
             <div class="container">
@@ -140,7 +140,7 @@
                         <div class="story">
                             <p>吳玫盈，道地台灣人，在熱情的南台灣－高雄長大，大學在台北度過，短暫住過上海，現在是雲遊四方的SOHO族，往職業旅者邁進。</p>
                             <p>獨立、個性堅毅、勇氣十足的女生，最喜歡看到身邊的人開開心心，家人與朋友都很重要，相信「天下無難事，只怕有心人」，總是極己所能達成目標，不停歇地綻放熱情往前邁進，使生命不留下遺憾。喜歡戶外活動，醉心於環遊世界，體驗不同文化，出國最喜歡逛市場、與無法用語言溝通的當地人比手畫腳。</p>
-                            <p>喜歡冒險，學習新事物的她，大學畢業後，決定放下商科背景，跳出舒適圈，正在展開新旅程－前端網頁程式設計師。</p>                      
+                            <p>喜歡冒險，學習新事物的她，大學畢業後，決定放下商科背景，跳出舒適圈，正在展開新旅程－前端網頁程式設計師。</p>
                         </div>
                         <div class="social">
                             <ul>
@@ -764,7 +764,7 @@
         </section>
         <!-- #Small Gallery Section Ends -->
 
-        
+
         <!-- Guestbook Section -->
         <section id="guestbook">
             <header class="section-header">
