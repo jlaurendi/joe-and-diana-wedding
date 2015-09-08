@@ -1,5 +1,5 @@
 <?php
-
+exit;
 session_start();
 $db = new mysqli('localhost', 'fourplat_admin', 'l%9,wPfmG;k}', 'fourplat_wedding');
 
