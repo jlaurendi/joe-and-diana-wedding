@@ -94,9 +94,10 @@
             <div class="hero-inner">
                 <h1>We’re getting married.</h1>
                 <div class="info">
-                   <div id="countdown"> 365 <span>days</span> 0 <span>hours</span> 0 <span>mins</span> 0 <span>secs</span></div>
-                    <span class="date">
-                        January 9th, 2016 - Kaohsiung, Taiwan<br>
+                   <div id="countdown" class="countdown"> 365 <span>days</span> 0 <span>hours</span> 0 <span>mins</span> 0 <span>secs</span></div>
+                   <div id="countdown2" class="countdown"> 365 <span>days</span> 0 <span>hours</span> 0 <span>mins</span> 0 <span>secs</span></div>
+                   <span id="date" class="date">
+                        January 9th, 2016 - Kaohsiung, Taiwan<br />
                         April 16th, 2016 - Charleston, SC, United States
                     </span>
                 </div>
@@ -628,7 +629,7 @@
         <!-- #Important People Section Ends -->
 
         <!-- Small Gallery Section -->
-        <section id="wedding-gallery" class="pattern">
+<!--         <section id="wedding-gallery" class="pattern">
             <header class="section-header">
                 <h3 class="section-title">Photo Gallery</h3>
             </header>
@@ -741,16 +742,16 @@
                     </a>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- #Small Gallery Section Ends -->
 
         <!-- Gift Registry Section -->
         <section id="gift-registry" class="pattern">
             <header class="section-header">
                 <h3 class="section-title">Gift Registry</h3>
-                <p class="section-tagline">Quisque aliquet erat condimentum sit aptent varius convallis quam a scelerisque nulla accumsan suspendisse scelerisque  aliquet erat aliquet porta erat.</p>
+                <p class="section-tagline">We're currently working on our registries. Come back soon!</p>
             </header>
-            <div class="container">
+<!--             <div class="container">
                 <ul class="small-box corner">
                     <li>
                         <a class="product" href="#"><img src="images/gifts/registry-amazon.png" alt=""></a>
@@ -824,6 +825,7 @@
                     </li>
                 </ul>
             </div>
+ -->
         </section>
         <!-- #Gift Registry Section Ends -->
 

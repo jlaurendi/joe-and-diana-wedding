@@ -656,6 +656,9 @@ if (!Array.prototype.indexOf) {
         if($("#countdown").length) {
             CountDownTimer('01/09/2016 12:00 AM', 'countdown');
         }
+        if($("#countdown2").length) {
+            CountDownTimer('04/16/2016 12:00 AM', 'countdown2');
+        }
         function CountDownTimer(dt, id) {
             var end = new Date(dt);
 
