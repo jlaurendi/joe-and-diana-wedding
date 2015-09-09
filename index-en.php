@@ -46,6 +46,8 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/modernizr.js"></script>
 
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
     <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <link rel="stylesheet" type="text/css" href="css/ie8.css" />
@@ -908,6 +910,7 @@
                                 <textarea name="comment" cols="30" rows="10"></textarea>
                             </div>
                             <div class="clearfix"></div>
+                            <div class="g-recaptcha" data-sitekey="6LedjgwTAAAAAKfuW18H60B02wbKbo_JLHAVxO5i"></div>
                             <input type="submit" class="color" value="Send your message &rarr;">
                             <div class="clearfix"></div>
                             <div class="notification"></div>

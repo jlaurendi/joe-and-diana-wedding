@@ -15,10 +15,35 @@ function encode($input) {
 
 $return = array('type' => 'error', 'session' => $_SESSION, 'message' => "Failed to post.");
 
-if (empty($_POST['name']) || empty($_POST['email']) || empty($_POST['comment'])) {
+if (empty($_POST['name']) || empty($_POST['email']) || empty($_POST['comment']) || empty($_POST['g-recaptcha-response'])) {
   $return['message'] = "Please fill out all of the fields";
   die(json_encode($return));
 }
+
+$captcha_response = $_POST['g-recaptcha-response'];
+$url = 'https://www.google.com/recaptcha/api/siteverify';
+$data = array(
+  'secret' => '6LedjgwTAAAAAND-o6ESxk5yw90iASa-_-ONb2VC',
+  'response' => $captcha_response,
+  'remoteip' => $_SERVER['REMOTE_ADDR']
+);
+
+// use key 'http' even if you send the request to https://...
+$options = array(
+    'http' => array(
+        'header'  => "Content-type: application/x-www-form-urlencoded\r\n",
+        'method'  => 'POST',
+        'content' => http_build_query($data),
+    ),
+);
+$context  = stream_context_create($options);
+$result = json_decode(file_get_contents($url, false, $context), true);
+
+if (empty($result) || empty($result['success']) ||!$result['success']) {
+  $return['message'] = "Captcha failed";
+  die(json_encode($return));
+}
+
 
 if ($db->connect_errno == 0) {
   $name = $db->real_escape_string($_POST['name']);

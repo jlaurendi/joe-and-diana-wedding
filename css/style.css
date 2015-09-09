@@ -2962,3 +2962,8 @@ ul.double-angle li:before {
         font: 21px/28px 'Playfair Display', serif;
     }
 }
+
+.g-recaptcha {
+    width: 304px;
+    margin: auto;
+}
