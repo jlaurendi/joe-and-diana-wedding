@@ -70,7 +70,7 @@ if(isset($_POST['submit'])) {
 			$attend_taiwan = 1;
 		}
 
-	  $insert_query = "INSERT INTO rsvps (name, email, guests, phone, attend_taiwan, attend_usa, address) VALUES ('$name', '$email', $persons, '$phone', '$which_wedding', $attend_taiwan, $attend_usa, '$address');";
+	  $insert_query = "INSERT INTO rsvps (name, email, guests, phone, attend_taiwan, attend_usa, address) VALUES ('$name', '$email', $persons, '$phone', $attend_taiwan, $attend_usa, '$address');";
 	  if (!$result = $db->query($insert_query)) {
 	    $return['message'] = $db->error;
 	  } else {
