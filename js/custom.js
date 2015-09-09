@@ -864,6 +864,7 @@ if (!Array.prototype.indexOf) {
             data['name'] = $('.guestbook').find('#name').val();
             data['email'] = $('.guestbook').find('#email').val();
             data['comment'] = $('.guestbook').find('textarea').val();
+            data['g-recaptcha-response'] = $($0).find('.g-recaptcha-response').val();
             $.ajax({
                 'url': 'guestbook.php',
                 'type': 'POST',
