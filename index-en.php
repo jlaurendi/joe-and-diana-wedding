@@ -966,6 +966,10 @@
                                     <option value="Six">Six</option>
                                 </select>
                             </div>
+                            <div class="column six">
+                                <label for="address">Mailing Address</label>
+                                <input type="text" id="address" name="address">
+                            </div>
 
                             <div class="column six">
                                 <label for="which-wedding">Which wedding?</label>

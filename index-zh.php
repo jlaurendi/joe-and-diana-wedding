@@ -902,7 +902,10 @@
                                     <option value="Six">6位</option>
                                 </select>
                             </div>
-
+                            <div class="column six">
+                                <label for="address">Mailing Address</label>
+                                <input type="text" id="address" name="address">
+                            </div>
                             <div class="column six">
                                 <label for="which-wedding">哪一場婚禮</label>
                                 <select name="which-wedding" id="which-wedding">

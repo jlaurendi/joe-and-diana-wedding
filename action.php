@@ -31,6 +31,7 @@ if(isset($_POST['submit'])) {
 		$phone = isset($_POST['phone']) ? trim($_POST['phone']) : '';
 		$which_wedding = isset($_POST['which-wedding']) ? trim($_POST['which-wedding']) : '';
 		$subject = isset($_POST['subject']) ? trim($_POST['subject']) : 'Contact Form Submission';
+		$address = isset($_POST['address']) ? trim($_POST['address']) : '';
 
 		if($name && $email && filter_var($email, FILTER_VALIDATE_EMAIL)) {
 			$headers  = 'MIME-Version: 1.0' . "\r\n";
@@ -40,6 +41,7 @@ if(isset($_POST['submit'])) {
 			$message .= 'New Signup for your Wedding<br />';
 			$message .= ' <br /> Name: ' . $name;
 			$message .= ' <br /> Email: ' . $email;
+			$message .= ' <br /> Address: ' . $address;
 			if($persons) {
 				$message .= ' <br /> Number of Persons: ' . $persons;
 			}
@@ -68,7 +70,7 @@ if(isset($_POST['submit'])) {
 			$attend_taiwan = 1;
 		}
 
-	  $insert_query = "INSERT INTO rsvps (name, email, guests, phone, attend_taiwan, attend_usa) VALUES ('$name', '$email', $persons, '$phone', '$which_wedding', $attend_taiwan, $attend_usa);";
+	  $insert_query = "INSERT INTO rsvps (name, email, guests, phone, attend_taiwan, attend_usa, address) VALUES ('$name', '$email', $persons, '$phone', '$which_wedding', $attend_taiwan, $attend_usa, '$address');";
 	  if (!$result = $db->query($insert_query)) {
 	    $return['message'] = $db->error;
 	  } else {
