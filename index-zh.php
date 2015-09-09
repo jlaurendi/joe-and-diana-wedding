@@ -893,13 +893,13 @@
                             <div class="column six">
                                 <label for="persons">賓客人數</label>
                                 <select name="persons" id="persons">
-                                    <option value="One" disabled selected="selected"> 幾位？</option>
-                                    <option value="One">1位</option>
-                                    <option value="Two">2位</option>
-                                    <option value="Three">3位</option>
-                                    <option value="Four">4位</option>
-                                    <option value="Five">5位</option>
-                                    <option value="Six">6位</option>
+                                    <option value="1" disabled selected="selected"> 幾位？</option>
+                                    <option value="1">1位</option>
+                                    <option value="2">2位</option>
+                                    <option value="3">3位</option>
+                                    <option value="4">4位</option>
+                                    <option value="5">5位</option>
+                                    <option value="6">6位</option>
                                 </select>
                             </div>
                             <div class="column six">
