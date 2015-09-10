@@ -586,7 +586,7 @@
                     </div>
 
                     <div class="column six left">
-                        <h2 class="vibe">Groomsman</h2>
+                        <h2 class="vibe">Groomsmen</h2>
                         <div class="tabs people-image">
                             <li><a href="#person4" class="active"><img src="images/important-people/groomsman1.jpg" alt="" /></a></li>
                             <li><a href="#person5"><img src="images/important-people/groomsman2.jpg" alt="" /></a></li>
@@ -594,49 +594,43 @@
                         </div>
                         <div class="tab-content-wrap">
                             <div id="person4" class="tab-content">
-                                <h2>Chandler Knuckless</h2>
+                                <h2>Richard Yau</h2>
                                 <div class="story">
-                                    <p>Vestibulum cras ullamcorper a ullamcorper scelerisque iaculis per hac proin duis vestibulum ullamcorper tempor ultricies. Eu non sociosqu magna adipiscing ad consectetur a parturient justo praesent sem tempor imperdiet vestibulum a condimentum in magna.</p>
+                                    <p>Richard and Joe go back to college where they were friends, roommates, and brothers in ZBT. After college they both stayed in Boston and remained close friends. In 2014 they finally embarked on their dream of starting a company together, <a href="www.brightcellars.com">Bright Cellars</a>.</p>
                                 </div>
                                 <div class="social">
                                     <ul>
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                                        <li><a href="https://twitter.com/richard_yau"><i class="fa fa-twitter"></i></a>
                                         </li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a>
-                                        </li>
-                                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                                        <li><a href="www.linkedin.com/profile/view?id=38969067"><i class="fa fa-linkedin"></i></a>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                             <div id="person5" class="tab-content">
-                                <h2>Mark Baywater</h2>
+                                <h2>Mike Kling</h2>
                                 <div class="story">
-                                    <p>Vestibulum cras ullamcorper a  parturient sem a euismod tempus phasellus ornare a dapibus sit ullamcorper justo praesent sem tempor imperdiet vestibulum a condimentum in magna.</p>
+                                    <p>Mike and Joe were also roommates at MIT (and brothers in ZBT). They interned together along with taking many classes together. Mike is now working as a trader in NYC.</p>
                                 </div>
                                 <div class="social">
                                     <ul>
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                                        <li><a href="https://www.facebook.com/mike.kling"><i class="fa fa-facebook"></i></a>
                                         </li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a>
-                                        </li>
-                                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                                        <li><a href="www.linkedin.com/profile/view?id=169949679"><i class="fa fa-linkedin"></i></a>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                             <div id="person6" class="tab-content">
-                                <h2>Lee Mcfly</h2>
+                                <h2>David Hutchings</h2>
                                 <div class="story">
-                                    <p>Vestibulum cras ullamcorper a ullamcorper scelerisque iaculis per hac proin duis vestibulum ullamcorper tempor ultricies. Eu non sociosqu magna adipiscing ad consectetur a parturient sem .</p>
+                                    <p>David, along with Richard, is another member of Joe's class in ZBT. After college Joe and David remained close friends. David currently works at The Brattle Group in Boston.</p>
                                 </div>
                                 <div class="social">
                                     <ul>
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                                        <li><a href="https://www.facebook.com/david.hutchings.184"><i class="fa fa-facebook"></i></a>
                                         </li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a>
-                                        </li>
-                                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                                        <li><a href="www.linkedin.com/profile/view?id=73006531"><i class="fa fa-linkedin"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -650,7 +644,7 @@
         <!-- #Important People Section Ends -->
 
         <!-- Small Gallery Section -->
-        <section id="wedding-gallery" class="pattern">
+<!--         <section id="wedding-gallery" class="pattern">
             <header class="section-header">
                 <h3 class="section-title">Photo Gallery</h3>
             </header>
@@ -763,7 +757,7 @@
                     </a>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- #Small Gallery Section Ends -->
 
 
@@ -934,9 +928,9 @@
         <footer>
             <div class="container">
                 <div class="row">
-                    <div class="column four copyright">Theme made by <a href="#">logicathemes.com</a></div>
-                    <div class="column four logo">N<span>&</span>R</div>
-                    <div class="column four info">Photos by <a href="#">John Doe</a></div>
+                    <div class="column four copyright"><i class="fa fa-heart"></i> Love our parents,</div>
+                    <div class="column four logo">J<span>&</span>D</div>
+                    <div class="column four info">family, and friends <i class="fa fa-heart"></i></div>
                 </div>
             </div>
         </footer>
