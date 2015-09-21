@@ -951,7 +951,8 @@
     <script src="js/wow.min.js"></script>
     <script src="js/retina.min.js"></script>
     <script src="js/jquery.soc-share.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&amp;sensor=false"></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&amp;sensor=false"></script> -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApYs2sM_nF1OI_udCnH5Jyyz4U2xe_-QA&amp;sensor=false"></script>
     <script src="js/custom.js"></script>
     <script>
         var taiwan_markers = [
