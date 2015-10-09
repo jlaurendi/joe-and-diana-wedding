@@ -251,32 +251,12 @@
                         </div>
                     </div>
 
-                    <div class="column six heart left">
-                        <div class="box pattern">
-                            <span class="date">August 15</span>
-                            <h2>East Coast Road Trip</h2>
-                            <div class="box-content">
-                                <p>波士頓－華盛頓特區－馬里蘭－南卡羅來納－奧蘭多－邁阿密－基韋斯特</p>
-                            </div>
-                        </div>
-                    </div>
-
                     <div class="column six heart right movetop">
                         <div class="box pattern">
                             <span class="date">October 24</span>
                             <h2>Fall in Taichung</h2>
                             <div class="box-content">
                                 <p>Joe goes to Taichung for the fall</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="column six heart left">
-                        <div class="box pattern">
-                            <span class="date">November 16</span>
-                            <h2>Sun Moon Lake Marathon</h2>
-                            <div class="box-content">
-                                <p>阿喬的第一個海外馬拉松在台灣！</p>
                             </div>
                         </div>
                     </div>
@@ -293,6 +273,16 @@
 
                     <div class="clearfix"></div>
                     <div class="timeline-year"><span>2015</span></div>
+
+                    <div class="column six heart left movetop">
+                        <div class="box pattern">
+                            <span class="date">January 18</span>
+                            <h2>Winter in Taiwan</h2>
+                            <div class="box-content">
+                                <p>阿喬第四次來到台灣。</p>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="column six heart right movetop">
                         <div class="box pattern">
@@ -516,9 +506,9 @@
                     <div class="column six right">
                         <h2 class="vibe">Bridesmaids</h2>
                         <div class="tabs people-image">
-                            <li><a href="#person1" class="active"><img src="images/important-people/bridesmade1.jpg" alt="" /></a></li>
-                            <li><a href="#person2"><img src="images/important-people/bridesmade2.jpg" alt="" /></a></li>
-                            <li><a href="#person3"><img src="images/important-people/bridesmade3.jpg" alt="" /></a></li>
+                            <li><a href="#person1" class="active"><img src="images/important-people/bridesmaid1.jpg" alt="" /></a></li>
+                            <li><a href="#person2"><img src="images/important-people/bridesmaid2.jpg" alt="" /></a></li>
+                            <li><a href="#person3"><img src="images/important-people/bridesmaid3.jpg" alt="" /></a></li>
                         </div>
                         <div class="tab-content-wrap">
                             <div id="person1" class="tab-content">
