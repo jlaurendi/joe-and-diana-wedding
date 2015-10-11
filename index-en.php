@@ -293,27 +293,6 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="column six heart right movetop">
-                        <div class="box pattern">
-                            <span class="date">April 15</span>
-                            <h2>US Trip</h2>
-                            <div class="box-content">
-                                <p>玫盈第二次飛去美國，兩個多月的時間，我們終於搬進威斯康辛州的新家了。</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="column six heart right movetop">
-                        <div class="box pattern">
-                            <span class="date">May 10</span>
-                            <h2>First Running Race Together</h2>
-                            <div class="box-content">
-                                <p>第一次一起參加跑步活動，我們來到威斯康辛州的伊格爾里弗市，阿喬完成了全馬，玫盈跑了第一個5K，希望未來我們可以一起參加更多賽事。</p>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </section>

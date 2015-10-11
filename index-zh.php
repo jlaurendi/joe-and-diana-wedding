@@ -71,7 +71,7 @@
                         <ul>
                             <li><a href="#logo">Home</a></li>
                             <li><a href="#couple">Story</a></li>
-                            <li><a href="#timeline">Timeline</a></li>
+                            <li><a href="#timeline">Loveline</a></li>
                             <li><a href="#wedding-events">Events</a></li>
                             <li><a href="#important-people">People</a></li>
                             <li><a href="#wedding-gallery">Gallery</a></li>
@@ -201,7 +201,7 @@
                             <span class="date">August 24</span>
                             <h2>The day we met</h2>
                             <div class="box-content">
-                                <p>阿喬人生第一次來到亞洲旅行，從台北一路往南的旅行中，這一天，他和兩位朋友Sherry、孜力來到了高雄，也在這一天，我們相遇了。</p>
+                                <p>阿喬人生中的第一次亞洲行，從台北一路往南的旅行中，這一天，他和兩位朋友Sherry、孜力來到高雄，我們相遇了。</p>
                             </div>
                         </div>
                     </div>
@@ -211,7 +211,7 @@
                             <span class="date">August 25</span>
                             <h2>Falling in love</h2>
                             <div class="box-content">
-                                <p>玫盈決定加入他們的行列，一起去墾丁旅行。也就是在這個時候，兩人漸漸地認識彼此，萌生愛意。</p>
+                                <p>玫盈決定加入他們，一起去墾丁旅行。記得一個下午，我們肩並肩坐在白沙灣的沙灘上，讓海浪拍打著，天南地北地聊天，隨著彼此更加地認識，愛苗漸漸滋長。</p>
                             </div>
 
                         </div>
@@ -222,7 +222,7 @@
                             <span class="date">December 30</span>
                             <h2>Officially started dating</h2>
                             <div class="box-content">
-                                <p>暑假過後，參加交換學生計畫的玫盈搬去了上海，幾個月後，阿喬來到了上海，一起在上海度過最難忘的跨年，阿喬問：「你願意當我的女朋友嗎？」，這也是我們的第一次背包旅行。</p>
+                                <p>暑假過後，參加交換學生計畫的玫盈搬去了上海，幾個月後，阿喬按照約定來到了上海，在上海度過最難忘的跨年，阿喬問：「你願意當我的女朋友嗎？」，這是我們的第一次背包旅行。</p>
                             </div>
                         </div>
                     </div>
@@ -233,40 +233,40 @@
                     <div class="column six heart left">
                         <div class="box pattern">
                             <span class="date">January 13</span>
-                            <h2>Trip in Thailand</h2>
+                            <h2>Trip in Thailand and Joe's first Chinese New Eve in Taiwan</h2>
                             <div class="box-content">
-                                <p>第一次的背包旅行，因夏日海灘而相識的兩人，經歷了波士頓與上海的酷寒，決定去個熱帶國家－泰國，一路從充滿道地美食的泰北的Chiang Mai，來到首都曼谷－普吉島－PhiPhi島</p>
+                                <p>第一次的背包旅行，因夏日海灘而相識的兩人，經歷了波士頓與上海的酷寒，決定去個熱帶國家－泰國，從泰北的Chiang Mai（清邁），首都Bangkok（曼谷），最後抵達度假勝地Phuket（普吉島）和Phi Phi Islands（批披島）。假期尾聲，阿喬第二次飛往台灣，在台灣度過了人生中的第一次農曆新年。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column six heart right movetop">
+                        <div class="box pattern">
+                            <span class="date">June 10</span>
+                            <h2>Summer in the US</h2>
+                            <div class="box-content">
+                                <p>玫盈第一次飛去美國，在名校搖籃的Boston（波士頓）充實地度過三個月，認識許多新朋友，也造訪許多城市。阿喬和姊姊Kelly安排了三人的美國東岸自駕旅行，從Boston出發，一路南下D.C.（華盛頓特區），在Maryland（馬里蘭）、South Carolina（南卡羅來納）與Florida（佛羅里達）拜訪阿喬的家人，前往Orlando（奧蘭多）、Miami（邁阿密）和美國本土最南方的城市Key West（基韋斯特），有趣的是，這趟旅程光是單趟距離相當於高雄到台北來回四趟的距離。</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="column six heart left">
+                        <div class="box pattern">
+                            <span class="date">October 24</span>
+                            <h2>Fall in Taichung</h2>
+                            <div class="box-content">
+                                <p>阿喬第三次來到台灣，我們決定在台中落腳一個月，一起進駐共同工作空間，對從未長住過臺中的我們來說，是很新鮮的體驗。阿喬這次來台灣還有一個目的，參加日月潭環湖馬拉松，也是他第一個在美國境外參加的馬拉松！</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="column six heart right">
                         <div class="box pattern">
-                            <span class="date">June 10</span>
-                            <h2>Summer in the US</h2>
-                            <div class="box-content">
-                                <p>玫盈第一次飛去美國，East Coast Road Trip，波士頓－華盛頓特區－馬里蘭－南卡羅來納－奧蘭多－邁阿密－基韋斯特。</p>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="column six heart right movetop">
-                        <div class="box pattern">
-                            <span class="date">October 24</span>
-                            <h2>Fall in Taichung</h2>
-                            <div class="box-content">
-                                <p>阿喬第三次來到台灣，我們決定在新的城市－台中落腳，一起進駐共同工作空間，對我們來說都是很新鮮、好玩的體驗。Sun Moon Lake Marathon阿喬的第一個海外馬拉松在台灣！</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="column six heart right movetop">
-                        <div class="box pattern">
                             <span class="date">November 23</span>
                             <h2>Southeast Asia Trip</h2>
                             <div class="box-content">
-                                <p>阿喬和玫盈的東南亞之旅，一起去了馬來西亞、新加坡、柬埔寨和越南。</p>
+                                <p>愛上東南亞的阿喬和玫盈，規劃了一個工作旅行，這次去了Malaysia（馬來西亞）、Singapore（新加坡）、Cambodia（柬埔寨）及Vietnam（越南），不僅見識了東南亞雨季中豐沛可觀的雨量，更喜歡他們不同種族間和平共處的氛圍。</p>
                             </div>
                         </div>
                     </div>
@@ -274,42 +274,22 @@
                     <div class="clearfix"></div>
                     <div class="timeline-year"><span>2015</span></div>
 
-                    <div class="column six heart left movetop">
+                    <div class="column six heart left">
                         <div class="box pattern">
                             <span class="date">January 18</span>
                             <h2>Winter in Taiwan</h2>
                             <div class="box-content">
-                                <p>阿喬第四次來到台灣。</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="column six heart left movetop">
-                        <div class="box pattern">
-                            <span class="date">January 27</span>
-                            <h2>The Proposal</h2>
-                            <div class="box-content">
-                                <p>一起回到520天前我們相識相戀的同個地方－墾丁，下午5點20分，玫盈：「Yes, I do.」。</p>
+                                <p>剛離開亞洲的阿喬在相隔一個月後第四次來到台灣，這時候的玫盈渾然不知他暗中的計畫。</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="column six heart right movetop">
                         <div class="box pattern">
-                            <span class="date">April 15</span>
-                            <h2>US Trip</h2>
+                            <span class="date">January 27</span>
+                            <h2>The Proposal</h2>
                             <div class="box-content">
-                                <p>玫盈第二次飛去美國，我們也搬進威斯康辛州的新家了。</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="column six heart left movetop">
-                        <div class="box pattern">
-                            <span class="date">May 10</span>
-                            <h2>First Running Race Together</h2>
-                            <div class="box-content">
-                                <p>第一次一起參加跑步活動，我們來到威斯康辛州的伊格爾里弗市，阿喬完成了全馬，玫盈跑了第一個5K，希望未來我們可以一起參加更多賽事。</p>
+                                <p>一起回到520天前我們相識相戀的同個地方－墾丁，下午5點20分，玫盈：「Yes, I do.」。</p>
                             </div>
                         </div>
                     </div>
@@ -337,6 +317,7 @@
                 <span class="arrow-up"></span>
                 <span class="arrow-down"></span>
                 <div class="row">
+                    <div class="timeline-year start"><span>TAIWAN</span></div>
                     <!--<div class="column six heart right">
                         <div class="box center corner">
                             <div class="corners-topleft"></div>
@@ -375,12 +356,12 @@
                             <div class="corners-bottomleft"></div>
                             <div class="corners-topright"></div>
                             <div class="corners-bottomright"></div>
-                            <h2>訂婚儀式</h2>
+                            <h2>訂婚與結婚儀式</h2>
                             <div class="details">
                                 <span class="waddress">吳家自宅</span>
                                 <span class="waddress">高雄市大寮區會結路104-4號</span>
                                 <span class="wdate">2016年1月9日</span>
-                                <span class="wtime">8:00 AM - 10:30 AM</span>
+                                <span class="wtime">9:00 AM - 11:00 AM</span>
                             </div>
                             <a href="event.html" class="button">Read More</a>
                         </div>
@@ -391,33 +372,17 @@
                             <div class="corners-bottomleft"></div>
                             <div class="corners-topright"></div>
                             <div class="corners-bottomright"></div>
-                            <h2>結婚儀式</h2>
-                            <div class="details">
-                                <span class="waddress">全美婚宴會館</span>
-                                <span class="waddress">高雄市鳳山區經武路78號1樓</span>
-                                <span class="wdate">2016年1月9日</span>
-                                <span class="wtime">10:00 AM - 10:30 AM</span>
-                            </div>
-                            <a href="event.html" class="button">Read More</a>
-                        </div>
-                    </div>
-                    <div class="column six heart right">
-                        <div class="box center corner">
-                            <div class="corners-topleft"></div>
-                            <div class="corners-bottomleft"></div>
-                            <div class="corners-topright"></div>
-                            <div class="corners-bottomright"></div>
                             <h2>午宴</h2>
                             <div class="details">
                                 <span class="waddress">全美婚宴會館</span>
                                 <span class="waddress">高雄市鳳山區經武路78號1樓</span>
                                 <span class="wdate">2016年1月9日</span>
-                                <span class="wtime">12:00 PM - 2:30 PM</span>
+                                <span class="wtime">12:00 PM - 02:30 PM</span>
                             </div>
                             <a href="event.html" class="button">Read More</a>
                         </div>
                     </div>
-                    <div class="column six heart left">
+                    <div class="column six heart right">
                         <div class="box center corner">
                             <div class="corners-topleft"></div>
                             <div class="corners-bottomleft"></div>
@@ -433,7 +398,11 @@
                             <a href="event.html" class="button">Read More</a>
                         </div>
                     </div>
-                    <div class="column six heart right">
+
+                    <div class="clearfix"></div>
+                    <div class="timeline-year"><span>USA</span></div>
+                    
+                    <div class="column six heart left">
                         <div class="box center corner">
                             <div class="corners-topleft"></div>
                             <div class="corners-bottomleft"></div>
@@ -449,7 +418,7 @@
                             <a href="event.html" class="button">Read More</a>
                         </div>
                     </div>
-                    <div class="column six heart left">
+                    <div class="column six heart right movetop">
                         <div class="box center corner">
                             <div class="corners-topleft"></div>
                             <div class="corners-bottomleft"></div>
@@ -536,7 +505,7 @@
                     <div class="column six right">
                         <h2 class="vibe">Bridesmaids</h2>
                         <div class="tabs people-image">
-                            <li><a href="#person1" class="active"><img src="images/important-people/bridesmaid4.jpg" alt="Xi-Hang Liang" /></a></li>
+                            <li><a href="#person1" class="active"><img src="images/important-people/bridesmaid4.jpg" alt="Xi-Hang Liang"/></a></li>
                             <li><a href="#person2"><img src="images/important-people/bridesmaid5.jpg" alt="Yi-Fan Zeng" /></a></li>
                             <li><a href="#person3"><img src="images/important-people/bridesmaid6.jpg" alt="Yu-Ling Tsai" /></a></li>
                         </div>
@@ -583,9 +552,9 @@
                     <div class="column six left">
                         <h2 class="vibe">Groomsmen</h2>
                         <div class="tabs people-image">
-                            <li><a href="#person4" class="active"><img src="images/important-people/groomsman1.jpg" alt="" /></a></li>
-                            <li><a href="#person5"><img src="images/important-people/groomsman2.jpg" alt="" /></a></li>
-                            <li><a href="#person6"><img src="images/important-people/groomsman3.jpg" alt="" /></a></li>
+                            <li><a href="#person4" class="active"><img src="images/important-people/groomsman1.jpg" alt="Richard Yau" /></a></li>
+                            <li><a href="#person5"><img src="images/important-people/groomsman2.jpg" alt="Mike Kling" /></a></li>
+                            <li><a href="#person6"><img src="images/important-people/groomsman3.jpg" alt="David Hutching" /></a></li>
                         </div>
                         <div class="tab-content-wrap">
                             <div id="person4" class="tab-content">
@@ -831,11 +800,11 @@
                                 <input type="text" id="email" name="email">
                             </div>
                             <div class="column twelve">
-                                <label for="comment">想說的話</label>
+                                <label for="comment">想對我們說的話</label>
                                 <textarea name="comment" cols="30" rows="10"></textarea>
                             </div>
                             <div class="clearfix"></div>
-                            <div class="g-recaptcha" style="width: 50%;" data-sitekey="6LedjgwTAAAAAKfuW18H60B02wbKbo_JLHAVxO5i"></div>
+                            <div class="g-recaptcha" data-sitekey="6LedjgwTAAAAAKfuW18H60B02wbKbo_JLHAVxO5i"></div>
                             <input type="submit" class="color" value="Send your message &rarr;">
                             <div class="clearfix"></div>
                             <div class="notification"></div>
