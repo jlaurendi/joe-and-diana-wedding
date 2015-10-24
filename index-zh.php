@@ -69,14 +69,14 @@
                     <div id="menu-logo" >J <span>&amp;</span> D</div>
                     <nav id="navigation" class="column twelve">
                         <ul>
-                            <li><a href="#logo">Home</a></li>
-                            <li><a href="#couple">Story</a></li>
-                            <li><a href="#timeline">Loveline</a></li>
-                            <li><a href="#wedding-events">Events</a></li>
-                            <li><a href="#important-people">People</a></li>
-                            <li><a href="#wedding-gallery">Gallery</a></li>
-                            <li><a href="#guestbook">GuestBook</a></li>
-                            <li><a href="#contact">RSVP</a></li>
+                            <li><a href="#logo">首頁</a></li>
+                            <li><a href="#couple">我們的故事</a></li>
+                            <li><a href="#timeline">愛情時間軸</a></li>
+                            <li><a href="#wedding-events">婚禮活動</a></li>
+                            <li><a href="#important-people">伴郎與伴娘</a></li>
+<!--                             <li><a href="#wedding-gallery">Gallery</a></li>
+ -->                            <li><a href="#guestbook">留言給我們</a></li>
+                            <li><a href="#contact">我要參加</a></li>
                             <li><a href="http://www.josephanddiana.com/index-en.php">English</a></li>
                         </ul>
                     </nav>
@@ -611,8 +611,8 @@
         </section>
         <!-- #Important People Section Ends -->
 
-        <!-- Small Gallery Section -->
-<!--         <section id="wedding-gallery" class="pattern">
+<!--         Small Gallery Section
+ -->        <!-- <section id="wedding-gallery" class="pattern">
             <header class="section-header">
                 <h3 class="section-title">Photo Gallery</h3>
             </header>
@@ -726,8 +726,8 @@
                 </div>
             </div>
         </section> -->
-        <!-- #Small Gallery Section Ends -->
-
+<!--         #Small Gallery Section Ends
+ -->
 
         <!-- Guestbook Section -->
         <section id="guestbook">

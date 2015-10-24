@@ -73,11 +73,11 @@
                         <ul>
                             <li><a href="#logo">Home</a></li>
                             <li><a href="#couple">Story</a></li>
-                            <li><a href="#timeline">Timeline</a></li>
+                            <li><a href="#timeline">Loveline</a></li>
                             <li><a href="#wedding-events">Events</a></li>
                             <li><a href="#important-people">People</a></li>
-                            <li><a href="#wedding-gallery">Gallery</a></li>
-                            <li><a href="#gift-registry">Gifts</a></li>
+<!--                             <li><a href="#wedding-gallery">Gallery</a></li>
+ -->                            <li><a href="#gift-registry">Gifts</a></li>
                             <li><a href="#guestbook">GuestBook</a></li>
                             <li><a href="#contact">RSVP</a></li>
                             <li><a href="http://www.achiaohemeiying.com/index-zh.php">中文</a></li>
