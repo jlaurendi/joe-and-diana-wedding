@@ -928,8 +928,27 @@
     <script>
         var taiwan_markers = [
             ['TPE Airport', 25.081668, 121.234130, 'airport', 'Taipei Airport'],
-            ['Kaohsiung City, Taiwan', 22.710418, 120.306155, 'wedding','Kaohsiung City'],
-            ['Zuoying HSR Station, Kaohsiung', 22.687145, 120.307822, 'restaurant','HSR Station']
+            ['KHH Airport', 22.574639, 120.345182, 'airport', 'Kaohsiung Airport'],
+            ['RMQ Airport', 24.254894, 120.601192, 'airport', 'Taichung Airport'],
+            ['Wedding Reception', 22.634838, 120.364130, 'wedding','全美婚宴會館</br>Quan-Mei Wedding Banquet Restaurant'],
+            ['Wedding Ceremony', 22.556656, 120.420797, 'wedding','吳家自宅</br>Diana\'s house'],
+            ['Nihao@Taipei', 25.046201, 121.518429, 'hotel','你好@台北</br>Hostel in Taipei'],
+            ['Jia\'s Inn Liouhe', 22.631230, 120.296302, 'hotel','佳適旅舍六合館</br>Hotel in Kaohsiung'],
+            ['Liou-He Night Market', 22.632076, 120.299155, 'attraction','六合夜市'],
+            ['Rui-Feng Night Market', 22.665948, 120.299820, 'attraction','瑞豐夜市'],
+            ['Sun Moon Lake', 23.857914, 120.915899, 'attraction','日月潭'],
+            ['Taroko National Park', 24.202729, 121.481191, 'attraction','太魯閣國家公園'],
+            ['Mengjia Longshan Temple', 25.037162, 121.499901, 'attraction','龍山寺'],
+            ['Shi-Lin Night Market', 25.087795, 121.524226, 'attraction','士林夜市'],
+            ['Shi-Da Night Market', 25.023953, 121.529406, 'attraction','師大夜市'],
+            ['National Palace Museum', 25.102355, 121.548494, 'attraction','故宮博物院'],
+            ['Sun Yat-Sen Memorial Hall', 25.039524, 121.560247, 'attraction','國父紀念館'],
+            ['Taipei 101', 25.033963, 121.564472, 'attraction','台北101'],
+            ['San-Duo Shopping District', 22.613835, 120.304698, 'shopping','三多商圈'],
+            ['HanshinArena', 22.669619, 120.302610, 'shopping','漢神巨蛋'],
+            ['Zuoying HSR Station, Kaohsiung', 22.687145, 120.307822, 'special','左營高鐵車站</br>Zuoying High Speed Rail Station'],
+            ['Taipei Main Station', 25.047923, 121.517079, 'special','台北車站'],
+            ['Kaohsiung Train Station', 22.640835, 120.302108, 'special','高雄火車站']
         ];
 
         var usa_markers = [

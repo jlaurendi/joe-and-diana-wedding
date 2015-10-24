@@ -318,6 +318,8 @@
                 <span class="arrow-up"></span>
                 <span class="arrow-down"></span>
                 <div class="row">
+                    <div class="timeline-year start"><span>TAIWAN</span></div>
+
 <!--                     <div class="column six heart right">
                         <div class="box center corner">
                             <div class="corners-topleft"></div>
@@ -340,25 +342,25 @@
                             <div class="corners-bottomleft"></div>
                             <div class="corners-topright"></div>
                             <div class="corners-bottomright"></div>
-                            <h2>Wedding Ceremony (Taiwan)</h2>
+                            <h2>Wedding Ceremony</h2>
                             <div class="details">
-                                <span class="waddress">全美婚宴會館</span>
-                                <span class="waddress">高雄縣鳳山市經武路78號1樓</span>
+                                <span class="waddress">Diana's House</span>
+                                <span class="waddress">高雄市大寮區會結路104-4號</span>
                                 <span class="wdate">Thursday, January 9, 2015</span>
                                 <span class="wtime">10:00 AM - 10:30 AM</span>
                             </div>
 <!--                             <a href="event.html" class="button">Read More</a>
  -->                        </div>
                     </div>
-                    <div class="column six heart left">
+                    <div class="column six heart left movetop">
                         <div class="box center corner">
                             <div class="corners-topleft"></div>
                             <div class="corners-bottomleft"></div>
                             <div class="corners-topright"></div>
                             <div class="corners-bottomright"></div>
-                            <h2>Wedding Reception (Taiwan)</h2>
+                            <h2>Wedding Reception</h2>
                             <div class="details">
-                                <span class="waddress">全美婚宴會館</span>
+                                <span class="waddress">Quan Mei Wedding Banquet Restaurant</span>
                                 <span class="waddress">高雄縣鳳山市經武路78號1樓</span>
                                 <span class="wdate">Thursday, January 9, 2015</span>
                                 <span class="wtime">12:00 PM - 2:30 PM</span>
@@ -366,18 +368,38 @@
 <!--                             <a href="event.html" class="button">Read More</a>
  -->                        </div>
                     </div>
+                    <div class="column six heart right">
+                        <div class="box center corner">
+                            <div class="corners-topleft"></div>
+                            <div class="corners-bottomleft"></div>
+                            <div class="corners-topright"></div>
+                            <div class="corners-bottomright"></div>
+                            <h2>After Party</h2>
+                            <div class="details">
+                                <span class="waddress">TBD</span>
+                                <span class="waddress">TBD</span>
+                                <span class="wdate">Thursday, January 9, 2015</span>
+                                <span class="wtime">07:00 PM - 10:00 PM</span>
+                            </div>
+<!--                             <a href="event.html" class="button">Read More</a>
+ -->                        </div>
+                    </div>
+
+                    <div class="clearfix"></div>
+                    <div class="timeline-year"><span>USA</span></div>
+
                     <div class="column six heart left">
                         <div class="box center corner">
                             <div class="corners-topleft"></div>
                             <div class="corners-bottomleft"></div>
                             <div class="corners-topright"></div>
                             <div class="corners-bottomright"></div>
-                            <h2>After Party (Taiwan)</h2>
+                            <h2>Wedding Ceremony</h2>
                             <div class="details">
-                                <span class="waddress">TBD</span>
-                                <span class="waddress">TBD</span>
-                                <span class="wdate">Thursday, January 9, 2015</span>
-                                <span class="wtime">07:00 PM - 10:00 PM</span>
+                                <span class="waddress">Charisma by the Sea</span>
+                                <span class="waddress">Folly Beach, SC</span>
+                                <span class="wdate">Saturday, April 16, 2016</span>
+                                <span class="wtime">8:00 PM - 5:00 AM</span>
                             </div>
 <!--                             <a href="event.html" class="button">Read More</a>
  -->                        </div>
@@ -388,28 +410,12 @@
                             <div class="corners-bottomleft"></div>
                             <div class="corners-topright"></div>
                             <div class="corners-bottomright"></div>
-                            <h2>Wedding Ceremony (USA)</h2>
+                            <h2>Wedding Reception</h2>
                             <div class="details">
                                 <span class="waddress">Charisma by the Sea</span>
                                 <span class="waddress">Folly Beach, SC</span>
                                 <span class="wdate">Saturday, April 16, 2016</span>
-                                <span class="wtime">8:00 PM - 5:00 AM</span>
-                            </div>
-<!--                             <a href="event.html" class="button">Read More</a>
- -->                        </div>
-                    </div>
-                    <div class="column six heart left">
-                        <div class="box center corner">
-                            <div class="corners-topleft"></div>
-                            <div class="corners-bottomleft"></div>
-                            <div class="corners-topright"></div>
-                            <div class="corners-bottomright"></div>
-                            <h2>Wedding Reception (USA)</h2>
-                            <div class="details">
-                                <span class="waddress">Charisma by the Sea</span>
-                                <span class="waddress">Folly Beach, SC</span>
-                                <span class="wdate">Saturday, April 16, 2016</span>
-                                <span class="wtime">when??</span>
+                                <span class="wtime">TBD</span>
                             </div>
 <!--                             <a href="event.html" class="button">Read More</a>
  -->                        </div>
