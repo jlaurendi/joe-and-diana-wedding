@@ -233,7 +233,7 @@
                     <div class="column six heart left">
                         <div class="box pattern">
                             <span class="date">January 13</span>
-                            <h2>Trip in Thailand and Joe's first Chinese New Eve in Taiwan</h2>
+                            <h2>Trip in Thailand and Joe's first Chinese New Year in Taiwan</h2>
                             <div class="box-content">
                                 <p>第一次的背包旅行，因夏日海灘而相識的兩人，經歷了波士頓與上海的酷寒，決定去個熱帶國家－泰國，從泰北的Chiang Mai（清邁），首都Bangkok（曼谷），最後抵達度假勝地Phuket（普吉島）和Phi Phi Islands（批披島）。假期尾聲，阿喬第二次飛往台灣，在台灣度過了人生中的第一次農曆新年。</p>
                             </div>
@@ -363,8 +363,8 @@
                                 <span class="wdate">2016年1月9日</span>
                                 <span class="wtime">9:00 AM - 11:00 AM</span>
                             </div>
-                            <a href="event.html" class="button">Read More</a>
-                        </div>
+<!--                             <a href="event.html" class="button">Read More</a>
+ -->                        </div>
                     </div>
                     <div class="column six heart left movetop">
                         <div class="box center corner">
@@ -379,8 +379,8 @@
                                 <span class="wdate">2016年1月9日</span>
                                 <span class="wtime">12:00 PM - 02:30 PM</span>
                             </div>
-                            <a href="event.html" class="button">Read More</a>
-                        </div>
+<!--                             <a href="event.html" class="button">Read More</a>
+ -->                        </div>
                     </div>
                     <div class="column six heart right">
                         <div class="box center corner">
@@ -395,8 +395,8 @@
                                 <span class="wdate">2016年1月9日</span>
                                 <span class="wtime">07:00 PM - 10:00 PM</span>
                             </div>
-                            <a href="event.html" class="button">Read More</a>
-                        </div>
+<!--                             <a href="event.html" class="button">Read More</a>
+ -->                        </div>
                     </div>
 
                     <div class="clearfix"></div>
@@ -415,8 +415,8 @@
                                 <span class="wdate">2016年4月16日</span>
                                 <span class="wtime">10:00 AM - 10:30 AM</span>
                             </div>
-                            <a href="event.html" class="button">Read More</a>
-                        </div>
+<!--                             <a href="event.html" class="button">Read More</a>
+ -->                        </div>
                     </div>
                     <div class="column six heart right movetop">
                         <div class="box center corner">
@@ -431,8 +431,8 @@
                                 <span class="wdate">2016年4月16日</span>
                                 <span class="wtime">12:00 PM - 2:30 PM</span>
                             </div>
-                            <a href="event.html" class="button">Read More</a>
-                        </div>
+<!--                             <a href="event.html" class="button">Read More</a>
+ -->                        </div>
                     </div>
                     <div class="clearfix"></div>
                 </div>
@@ -443,7 +443,9 @@
         <!-- #Map Section -->
         <section id="taiwan-map-section" class="map-section pattern">
             <header class="section-header">
-                <h3 class="section-title">Taiwan Wedding Map</h3>
+                <h3 class="section-title">Taiwan Wedding Map
+                    <div class="map-icon"><i class="fa fa-map-marker"></i></div>
+                </h3>
                 <p class="section-tagline"></p>
             </header>
             <div class="container">
@@ -469,7 +471,9 @@
         <!-- #Map Section -->
         <section id="usa-map-section" class="map-section pattern">
             <header class="section-header">
-                <h3 class="section-title">USA Wedding Map</h3>
+                <h3 class="section-title">USA Wedding Map
+                    <div class="map-icon"><i class="fa fa-map-marker"></i></div>
+                </h3>
                 <p class="section-tagline"></p>
             </header>
             <div class="container">
@@ -818,7 +822,10 @@
         <!-- Instagram Section -->
         <section id="instagram-section" class="pattern">
             <header class="section-header">
-                <h3 class="section-title">Instagram</h3>
+                <!-- <h3 class="section-title">Instagram</h3> -->
+                <h3 class="section-title">Social Media
+                    <div class="social-media-icons"><i class="fa fa-facebook-square"></i><i class="fa fa-twitter-square"></i><i class="fa fa-instagram"></i></div>
+                </h3>
                 <p class="section-tagline">Copy the hashtag below and share your experience from our Wedding :)</p>
             </header>
             <span class="hash">#joeanddianawedding</span>
@@ -829,7 +836,7 @@
         <section id="contact" class="bgcolor">
             <header class="section-header">
                 <h3 class="section-title">SIGN YOUR RSVP</h3>
-                <p class="section-tagline">請於2015年11月31日前回覆</p>
+                <p class="section-tagline">請於2015年11月31日前回覆。 </br> Please RSVP before 31 November 2015.</p>
             </header>
             <div class="form">
                 <div class="container smaller">
@@ -837,38 +844,38 @@
                         <form action="action.php"  method="POST" autocomplete="off" class="actionform">
                             <div class="notification"></div>
                             <div class="column six">
-                                <label for="name">姓名</label>
+                                <label for="name">姓名 Name</label>
                                 <input type="text" id="name" name="name">
                             </div>
                             <div class="column six">
-                                <label for="email">電子信箱</label>
+                                <label for="email">電子信箱 Email</label>
                                 <input type="text" id="email" name="email">
                             </div>
                             <div class="column six">
-                                <label for="phone">聯絡電話</label>
+                                <label for="phone">聯絡電話 Phone</label>
                                 <input type="text" id="phone" name="phone">
                             </div>
                             <div class="column six">
-                                <label for="persons">賓客人數</label>
+                                <label for="persons">賓客人數 Number of guests</label>
                                 <select name="persons" id="persons">
-                                    <option value="1" disabled selected="selected"> 幾位？</option>
-                                    <option value="1">1位</option>
-                                    <option value="2">2位</option>
-                                    <option value="3">3位</option>
-                                    <option value="4">4位</option>
-                                    <option value="5">5位</option>
-                                    <option value="6">6位</option>
+                                    <option value="1" disabled selected="selected"> 幾位？ How many people?</option>
+                                    <option value="1">1位 One</option>
+                                    <option value="2">2位 Two</option>
+                                    <option value="3">3位 Three</option>
+                                    <option value="4">4位 Four</option>
+                                    <option value="5">5位 Five</option>
+                                    <option value="6">6位 Six</option>
                                 </select>
                             </div>
                             <div class="column six">
-                                <label for="address">郵寄地址</label>
+                                <label for="address">郵寄地址 Mailing Address</label>
                                 <input type="text" id="address" name="address">
                             </div>
                             <div class="column six">
-                                <label for="which-wedding">哪一場婚禮</label>
+                                <label for="which-wedding">哪一場婚禮? Which wedding?</label>
                                 <select name="which-wedding" id="which-wedding">
-                                    <option value="" disabled selected="selected"> 哪一場婚禮?</option>
-                                    <option value="Taiwan">台灣</option>
+                                    <option value="" disabled selected="selected"> 哪一場婚禮? Which wedding?</option>
+                                    <option value="Taiwan">台灣 Taiwan</option>
                                 </select>
                             </div>
 

@@ -233,40 +233,41 @@
                     <div class="column six heart left">
                         <div class="box pattern">
                             <span class="date">January 13</span>
-                            <h2>Trip in Thailand</h2>
+                            <h2>Trip in Thailand and Joe's first Chinese New Year in Taiwan</h2>
                             <div class="box-content">
-                                <p>清邁－曼谷－普吉島－PhiPhi島</p>
+                                <p>Diana and Joe's first big trip. Suffering from freezing cold winter in Shanghai and Boston, they head to a tropical country -- Thailand. Start from the north city -- Chiang Mai, went down to Bangkok and vacationland -- Phuket and Phi Phi Islands. In the end of the trip, Joe comes to Taiwan and has his very first Chinese Lunar New Year experience.</p>
                             </div>
-                        </div>
-                    </div>
-
-                    <div class="column six heart left">
-                        <div class="box pattern">
-                            <span class="date">June 10</span>
-                            <h2>Summer in the US</h2>
-                            <div class="box-content">
-                                <p>Diana comes to the US for the summer.</p>
-                            </div>
-
                         </div>
                     </div>
 
                     <div class="column six heart right movetop">
                         <div class="box pattern">
-                            <span class="date">October 24</span>
-                            <h2>Fall in Taichung</h2>
+                            <span class="date">June 10</span>
+                            <h2>Summer in the US</h2>
                             <div class="box-content">
-                                <p>Joe goes to Taichung for the fall</p>
+                                <p>Diana comes to the US for the summer. She meets new friends and spends time in Boston. Joe and his sister, Kelly, plan a east coast road trip. From Boston, we stop by D.C., visit Joe's family in Maryland, South Carolina and Florida. Going to Orlando, Miami and the southernmost city in the continental United States -- Key West. The fun fact is that the one-way length of this trip is about 4 times of round-trip length from the north of Taiwan to the south.。</p>
                             </div>
+
                         </div>
                     </div>
 
-                    <div class="column six heart left movetop">
+                    <div class="column six heart left">
+                        <div class="box pattern">
+                            <span class="date">October 24</span>
+                            <h2>Fall in Taichung</h2>
+                            <div class="box-content">
+                                <p>Joe goes to Taichung for the fall. It's his third trip to Taiwan. We stay in Taichung, located in center-western Taiwan, and base at <a href="https://www.facebook.com/HappenTaichung">Happen coworking space</a> to work. Joe also goes to his first oversea marathon at Sun Moon Lake.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <div class="column six heart right">
                         <div class="box pattern">
                             <span class="date">November 23</span>
                             <h2>Southeast Asia Trip</h2>
                             <div class="box-content">
-                                <p>We go to SE Asia!</p>
+                                <p>We go to SE Asia, visit Malaysia, Singapore, Cambodia, Vietnam! We not only learn how plentiful the rainfall is, but also are attracted by their multi-ethnic culture and food.</p>
                             </div>
                         </div>
                     </div>
@@ -274,12 +275,12 @@
                     <div class="clearfix"></div>
                     <div class="timeline-year"><span>2015</span></div>
 
-                    <div class="column six heart left movetop">
+                    <div class="column six heart left">
                         <div class="box pattern">
                             <span class="date">January 18</span>
                             <h2>Winter in Taiwan</h2>
                             <div class="box-content">
-                                <p>阿喬第四次來到台灣。</p>
+                                <p>It's only been a month since Joe left Taiwan. He comes again. Looks like something special is going to happen when Diana simply thinks his visit is just because of business.</p>
                             </div>
                         </div>
                     </div>
@@ -289,7 +290,7 @@
                             <span class="date">January 27</span>
                             <h2>The Proposal</h2>
                             <div class="box-content">
-                                <p>Joe proposes!</p>
+                                <p>Joe proposes and Diana says yes! Wooyay!</p>
                             </div>
                         </div>
                     </div>
@@ -346,8 +347,8 @@
                                 <span class="wdate">Thursday, January 9, 2015</span>
                                 <span class="wtime">10:00 AM - 10:30 AM</span>
                             </div>
-                            <a href="event.html" class="button">Read More</a>
-                        </div>
+<!--                             <a href="event.html" class="button">Read More</a>
+ -->                        </div>
                     </div>
                     <div class="column six heart left">
                         <div class="box center corner">
@@ -362,8 +363,8 @@
                                 <span class="wdate">Thursday, January 9, 2015</span>
                                 <span class="wtime">12:00 PM - 2:30 PM</span>
                             </div>
-                            <a href="event.html" class="button">Read More</a>
-                        </div>
+<!--                             <a href="event.html" class="button">Read More</a>
+ -->                        </div>
                     </div>
                     <div class="column six heart left">
                         <div class="box center corner">
@@ -378,8 +379,8 @@
                                 <span class="wdate">Thursday, January 9, 2015</span>
                                 <span class="wtime">07:00 PM - 10:00 PM</span>
                             </div>
-                            <a href="event.html" class="button">Read More</a>
-                        </div>
+<!--                             <a href="event.html" class="button">Read More</a>
+ -->                        </div>
                     </div>
                     <div class="column six heart right movetop">
                         <div class="box center corner">
@@ -394,8 +395,8 @@
                                 <span class="wdate">Saturday, April 16, 2016</span>
                                 <span class="wtime">8:00 PM - 5:00 AM</span>
                             </div>
-                            <a href="event.html" class="button">Read More</a>
-                        </div>
+<!--                             <a href="event.html" class="button">Read More</a>
+ -->                        </div>
                     </div>
                     <div class="column six heart left">
                         <div class="box center corner">
@@ -410,8 +411,8 @@
                                 <span class="wdate">Saturday, April 16, 2016</span>
                                 <span class="wtime">when??</span>
                             </div>
-                            <a href="event.html" class="button">Read More</a>
-                        </div>
+<!--                             <a href="event.html" class="button">Read More</a>
+ -->                        </div>
                     </div>
                     <div class="clearfix"></div>
                 </div>
@@ -422,7 +423,9 @@
         <!-- #Map Section -->
         <section id="taiwan-map-section" class="map-section pattern">
             <header class="section-header">
-                <h3 class="section-title">Taiwan Wedding Map</h3>
+                <h3 class="section-title">Taiwan Wedding Map
+                    <div class="map-icon"><i class="fa fa-map-marker"></i></div>
+                </h3>
                 <p class="section-tagline"></p>
             </header>
             <div class="container">
@@ -448,7 +451,9 @@
         <!-- #Map Section -->
         <section id="usa-map-section" class="map-section pattern">
             <header class="section-header">
-                <h3 class="section-title">USA Wedding Map</h3>
+                <h3 class="section-title">USA Wedding Map
+                    <div class="map-icon"><i class="fa fa-map-marker"></i></div>
+                </h3>
                 <p class="section-tagline"></p>
             </header>
             <div class="container">
@@ -485,56 +490,56 @@
                     <div class="column six right">
                         <h2 class="vibe">Bridesmaids</h2>
                         <div class="tabs people-image">
-                            <li><a href="#person1" class="active"><img src="images/important-people/bridesmaid1.jpg" alt="" /></a></li>
-                            <li><a href="#person2"><img src="images/important-people/bridesmaid2.jpg" alt="" /></a></li>
-                            <li><a href="#person3"><img src="images/important-people/bridesmaid3.jpg" alt="" /></a></li>
+                            <li><a href="#person1" class="active"><img src="images/important-people/bridesmaid1.jpg" alt="Wen-Yang Ruan" /></a></li>
+                            <li><a href="#person2"><img src="images/important-people/bridesmaid2.jpg" alt="Ren-Ci Chen" /></a></li>
+                            <li><a href="#person3"><img src="images/important-people/bridesmaid3.jpg" alt="Jing-Ru Zhuo" /></a></li>
                         </div>
                         <div class="tab-content-wrap">
                             <div id="person1" class="tab-content">
-                                <h2>Bridesmaid 1</h2>
+                                <h2>Wen-Yang Ruan</h2>
                                 <div class="story">
-                                    <p></p>
+                                    <p>Wen-Yang and Diana met in high school when they joined same student club -- Scout. With her japanese major, Wen-Yang had attended to an exchange program and spent a year in Japan. After Working in iron and steel industry as a sales representative a few year, she's looking forward to getting in a new career field.</p>
                                 </div>
                                 <div class="social">
                                     <ul>
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                                        <li><a href="https://www.facebook.com/softsheep"><i class="fa fa-facebook"></i></a>
                                         </li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                                        <!-- <li><a href="#"><i class="fa fa-twitter"></i></a>
                                         </li>
                                         <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                                        </li>
+                                        </li> -->
                                     </ul>
                                 </div>
                             </div>
                             <div id="person2" class="tab-content">
-                                <h2>Bridesmaid 2</h2>
+                                <h2>Ren-Ci Chen</h2>
                                 <div class="story">
-                                    <p></p>
+                                    <p>Ren-Ci was also a member of Scout and met Diana in high school. They not only went to same high school but also same college -- NCCU. With Mathematical Sciences degree, Ren-Ci is working at ASE which is one of the largest providers of semiconductor manufacturing services in the world.</p>
                                 </div>
                                 <div class="social">
                                     <ul>
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                                        <li><a href="https://www.facebook.com/profile.php?id=100000157616236"><i class="fa fa-facebook"></i></a>
                                         </li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                                        <!-- <li><a href="#"><i class="fa fa-twitter"></i></a>
                                         </li>
                                         <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                                        </li>
+                                        </li> -->
                                     </ul>
                                 </div>
                             </div>
                             <div id="person3" class="tab-content">
-                                <h2>Bridesmaid 3</h2>
+                                <h2>Jing-Ru Zhuo</h2>
                                 <div class="story">
-                                    <p></p>
+                                    <p>Jing-Ru met Diana in Scout back to high school. She is currently the student club advisor of Scout in our high school. Besides, Jing-Ru works in middle school and cram school as a teacher. In her leisure time, Jing-Ru enjoys planning trip and travels a lot.</p>
                                 </div>
                                 <div class="social">
                                     <ul>
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                                        <li><a href="https://www.facebook.com/jingru.jhuo"><i class="fa fa-facebook"></i></a>
                                         </li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                                       <!--  <li><a href="#"><i class="fa fa-twitter"></i></a>
                                         </li>
                                         <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                                        </li>
+                                        </li> -->
                                     </ul>
                                 </div>
                             </div>
@@ -893,7 +898,9 @@
         <!-- Instagram Section -->
         <section id="instagram-section" class="pattern">
             <header class="section-header">
-                <h3 class="section-title">Instagram</h3>
+                <h3 class="section-title">Social Media
+                    <div class="social-media-icons"><i class="fa fa-facebook-square"></i><i class="fa fa-twitter-square"></i><i class="fa fa-instagram"></i></div>
+                </h3>
                 <p class="section-tagline">Copy the hashtag below and share your experience from our Wedding :)</p>
             </header>
             <span class="hash">#joeanddianawedding</span>
@@ -904,7 +911,7 @@
         <section id="contact" class="bgcolor">
             <header class="section-header">
                 <h3 class="section-title">SIGN YOUR RSVP</h3>
-                <p class="section-tagline">Please RSVP before 20 December 2015.</p>
+                <p class="section-tagline">Please RSVP before 20 December 2015. </br> 請於2015年12月20日前回覆。</p>
             </header>
             <div class="form">
                 <div class="container smaller">
@@ -912,41 +919,41 @@
                         <form action="action.php"  method="POST" autocomplete="off" class="actionform">
                             <div class="notification"></div>
                             <div class="column six">
-                                <label for="name">Name</label>
+                                <label for="name">Name 姓名</label>
                                 <input type="text" id="name" name="name">
                             </div>
                             <div class="column six">
-                                <label for="email">Email</label>
+                                <label for="email">Email 電子信箱</label>
                                 <input type="text" id="email" name="email">
                             </div>
                             <div class="column six">
-                                <label for="phone">Phone</label>
+                                <label for="phone">Phone 聯絡電話</label>
                                 <input type="text" id="phone" name="phone">
                             </div>
                             <div class="column six">
-                                <label for="persons">Number of guests</label>
+                                <label for="persons">Number of guests 賓客人數</label>
                                 <select name="persons" id="persons">
-                                    <option value="1" disabled selected="selected"> How many people?</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                    <option value="4">Four</option>
-                                    <option value="5">Five</option>
-                                    <option value="6">Six</option>
+                                    <option value="1" disabled selected="selected"> How many people? 幾位</option>
+                                    <option value="1">One 1位</option>
+                                    <option value="2">Two 2位</option>
+                                    <option value="3">Three 3位</option>
+                                    <option value="4">Four 4位</option>
+                                    <option value="5">Five 5位</option>
+                                    <option value="6">Six 6位</option>
                                 </select>
                             </div>
                             <div class="column six">
-                                <label for="address">Mailing Address</label>
+                                <label for="address">Mailing Address 郵寄地址</label>
                                 <input type="text" id="address" name="address">
                             </div>
 
                             <div class="column six">
-                                <label for="which-wedding">Which wedding?</label>
+                                <label for="which-wedding">Which wedding? 哪一場婚禮？</label>
                                 <select name="which-wedding" id="which-wedding">
-                                    <option value="" disabled selected="selected"> Which wedding?</option>
-                                    <option value="Taiwan">Taiwan Only</option>
-                                    <option value="USA">USA Only</option>
-                                    <option value="Both">Both</option>
+                                    <option value="" disabled selected="selected"> Which wedding? 哪一場婚禮？</option>
+                                    <option value="Taiwan">Taiwan Only 台灣</option>
+                                    <option value="USA">USA Only 美國</option>
+                                    <option value="Both">Both 台灣與美國</option>
                                 </select>
                             </div>
 

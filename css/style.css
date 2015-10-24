@@ -1824,12 +1824,26 @@ a.button i {
 #instagram-section {
     text-align: center;
 }
-#instagram-section h3.section-title:before {
+/*#instagram-section h3.section-title:before {
     content: "\e00e";
     font-size: 44px;
+}*/
+
+#instagram-section .social-media-icons{
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    margin-left: -92px;
+    font-weight: normal;
+    font-family: Flaticon;
+    font-size: 48px;
+    color: #D9C6B1;
 }
 #instagram-section .section-tagline {
     margin-bottom: 60px;
+}
+#instagram-section .social-media-icons i{
+    margin: 0px 10px;
 }
 #instagram-section .hash {
     display: inline-block;
@@ -2008,7 +2022,17 @@ select {
 ============================================================ */
 
 .map-section {
-    padding: 0 0 80px 0;
+    padding: 40px 0 80px 0;
+}
+.map-section .section-title .map-icon{
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    margin-left: -12px;
+    font-weight: normal;
+    font-family: Flaticon;
+    font-size: 48px;
+    color: #D9C6B1;
 }
 .map-section .container {
     position: relative;
