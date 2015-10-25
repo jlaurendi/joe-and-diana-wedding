@@ -1,3 +1,4 @@
+<?php error_reporting(0); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -219,6 +220,7 @@
 
                         </div>
                     </div>
+                    <div class="clearfix"></div>
 
                     <div class="column six heart right">
                         <div class="box pattern">
@@ -382,7 +384,7 @@
                                 <span class="waddress">Charisma by the Sea</span>
                                 <span class="waddress">Folly Beach, SC</span>
                                 <span class="wdate">2016年4月16日</span>
-                                <span class="wtime">10:00 AM - 10:30 AM</span>
+                                <span class="wtime">5:00 PM - 6:00 PM</span>
                             </div>
 <!--                             <a href="event.html" class="button">Read More</a>
  -->                        </div>
@@ -398,7 +400,7 @@
                                 <span class="waddress">Charisma by the Sea</span>
                                 <span class="waddress">Folly Beach, SC</span>
                                 <span class="wdate">2016年4月16日</span>
-                                <span class="wtime">12:00 PM - 2:30 PM</span>
+                                <span class="wtime">6:00 PM - 10:00 PM</span>
                             </div>
 <!--                             <a href="event.html" class="button">Read More</a>
  -->                        </div>
@@ -682,7 +684,7 @@
                     <?php
                         $db = new mysqli('localhost', 'fourplat_admin', 'l%9,wPfmG;k}', 'fourplat_wedding');
                         if ($db->connect_errno == 0) {
-                            $query = "SELECT * FROM guestbook";
+                            $query = "SELECT * FROM guestbook WHERE wedding='us'";
                             $posts = $db->query($query);
                             $posts_by_year = array();
                             foreach ($posts as $post) {
@@ -749,6 +751,7 @@
                                 <textarea name="comment" cols="30" rows="10"></textarea>
                             </div>
                             <div class="clearfix"></div>
+                            <input type="hidden" name="wedding" value="us" />
                             <div class="g-recaptcha" data-sitekey="6LedjgwTAAAAAKfuW18H60B02wbKbo_JLHAVxO5i"></div>
                             <input type="submit" class="color" value="Send your message &rarr;">
                             <div class="clearfix"></div>
@@ -777,7 +780,7 @@
         <section id="contact" class="bgcolor">
             <header class="section-header">
                 <h3 class="section-title">SIGN YOUR RSVP</h3>
-                <p class="section-tagline">請於2015年11月31日前回覆。</p>
+                <p class="section-tagline">請於2016年01月20日前回覆。</p>
             </header>
             <div class="form">
                 <div class="container smaller">
@@ -855,10 +858,10 @@
     ================================================== -->
     <script src="js/device.min.js"></script>
     <script src="js/imagesloaded.pkgd.js"></script>
-    <script src="js/SmoothScroll.js"></script>
+    <!-- // <script src="js/SmoothScroll.js"></script> -->
     <script src="js/isotope.js"></script>
     <script src="js/jquery.isotope.sloppy-masonry.min.js"></script>
-    <script src="js/jquery.parallax.min.js"></script>
+    <!-- // <script src="js/jquery.parallax.min.js"></script> -->
     <script src="js/jquery.scrollTo.js"></script>
     <script src="js/waypoints.min.js"></script>
     <script src="js/jquery.mb.YTPlayer.js"></script>
@@ -870,30 +873,6 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApYs2sM_nF1OI_udCnH5Jyyz4U2xe_-QA&amp;sensor=false"></script>
     <script src="js/custom.js"></script>
     <script>
-        var taiwan_markers = [
-            ['TPE Airport', 25.081668, 121.234130, 'airport', 'Taipei Airport'],
-            ['KHH Airport', 22.574639, 120.345182, 'airport', 'Kaohsiung Airport'],
-            ['RMQ Airport', 24.254894, 120.601192, 'airport', 'Taichung Airport'],
-            ['Wedding Reception', 22.634838, 120.364130, 'wedding','全美婚宴會館</br>Quan-Mei Wedding Banquet Restaurant'],
-            ['Wedding Ceremony', 22.556656, 120.420797, 'wedding','吳家自宅</br>Diana\'s house'],
-            ['Nihao@Taipei', 25.046201, 121.518429, 'hotel','你好@台北</br>Hostel in Taipei'],
-            ['Jia\'s Inn Liouhe', 22.631230, 120.296302, 'hotel','佳適旅舍六合館</br>Hotel in Kaohsiung'],
-            ['Liou-He Night Market', 22.632076, 120.299155, 'attraction','六合夜市'],
-            ['Rui-Feng Night Market', 22.665948, 120.299820, 'attraction','瑞豐夜市'],
-            ['Sun Moon Lake', 23.857914, 120.915899, 'attraction','日月潭'],
-            ['Taroko National Park', 24.202729, 121.481191, 'attraction','太魯閣國家公園'],
-            ['Mengjia Longshan Temple', 25.037162, 121.499901, 'attraction','龍山寺'],
-            ['Shi-Lin Night Market', 25.087795, 121.524226, 'attraction','士林夜市'],
-            ['Shi-Da Night Market', 25.023953, 121.529406, 'attraction','師大夜市'],
-            ['National Palace Museum', 25.102355, 121.548494, 'attraction','故宮博物院'],
-            ['Sun Yat-Sen Memorial Hall', 25.039524, 121.560247, 'attraction','國父紀念館'],
-            ['Taipei 101', 25.033963, 121.564472, 'attraction','台北101'],
-            ['San-Duo Shopping District', 22.613835, 120.304698, 'shopping','三多商圈'],
-            ['HanshinArena', 22.669619, 120.302610, 'shopping','漢神巨蛋'],
-            ['Zuoying HSR Station, Kaohsiung', 22.687145, 120.307822, 'special','左營高鐵車站</br>Zuoying High Speed Rail Station'],
-            ['Taipei Main Station', 25.047923, 121.517079, 'special','台北車站'],
-            ['Kaohsiung Train Station', 22.640835, 120.302108, 'special','高雄火車站']
-        ];
 
         var usa_markers = [
             ['CHS Airport', 32.894547, -80.038164, 'airport', 'Charleston Airport'],

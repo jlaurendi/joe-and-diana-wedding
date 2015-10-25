@@ -1,4 +1,8 @@
-<?php error_reporting(0); ?>
+<?php
+error_reporting(0);
+// $show_rsvp = !empty($_REQUEST['rsvp']) && $_REQUEST['rsvp'] == 'jd';
+$show_rsvp = true;
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -79,7 +83,10 @@
 <!--                             <li><a href="#wedding-gallery">Gallery</a></li>
  -->                            <li><a href="#gift-registry">Gifts</a></li>
                             <li><a href="#guestbook">GuestBook</a></li>
-                            <li><a href="#contact">RSVP</a></li>
+
+                            <?php if ($show_rsvp) { ?>
+                                <li><a href="#contact">RSVP</a></li>
+                            <?php } ?>
                             <li class="country">
                                 <a href="http://www.achiaohemeiying.com/tw-en.php">TW</a>
                                 <p>/</p>
@@ -114,12 +121,18 @@
 
     <section id="home-content" class="top-menu">
 
-        <!-- RSVP Now -->
-        <section id="invitation" class="pattern">
-            <span>You’re invited to our Wedding!</span>
-            <a id="to-rsvp" href="#contact" class="button scrollTo">RSVP NOW</a>
-        </section>
-        <!-- #RSVP Now -->
+        <?php if ($show_rsvp) { ?>
+            <!-- RSVP Now -->
+            <section id="invitation" class="pattern">
+                <span>You’re invited to our Wedding!</span>
+                <a id="to-rsvp" href="#contact" class="button scrollTo">RSVP NOW</a>
+            </section>
+            <!-- #RSVP Now -->
+        <?php } else { ?>
+            <section id="invitation" class="pattern">
+                <span>Welcome to our wedding website!</span>
+            </section>
+        <?php } ?>
 
         <!-- Couple Images -->
         <section id="couple">
@@ -147,8 +160,8 @@
                     <div class="column six right">
                         <h2 class="vibe">Bride’s story</h2>
                         <div class="story">
-                            <p>Diana was born and raised in Taiwan and has lived there her entire life. She's an incredibly strong-willed, independent woman whom puts family and friends above all else. She strives for excellence in everything that she does and her passion is to live life to the fullest, which is embodied by her daily approach to life. Her hobbies include traveling the world, enjoying the outdoors, and experiencing new cultures.</p>
-                            <p>Currently Diana just recently graduated from college and has started her career as a front-end web programmer.</p>
+                            <p>Diana was born and raised in Taiwan and has lived there her entire life. She's an incredibly strong-willed, independent woman that puts family and friends above all else. She strives for excellence in everything that she does and her passion is to live life to the fullest, which is embodied by her daily approach to life. Her hobbies include traveling the world, enjoying the outdoors, and experiencing new cultures.</p>
+                            <p>Recently Diana graduated from college and started her career as a front-end web programmer.</p>
                         </div>
                         <div class="social">
                             <ul>
@@ -162,7 +175,7 @@
                         <h2 class="vibe">Groom’s story</h2>
                         <div class="story">
                             <p>Joe was born and raised in the USA. He shares in Diana's passion for life and pursuit of excellence with intellectual challenges at the forefront of his attention. Math, computer science, and entrepreneurship are the main disciplines he focuses on. Beyond intellectual pursuits, he loves running and exploring the world (which he often combines).</p>
-                            <p>Currently Joe is working on scaling <a href="www.brightcellars.com">Bright Cellars</a>, a wine subscription company that makes discovering wine fun and easy. He founded the company with his best man, Richard Yau.</p>
+                            <p>Recently Joe founded <a href="www.brightcellars.com">Bright Cellars</a>, an online wine company that makes discovering wine fun and easy, with his best man, Richard Yau.</p>
                         </div>
                         <div class="social">
                             <ul>
@@ -180,7 +193,7 @@
                             <div class="corners-bottomleft"></div>
                             <div class="corners-topright"></div>
                             <div class="corners-bottomright"></div>
-                “From opposite ends of the world, our paths crossed one summer day in Taiwan. A love sprouted, and despite all obstacles, grew to heights we'd never imagined. True love indeed conquers all.”
+                “From opposite ends of the world, our paths crossed one summer day in Taiwan. A love was born that grew to unite us despite the immense challenges. True love indeed conquers all.”
                         </div>
                     </div>
                 </div>
@@ -204,7 +217,7 @@
                             <span class="date">August 24</span>
                             <h2>The day we met</h2>
                             <div class="box-content">
-                                <p>Joe was traveling around Taiwan with one of his friends, Sherry, and one of her friends, Tzu-li. They had just made it to Kaohsiung where they met up with Diana.</p>
+                                <p>On his first trip to Taiwan, Joe was traveling along with his friend Sherry and one of her friends Tzu-li. After making their way down the West coast seeing Taipei, Taichung, and then Tainan, they were next in Kaohsiung. It's here that Joe met Tzu-li's friend, Diana. The rest is history.</p>
                             </div>
                         </div>
 
@@ -214,18 +227,20 @@
                             <span class="date">August 25</span>
                             <h2>Falling in love</h2>
                             <div class="box-content">
-                                <p>Diana joined the group to go to the beaches down in Kenting for two days. Joe and Diana started to really get to know each other here and began to fall in love.</p>
+                                <p>After Kaohsiung, the core group (Joe, Sherry, and Tzu-li) was planning to travel to the beaches in Kenting at the far south of Taiwan. Diana spontaneously decided to come along. It's here that they started to really get to know each other -- talking for hours and spending a day together at the beach. They didn't really know it yet, but this is where they started to fall in love with each other.</p>
                             </div>
 
                         </div>
                     </div>
+                    <div class="clearfix"></div>
 
                     <div class="column six heart right">
                         <div class="box pattern">
                             <span class="date">December 30</span>
-                            <h2>Officially started dating</h2>
+                            <h2>Boyfriend and Girlfriend</h2>
                             <div class="box-content">
-                                <p>Joe met up with Diana in Shanghai to travel for a month. It's here where he officially asked Diana to be his girlfriend.</p>
+                                <p>After Joe's quick trip to Taiwan, he returned to the US while Diana was headed to Shanghai for a term abroad. They kept in touch quite a lot online and got to know each other really well. After a few months of getting to know each other and processing what had happened, Joe knew this girl was different from the rest. He knew he couldn't let this opportunity pass him by.
+                                    Wanting to ask her to be his girlfriend in person, he decided to go all-in and go all the way to Shanghai. Luckily, when he got got there and asked her, she said yes. From there they spent the month together traveling.</p>
                             </div>
                         </div>
                     </div>
@@ -236,9 +251,9 @@
                     <div class="column six heart left">
                         <div class="box pattern">
                             <span class="date">January 13</span>
-                            <h2>Trip in Thailand and Joe's first Chinese New Year in Taiwan</h2>
+                            <h2>Trip to Thailand and Joe's first Chinese New Year in Taiwan</h2>
                             <div class="box-content">
-                                <p>Diana and Joe's first big trip. Suffering from freezing cold winter in Shanghai and Boston, they head to a tropical country -- Thailand. Start from the north city -- Chiang Mai, went down to Bangkok and vacationland -- Phuket and Phi Phi Islands. In the end of the trip, Joe comes to Taiwan and has his very first Chinese Lunar New Year experience.</p>
+                                <p>Diana and Joe's first big trip. Suffering from freezing cold winter in Shanghai and Boston, they headed to a tropical country -- Thailand. Starting from the northern city of Chiang Mai, then down to Bangkok and finally the immaculate beaches -- Phuket and Phi Phi Islands. After Thailand, Joe came to Taiwan for his very first Chinese Lunar New Year experience.</p>
                             </div>
                         </div>
                     </div>
@@ -248,7 +263,7 @@
                             <span class="date">June 10</span>
                             <h2>Summer in the US</h2>
                             <div class="box-content">
-                                <p>Diana comes to the US for the summer. She meets new friends and spends time in Boston. Joe and his sister, Kelly, plan a east coast road trip. From Boston, we stop by D.C., visit Joe's family in Maryland, South Carolina and Florida. Going to Orlando, Miami and the southernmost city in the continental United States -- Key West. The fun fact is that the one-way length of this trip is about 4 times of round-trip length from the north of Taiwan to the south.。</p>
+                                <p>In the summer, Diana came to visit Joe in the US. She met a ton of new friends in Boston. At the end of her stay, her, Joe, and Kelly (Joe's sister), embarked on an epic east coast road trip. From Boston, our first stop was in D.C. to see the nation's capital as well as to visit Joe's family in Maryland. Next on the trip was South Carolina and then Florida -- going to Orlando, Miami and the southernmost city in the continental United States -- Key West. A fun fact is that the one-way length of this trip is about 4 times of round-trip length from the north of Taiwan to the south.</p>
                             </div>
 
                         </div>
@@ -259,7 +274,7 @@
                             <span class="date">October 24</span>
                             <h2>Fall in Taichung</h2>
                             <div class="box-content">
-                                <p>Joe goes to Taichung for the fall. It's his third trip to Taiwan. We stay in Taichung, located in center-western Taiwan, and base at <a href="https://www.facebook.com/HappenTaichung">Happen coworking space</a> to work. Joe also goes to his first oversea marathon at Sun Moon Lake.</p>
+                                <p>On Joe's third trip to Taiwan, him and Diana spent a month in Taichung for the fall. We spent most of our time working at the <a href="https://www.facebook.com/HappenTaichung">Happen coworking space</a>. Joe also got his first taste of training for and running a marathon in Taiwan. The Sun Moon Lake marathon was actually his favorite to date.</p>
                             </div>
                         </div>
                     </div>
@@ -270,7 +285,7 @@
                             <span class="date">November 23</span>
                             <h2>Southeast Asia Trip</h2>
                             <div class="box-content">
-                                <p>We go to SE Asia, visit Malaysia, Singapore, Cambodia, Vietnam! We not only learn how plentiful the rainfall is, but also are attracted by their multi-ethnic culture and food.</p>
+                                <p>After a month in Taichung, we went on an action-packed trip to SE Asia -- Malaysia, Singapore, Cambodia, and Vietnam! We a learned a ton about the multiple cultures (and food!) we encountered -- as well as  how plentiful their rainfall is.</p>
                             </div>
                         </div>
                     </div>
@@ -283,7 +298,7 @@
                             <span class="date">January 18</span>
                             <h2>Winter in Taiwan</h2>
                             <div class="box-content">
-                                <p>It's only been a month since Joe left Taiwan. He comes again. Looks like something special is going to happen when Diana simply thinks his visit is just because of business.</p>
+                                <p>After only being back in the US, Joe finds a cheap flight to Taiwan right before he moves to Madison for 3 months to do a startup accelerator. Knowing it'll be a while before they can see each other again he jumps on it.</p>
                             </div>
                         </div>
                     </div>
@@ -293,7 +308,7 @@
                             <span class="date">January 27</span>
                             <h2>The Proposal</h2>
                             <div class="box-content">
-                                <p>Joe proposes and Diana says yes! Wooyay!</p>
+                                <p>About a week into his trip, Joe and Diana went on a trip back to Kenting, where they first fell in love. On sunset at 5:20pm of the 520th day after falling in love, Joe dropped to one knee, and proposed. Diana, in total shock and surprise, said yes!</p>
                             </div>
                         </div>
                     </div>
@@ -367,12 +382,11 @@
                                 <span class="waddress">Charisma by the Sea</span>
                                 <span class="waddress">Folly Beach, SC</span>
                                 <span class="wdate">Saturday, April 16, 2016</span>
-                                <span class="wtime">8:00 PM - 5:00 AM</span>
+                                <span class="wtime">5:00 PM - 6:00 PM</span>
                             </div>
 <!--                             <a href="event.html" class="button">Read More</a>
  -->                        </div>
                     </div>
-                    <div class="clearfix"></div>
                     <div class="column six heart right movetop">
                         <div class="box center corner">
                             <div class="corners-topleft"></div>
@@ -384,7 +398,7 @@
                                 <span class="waddress">Charisma by the Sea</span>
                                 <span class="waddress">Folly Beach, SC</span>
                                 <span class="wdate">Saturday, April 16, 2016</span>
-                                <span class="wtime">TBD</span>
+                                <span class="wtime">6:00 PM - 10:00 PM</span>
                             </div>
 <!--                             <a href="event.html" class="button">Read More</a>
  -->                        </div>
@@ -445,7 +459,7 @@
                             <div id="person1" class="tab-content">
                                 <h2>Wen-Yang Ruan</h2>
                                 <div class="story">
-                                    <p>Wen-Yang and Diana met in high school when they joined same student club -- Scout. With her japanese major, Wen-Yang had attended to an exchange program and spent a year in Japan. After Working in iron and steel industry as a sales representative a few year, she's looking forward to getting in a new career field.</p>
+                                    <p>Wen-Yang and Diana met in high school when they both joined the Girl Scouts. While majoring in Japanese, Wen-Yang spent a year in Japan doing an exchange program. After working in the iron and steel industry as a sales representative for a few year, she's looking forward to getting started in a new career field.</p>
                                 </div>
                                 <div class="social">
                                     <ul>
@@ -461,7 +475,7 @@
                             <div id="person2" class="tab-content">
                                 <h2>Ren-Ci Chen</h2>
                                 <div class="story">
-                                    <p>Ren-Ci was also a member of Scout and met Diana in high school. They not only went to same high school but also same college -- NCCU. With Mathematical Sciences degree, Ren-Ci is working at ASE which is one of the largest providers of semiconductor manufacturing services in the world.</p>
+                                    <p>Ren-Ci was also a member of the Girl Scouts and met Diana in high school. They not only went to the same high school but also the same college -- NCCU. With a Mathematical Sciences degree, Ren-Ci is working at ASE which is one of the largest providers of semiconductor manufacturing services in the world.</p>
                                 </div>
                                 <div class="social">
                                     <ul>
@@ -477,7 +491,7 @@
                             <div id="person3" class="tab-content">
                                 <h2>Jing-Ru Zhuo</h2>
                                 <div class="story">
-                                    <p>Jing-Ru met Diana in Scout back to high school. She is currently the student club advisor of Scout in our high school. Besides, Jing-Ru works in middle school and cram school as a teacher. In her leisure time, Jing-Ru enjoys planning trip and travels a lot.</p>
+                                    <p>Jing-Ru met Diana in Girl Scouts back in high school. She is currently the student club advisor of the scouts in their high school. Otherwise, Jing-Ru works in a middle school as well as a cram school as a teacher. In her leisure time, Jing-Ru enjoys planning trips and traveling.</p>
                                 </div>
                                 <div class="social">
                                     <ul>
@@ -518,7 +532,7 @@
                             <div id="person5" class="tab-content">
                                 <h2>Mike Kling</h2>
                                 <div class="story">
-                                    <p>Mike and Joe were also roommates at MIT (and brothers in ZBT). They interned together along with taking many classes together. Mike is now working as a trader in NYC.</p>
+                                    <p>Mike and Joe were also roommates at MIT (and brothers in ZBT). They share a handful of interests including math, CS, and running. At MIT they took a handful of classes together as well as having interned at the same company together in NYC one summer.</p>
                                 </div>
                                 <div class="social">
                                     <ul>
@@ -532,7 +546,7 @@
                             <div id="person6" class="tab-content">
                                 <h2>David Hutchings</h2>
                                 <div class="story">
-                                    <p>David, along with Richard, is another member of Joe's class in ZBT. After college Joe and David remained close friends. David currently works at The Brattle Group in Boston.</p>
+                                    <p>David, along with Richard, is another member of Joe's class in ZBT. After college Joe and David remained close friends. David currently works at The Brattle Group in Toronto / Boston.</p>
                                 </div>
                                 <div class="social">
                                     <ul>
@@ -764,7 +778,7 @@
                     <?php
                         $db = new mysqli('localhost', 'fourplat_admin', 'l%9,wPfmG;k}', 'fourplat_wedding');
                         if ($db->connect_errno == 0) {
-                            $query = "SELECT * FROM guestbook";
+                            $query = "SELECT * FROM guestbook WHERE wedding='us'";
                             $posts = $db->query($query);
                             $posts_by_year = array();
                             foreach ($posts as $post) {
@@ -831,6 +845,7 @@
                                 <textarea name="comment" cols="30" rows="10"></textarea>
                             </div>
                             <div class="clearfix"></div>
+                            <input type="hidden" name="wedding" value="us" />
                             <div class="g-recaptcha" data-sitekey="6LedjgwTAAAAAKfuW18H60B02wbKbo_JLHAVxO5i"></div>
                             <input type="submit" class="color" value="Send your message &rarr;">
                             <div class="clearfix"></div>
@@ -854,69 +869,71 @@
         </section>
         <!-- #Instagram Section Ends -->
 
-        <!-- Contact Section -->
-        <section id="contact" class="bgcolor">
-            <header class="section-header">
-                <h3 class="section-title">SIGN YOUR RSVP</h3>
-                <p class="section-tagline">Please RSVP before 20 January 2016.</p>
-            </header>
-            <div class="form">
-                <div class="container smaller">
-                    <div class="row">
-                        <form action="action.php"  method="POST" autocomplete="off" class="actionform">
-                            <div class="notification"></div>
-                            <div class="column six">
-                                <label for="name">Name</label>
-                                <input type="text" id="name" name="name">
-                            </div>
-                            <div class="column six">
-                                <label for="email">Email</label>
-                                <input type="text" id="email" name="email">
-                            </div>
-                            <div class="column six">
-                                <label for="phone">Phone</label>
-                                <input type="text" id="phone" name="phone">
-                            </div>
-                            <div class="column six">
-                                <label for="persons">Number of guests</label>
-                                <select name="persons" id="persons">
-                                    <option value="1" disabled selected="selected"> How many people? </option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                </select>
-                            </div>
-                            <div class="column six">
-                                <label for="address">Mailing Address</label>
-                                <input type="text" id="address" name="address">
-                            </div>
+        <?php if ($show_rsvp) { ?>
+            <!-- Contact Section -->
+            <section id="contact" class="bgcolor">
+                <header class="section-header">
+                    <h3 class="section-title">SIGN YOUR RSVP</h3>
+                    <p class="section-tagline">Please RSVP before 20 January 2016.</p>
+                </header>
+                <div class="form">
+                    <div class="container smaller">
+                        <div class="row">
+                            <form action="action.php"  method="POST" autocomplete="off" class="actionform">
+                                <div class="notification"></div>
+                                <div class="column six">
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" name="name">
+                                </div>
+                                <div class="column six">
+                                    <label for="email">Email</label>
+                                    <input type="text" id="email" name="email">
+                                </div>
+                                <div class="column six">
+                                    <label for="phone">Phone</label>
+                                    <input type="text" id="phone" name="phone">
+                                </div>
+                                <div class="column six">
+                                    <label for="persons">Number of guests</label>
+                                    <select name="persons" id="persons">
+                                        <option value="1" disabled selected="selected"> How many people? </option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                    </select>
+                                </div>
+                                <div class="column six">
+                                    <label for="address">Mailing Address</label>
+                                    <input type="text" id="address" name="address">
+                                </div>
 
-<!--                             <div class="column six">
-                                <label for="which-wedding">Which wedding? 哪一場婚禮？</label>
-                                <select name="which-wedding" id="which-wedding">
-                                    <option value="" disabled selected="selected"> Which wedding? 哪一場婚禮？</option>
-                                    <option value="Taiwan">Taiwan Only 台灣</option>
-                                    <option value="USA">USA Only 美國</option>
-                                    <option value="Both">Both 台灣與美國</option>
-                                </select>
-                            </div> -->
-                            <input type="hidden" name="which-wedding" value="USA" />
+    <!--                             <div class="column six">
+                                    <label for="which-wedding">Which wedding? 哪一場婚禮？</label>
+                                    <select name="which-wedding" id="which-wedding">
+                                        <option value="" disabled selected="selected"> Which wedding? 哪一場婚禮？</option>
+                                        <option value="Taiwan">Taiwan Only 台灣</option>
+                                        <option value="USA">USA Only 美國</option>
+                                        <option value="Both">Both 台灣與美國</option>
+                                    </select>
+                                </div> -->
+                                <input type="hidden" name="which-wedding" value="USA" />
 
 
-<!--                             <div class="column six auto-safe">
-                                <label for="autovalue">Security question</label>
-                                <input type="text" id="autovalue" name="autovalue">
-                                <i class="fa fa-refresh auto-refresh" title="Reload security question"></i>
-                            </div> -->
-                            <input type="hidden" name="submit">
-                            <div class="clearfix"></div>
-                            <input type="submit" value="I am attending &rarr;">
-                            <div class="clearfix"></div>
-                        </form>
+    <!--                             <div class="column six auto-safe">
+                                    <label for="autovalue">Security question</label>
+                                    <input type="text" id="autovalue" name="autovalue">
+                                    <i class="fa fa-refresh auto-refresh" title="Reload security question"></i>
+                                </div> -->
+                                <input type="hidden" name="submit">
+                                <div class="clearfix"></div>
+                                <input type="submit" value="I am attending &rarr;">
+                                <div class="clearfix"></div>
+                            </form>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- #Contact Section -->
+            </section>
+            <!-- #Contact Section -->
+        <?php } ?>
 
         <!-- Footer Section -->
         <footer>
@@ -937,7 +954,7 @@
     <!-- // <script src="js/SmoothScroll.js"></script> -->
     <script src="js/isotope.js"></script>
     <script src="js/jquery.isotope.sloppy-masonry.min.js"></script>
-    <script src="js/jquery.parallax.min.js"></script>
+    <!-- // <script src="js/jquery.parallax.min.js"></script> -->
     <script src="js/jquery.scrollTo.js"></script>
     <script src="js/waypoints.min.js"></script>
     <script src="js/jquery.mb.YTPlayer.js"></script>
@@ -948,11 +965,6 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApYs2sM_nF1OI_udCnH5Jyyz4U2xe_-QA&amp;sensor=false"></script>
     <script src="js/custom.js"></script>
     <script>
-        var taiwan_markers = [
-            ['TPE Airport', 25.081668, 121.234130, 'airport', 'Taipei Airport'],
-            ['Kaohsiung City, Taiwan', 22.710418, 120.306155, 'wedding','Kaohsiung City'],
-            ['Zuoying HSR Station, Kaohsiung', 22.687145, 120.307822, 'restaurant','HSR Station']
-        ];
 
         var usa_markers = [
             ['CHS Airport', 32.894547, -80.038164, 'airport', 'Charleston Airport'],

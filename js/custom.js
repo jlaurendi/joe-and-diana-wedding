@@ -153,9 +153,9 @@ if (!Array.prototype.indexOf) {
 
             $('.hero,#background-image,.parallax').addClass('not-mobile');
 
-            $('section[data-type="parallax"]').each(function() {
-                $(this).parallax("50%", 0.5);
-            });
+            // $('section[data-type="parallax"]').each(function() {
+            //     $(this).parallax("50%", 0.5);
+            // });
 
             /* fixed background on mobile devices */
             $('section[data-type="parallax"]').each(function(index, element) {
@@ -333,12 +333,18 @@ if (!Array.prototype.indexOf) {
         google.maps.event.addDomListener(window, 'load', init);
 
         function init() {
+            var show_tw_map;
             if (typeof taiwan_markers == 'undefined' || $.type(taiwan_markers) != 'array') {
-                return;
+                show_tw_map = false;
+            } else {
+                show_tw_map = true;
             }
 
+            var show_usa_map;
             if (typeof usa_markers == 'undefined' || $.type(usa_markers) != 'array') {
-                return;
+                show_usa_map = false;
+            } else {
+                show_usa_map = true;
             }
 
 
@@ -441,61 +447,65 @@ if (!Array.prototype.indexOf) {
                 }]
             };
 
-            // Taiwan map
-            var map_id = 'taiwan-map';
-            var markers = taiwan_markers;
-            var mapElement = document.getElementById(map_id);
-            var taiwan_map = new google.maps.Map(mapElement, mapOptions);
-            var infoWindow = new google.maps.InfoWindow();
-            var bound = new google.maps.LatLngBounds();
-            for (var i = 0; i < markers.length; i++) {
+            if (show_tw_map) {
+                // Taiwan map
+                var map_id = 'taiwan-map';
+                var markers = taiwan_markers;
+                var mapElement = document.getElementById(map_id);
+                var taiwan_map = new google.maps.Map(mapElement, mapOptions);
+                var infoWindow = new google.maps.InfoWindow();
+                var bound = new google.maps.LatLngBounds();
+                for (var i = 0; i < markers.length; i++) {
 
-                var marker = new google.maps.Marker({
-                    position: new google.maps.LatLng(markers[i][1], markers[i][2]),
-                    map: taiwan_map,
-                    icon: markerImages[markers[i][3]],
-                    title: markers[i][0],
-                    infoContent: markers[i][4]
-                });
+                    var marker = new google.maps.Marker({
+                        position: new google.maps.LatLng(markers[i][1], markers[i][2]),
+                        map: taiwan_map,
+                        icon: markerImages[markers[i][3]],
+                        title: markers[i][0],
+                        infoContent: markers[i][4]
+                    });
 
-                bound.extend(marker.position);
-                google.maps.event.addListener(marker, 'click', function() {
+                    bound.extend(marker.position);
+                    google.maps.event.addListener(marker, 'click', function() {
 
-                    infoWindow.setContent('<div class="info_content"><h3>' + this.title + '</h3><p>' + this.infoContent + '</p></div>');
-                    infoWindow.open(taiwan_map, this);
-                });
+                        infoWindow.setContent('<div class="info_content"><h3>' + this.title + '</h3><p>' + this.infoContent + '</p></div>');
+                        infoWindow.open(taiwan_map, this);
+                    });
 
-            };
-            taiwan_map.fitBounds(bound);
-            // End Taiwan Map
+                };
+                taiwan_map.fitBounds(bound);
+                // End Taiwan Map
+            }
 
-            // USA Map
-            var map_id = 'usa-map';
-            var markers = usa_markers;
-            var mapElement = document.getElementById(map_id);
-            var usa_map = new google.maps.Map(mapElement, mapOptions);
-            var infoWindow = new google.maps.InfoWindow();
-            var bound = new google.maps.LatLngBounds();
-            for (var i = 0; i < markers.length; i++) {
+            if (show_usa_map) {
+                // USA Map
+                var map_id = 'usa-map';
+                var markers = usa_markers;
+                var mapElement = document.getElementById(map_id);
+                var usa_map = new google.maps.Map(mapElement, mapOptions);
+                var infoWindow = new google.maps.InfoWindow();
+                var bound = new google.maps.LatLngBounds();
+                for (var i = 0; i < markers.length; i++) {
 
-                var marker = new google.maps.Marker({
-                    position: new google.maps.LatLng(markers[i][1], markers[i][2]),
-                    map: usa_map,
-                    icon: markerImages[markers[i][3]],
-                    title: markers[i][0],
-                    infoContent: markers[i][4]
-                });
+                    var marker = new google.maps.Marker({
+                        position: new google.maps.LatLng(markers[i][1], markers[i][2]),
+                        map: usa_map,
+                        icon: markerImages[markers[i][3]],
+                        title: markers[i][0],
+                        infoContent: markers[i][4]
+                    });
 
-                bound.extend(marker.position);
-                google.maps.event.addListener(marker, 'click', function() {
+                    bound.extend(marker.position);
+                    google.maps.event.addListener(marker, 'click', function() {
 
-                    infoWindow.setContent('<div class="info_content"><h3>' + this.title + '</h3><p>' + this.infoContent + '</p></div>');
-                    infoWindow.open(usa_map, this);
-                });
+                        infoWindow.setContent('<div class="info_content"><h3>' + this.title + '</h3><p>' + this.infoContent + '</p></div>');
+                        infoWindow.open(usa_map, this);
+                    });
 
-            };
-            usa_map.fitBounds(bound);
-            // End USA Map
+                };
+                usa_map.fitBounds(bound);
+                // End USA Map
+            }
 
         }
 

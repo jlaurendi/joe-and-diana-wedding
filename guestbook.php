@@ -49,8 +49,9 @@ if ($db->connect_errno == 0) {
   $name = $db->real_escape_string($_POST['name']);
   $email = $db->real_escape_string($_POST['email']);
   $comment = $db->real_escape_string($_POST['comment']);
+  $wedding = $db->real_escape_string($_POST['wedding']);
 
-  $insert_query = "INSERT INTO guestbook (name, email, comment) VALUES ('$name', '$email', '$comment');";
+  $insert_query = "INSERT INTO guestbook (name, email, comment, wedding) VALUES ('$name', '$email', '$comment', '$wedding');";
   if (!$result = $db->query($insert_query)) {
     $return['message'] = $db->error;
   } else {

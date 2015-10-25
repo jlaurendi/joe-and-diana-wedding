@@ -1,3 +1,4 @@
+<?php error_reporting(0); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -471,34 +472,6 @@
         </section>
         <!-- #Map Section Ends -->
 
-        <!-- #Map Section -->
-        <section id="usa-map-section" class="map-section pattern">
-            <header class="section-header">
-                <h3 class="section-title">USA Wedding Map
-                    <div class="map-icon"><i class="fa fa-map-marker"></i></div>
-                </h3>
-                <p class="section-tagline"></p>
-            </header>
-            <div class="container">
-                <div id="usa-map-pins" class="map-pins">
-                    <ul>
-                        <li class="wedding">Wedding</li>
-                        <li class="weddingParty">Wedding Party</li>
-                        <li class="bachelor">Bachelor</li>
-                        <li class="bachelorette">Bachelorette</li>
-                        <li class="hotels">Hotels</li>
-                        <li class="airport">Airport</li>
-                        <li class="attractions">Attractions</li>
-                        <li class="restaurants">Restaurants</li>
-                        <li class="shopping">Shopping</li>
-                        <li class="special">Special</li>
-                    </ul>
-                </div>
-            </div>
-            <div id="usa-map" class="map"></div>
-        </section>
-        <!-- #Map Section Ends -->
-
         <!-- Important People Section -->
         <section id="important-people">
             <header class="section-header">
@@ -744,7 +717,7 @@
                     <?php
                         $db = new mysqli('localhost', 'fourplat_admin', 'l%9,wPfmG;k}', 'fourplat_wedding');
                         if ($db->connect_errno == 0) {
-                            $query = "SELECT * FROM guestbook";
+                            $query = "SELECT * FROM guestbook WHERE wedding='tw'";
                             $posts = $db->query($query);
                             $posts_by_year = array();
                             foreach ($posts as $post) {
@@ -810,7 +783,8 @@
                                 <label for="comment">想對我們說的話</label>
                                 <textarea name="comment" cols="30" rows="10"></textarea>
                             </div>
-                            <div class="clearfix"></div>
+                            <div class="clearfix"></div>                            <input type="hidden" name="wedding" value="us" />
+                            <input type="hidden" name="wedding" value="tw" />
                             <div class="g-recaptcha" data-sitekey="6LedjgwTAAAAAKfuW18H60B02wbKbo_JLHAVxO5i"></div>
                             <input type="submit" class="color" value="Send your message &rarr;">
                             <div class="clearfix"></div>
@@ -915,10 +889,10 @@
     ================================================== -->
     <script src="js/device.min.js"></script>
     <script src="js/imagesloaded.pkgd.js"></script>
-    <script src="js/SmoothScroll.js"></script>
+    <!-- // <script src="js/SmoothScroll.js"></script> -->
     <script src="js/isotope.js"></script>
     <script src="js/jquery.isotope.sloppy-masonry.min.js"></script>
-    <script src="js/jquery.parallax.min.js"></script>
+    <!-- // <script src="js/jquery.parallax.min.js"></script> -->
     <script src="js/jquery.scrollTo.js"></script>
     <script src="js/waypoints.min.js"></script>
     <script src="js/jquery.mb.YTPlayer.js"></script>
@@ -953,11 +927,6 @@
             ['Zuoying HSR Station, Kaohsiung', 22.687145, 120.307822, 'special','左營高鐵車站</br>Zuoying High Speed Rail Station'],
             ['Taipei Main Station', 25.047923, 121.517079, 'special','台北車站'],
             ['Kaohsiung Train Station', 22.640835, 120.302108, 'special','高雄火車站']
-        ];
-
-        var usa_markers = [
-            ['CHS Airport', 32.894547, -80.038164, 'airport', 'Charleston Airport'],
-            ['Parents', 33.029564, -80.248404, 'house', 'Parents House']
         ];
     </script>
 </body>
