@@ -205,28 +205,32 @@
                             <span class="date">August 24</span>
                             <h2>The day we met</h2>
                             <div class="box-content">
-                                <p>阿喬人生中的第一次亞洲行，從台北一路往南的旅行中，這一天，他和兩位朋友Sherry、孜力來到高雄，我們相遇了。</p>
+                                <p>阿喬人生中第一次的台灣行，Joe和霄一與她的朋友孜力一起旅行。從台北一路往南的旅行中，這一天，他和兩位朋友Sherry、孜力來到高雄，阿喬和玫盈相遇了，故事由此開始。<p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="column six heart left movetop">
+                    <div class="clearfix"></div>
+
+                    <div class="column six heart left">
                         <div class="box pattern">
                             <span class="date">August 25</span>
                             <h2>Falling in love</h2>
                             <div class="box-content">
-                                <p>玫盈決定加入他們，一起去墾丁旅行。記得一個下午，我們肩並肩坐在白沙灣的沙灘上，讓海浪拍打著，天南地北地聊天，隨著彼此更加地認識，愛苗漸漸滋長。</p>
+                                <p>拜訪完高雄後，阿喬、霄一與孜力繼續他們未完的旅程，玫盈決定加入他們，一起去墾丁旅行。記得一個下午，我們肩並肩坐在白沙灣的沙灘上，讓海浪拍打著，天南地北地聊天，隨著彼此更加地認識，愛苗漸漸滋長。</p>
                             </div>
 
                         </div>
                     </div>
 
+                    <div class="clearfix"></div>
+
                     <div class="column six heart right">
                         <div class="box pattern">
                             <span class="date">December 30</span>
-                            <h2>Officially started dating</h2>
+                            <h2>Boyfriend and Girlfriend</h2>
                             <div class="box-content">
-                                <p>暑假過後，參加交換學生計畫的玫盈搬去了上海，幾個月後，阿喬按照約定來到了上海，在上海度過最難忘的跨年，阿喬問：「你願意當我的女朋友嗎？」，這是我們的第一次背包旅行。</p>
+                                <p>阿喬結束了短暫的台灣行，回到了美國，暑假過後，參加交換學生計畫的玫盈搬去了上海。他們仍然持續不斷的透過網路聯絡著，也漸漸認識了彼此。經過幾個月的聯繫，阿喬瞭解了這個女孩是多麼的特別，不想再錯過她。因為想當面問玫盈是否願意成為他的女朋友，阿喬決定賭下所有義無反顧地來到上海，很幸運地，被阿喬打動的玫盈說她願意成為阿喬的女朋友。他們一起度過難忘的跨年夜，也一起進行了一個多月的旅行。</p>
                             </div>
                         </div>
                     </div>
@@ -237,14 +241,16 @@
                     <div class="column six heart left">
                         <div class="box pattern">
                             <span class="date">January 13</span>
-                            <h2>Trip in Thailand and Joe's first Chinese New Year in Taiwan</h2>
+                            <h2>Trip to Thailand and Joe's first Chinese New Year in Taiwan</h2>
                             <div class="box-content">
                                 <p>第一次的背包旅行，因夏日海灘而相識的兩人，經歷了波士頓與上海的酷寒，決定去個熱帶國家－泰國，從泰北的Chiang Mai（清邁），首都Bangkok（曼谷），最後抵達度假勝地Phuket（普吉島）和Phi Phi Islands（批披島）。假期尾聲，阿喬第二次飛往台灣，在台灣度過了人生中的第一次農曆新年。</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="column six heart right movetop">
+                    <div class="clearfix"></div>
+
+                    <div class="column six heart right">
                         <div class="box pattern">
                             <span class="date">June 10</span>
                             <h2>Summer in the US</h2>
@@ -254,6 +260,8 @@
 
                         </div>
                     </div>
+
+                    <div class="clearfix"></div>
 
                     <div class="column six heart left">
                         <div class="box pattern">
@@ -265,12 +273,14 @@
                         </div>
                     </div>
 
+                    <div class="clearfix"></div>
+
                     <div class="column six heart right">
                         <div class="box pattern">
                             <span class="date">November 23</span>
                             <h2>Southeast Asia Trip</h2>
                             <div class="box-content">
-                                <p>愛上東南亞的阿喬和玫盈，規劃了一個工作旅行，這次去了Malaysia（馬來西亞）、Singapore（新加坡）、Cambodia（柬埔寨）及Vietnam（越南），不僅見識了東南亞雨季中豐沛可觀的雨量，更喜歡他們不同種族間和平共處的氛圍。</p>
+                                <p>愛上東南亞的阿喬和玫盈，規劃了一個工作旅行，這次去了Malaysia（馬來西亞）、Singapore（新加坡）、Cambodia（柬埔寨）及Vietnam（越南），不僅見識了東南亞雨季中豐沛可觀的雨量，更喜歡他們不同種族間和平共處的氛圍，當然最愛是他們的食物。</p>
                             </div>
                         </div>
                     </div>
@@ -283,17 +293,19 @@
                             <span class="date">January 18</span>
                             <h2>Winter in Taiwan</h2>
                             <div class="box-content">
-                                <p>剛離開亞洲的阿喬在相隔一個月後第四次來到台灣，這時候的玫盈渾然不知他暗中的計畫。</p>
+                                <p>阿喬即將參加新創公司加速器的三個月培育計劃，知道在那之前彼此將會有一段時間無法見面，剛離開亞洲一個多月的阿喬，決定在計畫開始前，火速訂了機票，第四次來到台灣，這時候的玫盈渾然不知他暗中的計畫。</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="column six heart right movetop">
+                    <div class="clearfix"></div>
+
+                    <div class="column six heart right">
                         <div class="box pattern">
                             <span class="date">January 27</span>
                             <h2>The Proposal</h2>
                             <div class="box-content">
-                                <p>一起回到520天前我們相識相戀的同個地方－墾丁，下午5點20分，玫盈：「Yes, I do.」。</p>
+                                <p>來到台灣大約一個禮拜後，阿喬和玫盈再次回到520天前我們相識相戀的同個地方－墾丁，下午5點20分，阿喬單腳下跪向玫盈求婚了，又驚又喜的玫盈：「Yes, I do.」。</p>
                             </div>
                         </div>
                     </div>
@@ -364,13 +376,16 @@
                             <div class="details">
                                 <span class="waddress">吳家自宅</span>
                                 <span class="waddress">高雄市大寮區會結路104-4號</span>
-                                <span class="wdate">2016年1月9日</span>
+                                <span class="wdate">2016年1月9日星期六</span>
                                 <span class="wtime">9:00 AM - 11:00 AM</span>
                             </div>
 <!--                             <a href="event.html" class="button">Read More</a>
  -->                        </div>
                     </div>
-                    <div class="column six heart left movetop">
+
+                    <div class="clearfix"></div>
+
+                    <div class="column six heart left">
                         <div class="box center corner">
                             <div class="corners-topleft"></div>
                             <div class="corners-bottomleft"></div>
@@ -380,12 +395,15 @@
                             <div class="details">
                                 <span class="waddress">全美婚宴會館</span>
                                 <span class="waddress">高雄市鳳山區經武路78號1樓</span>
-                                <span class="wdate">2016年1月9日</span>
+                                <span class="wdate">2016年1月9日星期六</span>
                                 <span class="wtime">12:00 PM - 02:30 PM</span>
                             </div>
 <!--                             <a href="event.html" class="button">Read More</a>
  -->                        </div>
                     </div>
+
+                    <div class="clearfix"></div>
+
                     <div class="column six heart right">
                         <div class="box center corner">
                             <div class="corners-topleft"></div>
@@ -396,7 +414,7 @@
                             <div class="details">
                                 <span class="waddress">TBD</span>
                                 <span class="waddress">TBD</span>
-                                <span class="wdate">2016年1月9日</span>
+                                <span class="wdate">2016年1月9日星期六</span>
                                 <span class="wtime">07:00 PM - 10:00 PM</span>
                             </div>
 <!--                             <a href="event.html" class="button">Read More</a>
@@ -412,33 +430,14 @@
                             <div class="corners-bottomleft"></div>
                             <div class="corners-topright"></div>
                             <div class="corners-bottomright"></div>
-                            <h2>結婚儀式</h2>
+                            <h2>婚禮</h2>
                             <div class="details">
-                                <span class="waddress">Charisma by the Sea</span>
-                                <span class="waddress">Folly Beach, SC</span>
-                                <span class="wdate">2016年4月16日</span>
-                                <span class="wtime">10:00 AM - 10:30 AM</span>
+                                <span class="waddress">Charleson, USA</span>
+                                <span class="wdate">Saturday, April 16, 2016</span>
                             </div>
 <!--                             <a href="event.html" class="button">Read More</a>
  -->                        </div>
                     </div>
-                    <div class="column six heart right movetop">
-                        <div class="box center corner">
-                            <div class="corners-topleft"></div>
-                            <div class="corners-bottomleft"></div>
-                            <div class="corners-topright"></div>
-                            <div class="corners-bottomright"></div>
-                            <h2>晚宴</h2>
-                            <div class="details">
-                                <span class="waddress">Charisma by the Sea</span>
-                                <span class="waddress">Folly Beach, SC</span>
-                                <span class="wdate">2016年4月16日</span>
-                                <span class="wtime">12:00 PM - 2:30 PM</span>
-                            </div>
-<!--                             <a href="event.html" class="button">Read More</a>
- -->                        </div>
-                    </div>
-                    <div class="clearfix"></div>
                 </div>
             </div>
         </section>
@@ -485,7 +484,7 @@
                     <div class="column six right">
                         <h2 class="vibe">Bridesmaids</h2>
                         <div class="tabs people-image">
-                            <li><a href="#person1" class="active"><img src="images/important-people/bridesmaid4.jpg" alt="Xi-Hang Liang"/></a></li>
+                            <li><a href="#person1" class="active"><img src="images/important-people/bridesmaid4.jpg" alt="Xi-Han Liang"/></a></li>
                             <li><a href="#person2"><img src="images/important-people/bridesmaid5.jpg" alt="Yi-Fan Zeng" /></a></li>
                             <li><a href="#person3"><img src="images/important-people/bridesmaid6.jpg" alt="Yu-Ling Tsai" /></a></li>
                         </div>
@@ -517,7 +516,7 @@
                             <div id="person3" class="tab-content">
                                 <h2>蔡鈺羚</h2>
                                 <div class="story">
-                                    <p>不僅是雄女童軍的好夥伴，也是玫盈在政大財政系的好朋友。才華洋溢的鈺羚，不僅會跳舞，更是靠著自學通過日文N1檢定考，實在令人崇拜。孝順的她，對家庭的付出也很令人感動。大學畢業後進入會計事務所工作，對於工作得心應手的鈺羚還成為公司的紅牌員工，目前剛轉職，往人生的下一個里程碑邁進。</p>
+                                    <p>不僅是雄女童軍的好夥伴，也是玫盈在政大財政系的好朋友。才華洋溢的鈺羚，不僅會跳舞，更是靠著自學通過日文N1檢定考。大學畢業後進入會計事務所工作，目前剛轉職，往人生的下一個里程碑邁進。</p>
                                 </div>
                                 <div class="social">
                                     <ul>
@@ -540,7 +539,7 @@
                             <div id="person4" class="tab-content">
                                 <h2>Richard Yau</h2>
                                 <div class="story">
-                                    <p>Richard and Joe go back to college where they were friends, roommates, and brothers in ZBT. After college they both stayed in Boston and remained close friends. In 2014 they finally embarked on their dream of starting a company together, <a href="www.brightcellars.com">Bright Cellars</a>.</p>
+                                    <p>Richard和Joe結識於大學，除了是室友，也進入同一個兄弟會－ZBT。大學畢業後，他們都繼續待在波士頓，並且是很要好的朋友。2014年，他們終於一起開創了夢想中的新事業－<a href="www.brightcellars.com">Bright Cellars</a>.</p>
                                 </div>
                                 <div class="social">
                                     <ul>
@@ -554,7 +553,7 @@
                             <div id="person5" class="tab-content">
                                 <h2>Mike Kling</h2>
                                 <div class="story">
-                                    <p>Mike and Joe were also roommates at MIT (and brothers in ZBT). They interned together along with taking many classes together. Mike is now working as a trader in NYC.</p>
+                                    <p>Mike和Joe過去在MIT是室友，也參加了同一個兄弟會－ZBT。他們有許多共同的興趣，例如：數學、電腦科學與跑步。在MIT求學期間，他們共同修習許多課程，某年暑假，甚至一起進入紐約市的同間公司實習。</p>
                                 </div>
                                 <div class="social">
                                     <ul>
@@ -568,7 +567,7 @@
                             <div id="person6" class="tab-content">
                                 <h2>David Hutchings</h2>
                                 <div class="story">
-                                    <p>David, along with Richard, is another member of Joe's class in ZBT. After college Joe and David remained close friends. David currently works at The Brattle Group in Boston.</p>
+                                    <p>David是Joe在兄弟會內同屆的兄弟。大學畢業後，仍和Joe是十分要好的朋友。目前任職於<a href="http://www.brattle.com/">The Brattle Group</a>在多倫多（Toronto）與波士頓（Boston）的分部。</p>
                                 </div>
                                 <div class="social">
                                     <ul>

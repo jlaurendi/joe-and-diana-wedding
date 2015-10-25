@@ -209,7 +209,10 @@
                         </div>
 
                     </div>
-                    <div class="column six heart left movetop">
+
+                    <div class="clearfix"></div>
+
+                    <div class="column six heart left">
                         <div class="box pattern">
                             <span class="date">August 25</span>
                             <h2>Falling in love</h2>
@@ -219,7 +222,9 @@
 
                         </div>
                     </div>
+
                     <div class="clearfix"></div>
+
 
                     <div class="column six heart right">
                         <div class="box pattern">
@@ -245,7 +250,9 @@
                         </div>
                     </div>
 
-                    <div class="column six heart right movetop">
+                    <div class="clearfix"></div>
+
+                    <div class="column six heart right">
                         <div class="box pattern">
                             <span class="date">June 10</span>
                             <h2>Summer in the US</h2>
@@ -255,6 +262,8 @@
 
                         </div>
                     </div>
+
+                    <div class="clearfix"></div>
 
                     <div class="column six heart left">
                         <div class="box pattern">
@@ -266,6 +275,7 @@
                         </div>
                     </div>
 
+                    <div class="clearfix"></div>
 
                     <div class="column six heart right">
                         <div class="box pattern">
@@ -290,7 +300,9 @@
                         </div>
                     </div>
 
-                    <div class="column six heart right movetop">
+                    <div class="clearfix"></div>
+
+                    <div class="column six heart right">
                         <div class="box pattern">
                             <span class="date">January 27</span>
                             <h2>The Proposal</h2>
@@ -351,13 +363,16 @@
                             <div class="details">
                                 <span class="waddress">Diana's House</span>
                                 <span class="waddress">高雄市大寮區會結路104-4號</span>
-                                <span class="wdate">Thursday, January 9, 2016</span>
+                                <span class="wdate">Saturday, January 9, 2016</span>
                                 <span class="wtime">10:00 AM - 10:30 AM</span>
                             </div>
 <!--                             <a href="event.html" class="button">Read More</a>
  -->                        </div>
                     </div>
-                    <div class="column six heart left movetop">
+
+                    <div class="clearfix"></div>
+
+                    <div class="column six heart left">
                         <div class="box center corner">
                             <div class="corners-topleft"></div>
                             <div class="corners-bottomleft"></div>
@@ -367,14 +382,16 @@
                             <div class="details">
                                 <span class="waddress">Quan Mei Wedding Banquet Restaurant</span>
                                 <span class="waddress">高雄縣鳳山市經武路78號1樓</span>
-                                <span class="wdate">Thursday, January 9, 2016</span>
+                                <span class="wdate">Saturday, January 9, 2016</span>
                                 <span class="wtime">12:00 PM - 2:30 PM</span>
                             </div>
 <!--                             <a href="event.html" class="button">Read More</a>
  -->                        </div>
                     </div>
 
-                    <div class="column six heart right movetop">
+                    <div class="clearfix"></div>
+
+                    <div class="column six heart right">
                         <div class="box center corner">
                             <div class="corners-topleft"></div>
                             <div class="corners-bottomleft"></div>
@@ -384,7 +401,7 @@
                             <div class="details">
                                 <span class="waddress">TBD</span>
                                 <span class="waddress">TBD</span>
-                                <span class="wdate">Thursday, January 9, 2016</span>
+                                <span class="wdate">Saturday, January 9, 2016</span>
                                 <span class="wtime">07:00 PM - 10:00 PM</span>
                             </div>
 <!--                             <a href="event.html" class="button">Read More</a>
@@ -392,6 +409,7 @@
                     </div>
 
                     <div class="clearfix"></div>
+
                     <div class="timeline-year"><span>USA</span></div>
 
                     <div class="column six heart left">
@@ -456,62 +474,49 @@
                     <div class="column six right">
                         <h2 class="vibe">Bridesmaids</h2>
                         <div class="tabs people-image">
-                            <li><a href="#person1" class="active"><img src="images/important-people/bridesmaid1.jpg" alt="Wen-Yang Ruan" /></a></li>
-                            <li><a href="#person2"><img src="images/important-people/bridesmaid2.jpg" alt="Ren-Ci Chen" /></a></li>
-                            <li><a href="#person3"><img src="images/important-people/bridesmaid3.jpg" alt="Jing-Ru Zhuo" /></a></li>
+                            <li><a href="#person1" class="active"><img src="images/important-people/bridesmaid4.jpg" alt="Xi-Han Liang"/></a></li>
+                            <li><a href="#person2"><img src="images/important-people/bridesmaid5.jpg" alt="Yi-Fan Zeng" /></a></li>
+                            <li><a href="#person3"><img src="images/important-people/bridesmaid6.jpg" alt="Yu-Ling Tsai" /></a></li>
                         </div>
                         <div class="tab-content-wrap">
                             <div id="person1" class="tab-content">
-                                <h2>Wen-Yang Ruan</h2>
+                                <h2>Xi-Han Liang</h2>
                                 <div class="story">
-                                    <p>Wen-Yang and Diana met in high school when they both joined the Girl Scouts. While majoring in Japanese, Wen-Yang spent a year in Japan doing an exchange program. After working in the iron and steel industry as a sales representative for a few year, she's looking forward to getting started in a new career field.</p>
+                                    <p>Xi-Han met with Diana back to high school. They were not only in the same class but also in the same student club -- Girl Scouts. She likes sketching, photography, and sweet dessert. Xi-Han is a very considerate person who always listens to people and gives them helpful advice. She also loves comic in crazy.</p>
                                 </div>
                                 <div class="social">
                                     <ul>
-                                        <li><a href="https://www.facebook.com/softsheep"><i class="fa fa-facebook"></i></a>
+                                        <li><a href="https://www.facebook.com/xihan.liang"><i class="fa fa-facebook"></i></a>
                                         </li>
-                                        <!-- <li><a href="#"><i class="fa fa-twitter"></i></a>
-                                        </li>
-                                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                                        </li> -->
                                     </ul>
                                 </div>
                             </div>
                             <div id="person2" class="tab-content">
-                                <h2>Ren-Ci Chen</h2>
+                                <h2>Yi-Fan Zeng</h2>
                                 <div class="story">
-                                    <p>Ren-Ci was also a member of the Girl Scouts and met Diana in high school. They not only went to the same high school but also the same college -- NCCU. With a Mathematical Sciences degree, Ren-Ci is working at ASE which is one of the largest providers of semiconductor manufacturing services in the world.</p>
+                                    <p>Yi-Fan used to be classmate with Diana in high school. They got familar with each other in Girl Scouts. She always wears a pleasant smile with people which makes people feel warm. As a crazy fan of Disneyland, she has visited there plenty of times and carried tons of collection. Her hobby is watching types of movies and listening music in great varieties.</p>
                                 </div>
                                 <div class="social">
                                     <ul>
-                                        <li><a href="https://www.facebook.com/profile.php?id=100000157616236"><i class="fa fa-facebook"></i></a>
+                                        <li><a href="https://www.facebook.com/eva.tseng.90"><i class="fa fa-facebook"></i></a>
                                         </li>
-                                        <!-- <li><a href="#"><i class="fa fa-twitter"></i></a>
-                                        </li>
-                                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                                        </li> -->
                                     </ul>
                                 </div>
                             </div>
                             <div id="person3" class="tab-content">
-                                <h2>Jing-Ru Zhuo</h2>
+                                <h2>Yu-Ling Tsai</h2>
                                 <div class="story">
-                                    <p>Jing-Ru met Diana in Girl Scouts back in high school. She is currently the student club advisor of the scouts in their high school. Otherwise, Jing-Ru works in a middle school as well as a cram school as a teacher. In her leisure time, Jing-Ru enjoys planning trips and traveling.</p>
+                                    <p>Yu-Ling met Diana in high school. After that, they went to the same college with same degree -- Public Finance. She is a talented lady who is good at dancing and Japaness who passed the highest level of Japanese Language Proficiency Test by self-learning. Yu-Ling went to an accounting office after college in the first place, and just starts her career in a new field.</p>
                                 </div>
                                 <div class="social">
                                     <ul>
-                                        <li><a href="https://www.facebook.com/jingru.jhuo"><i class="fa fa-facebook"></i></a>
+                                        <li><a href="https://www.facebook.com/ullia.tsai"><i class="fa fa-facebook"></i></a>
                                         </li>
-                                       <!--  <li><a href="#"><i class="fa fa-twitter"></i></a>
-                                        </li>
-                                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                                        </li> -->
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                     <div class="column six left">
                         <h2 class="vibe">Groomsmen</h2>
                         <div class="tabs people-image">

@@ -222,7 +222,10 @@ $show_rsvp = true;
                         </div>
 
                     </div>
-                    <div class="column six heart left movetop">
+
+                    <div class="clearfix"></div>
+
+                    <div class="column six heart left">
                         <div class="box pattern">
                             <span class="date">August 25</span>
                             <h2>Falling in love</h2>
@@ -232,7 +235,9 @@ $show_rsvp = true;
 
                         </div>
                     </div>
+
                     <div class="clearfix"></div>
+
 
                     <div class="column six heart right">
                         <div class="box pattern">
@@ -258,7 +263,9 @@ $show_rsvp = true;
                         </div>
                     </div>
 
-                    <div class="column six heart right movetop">
+                    <div class="clearfix"></div>
+
+                    <div class="column six heart right">
                         <div class="box pattern">
                             <span class="date">June 10</span>
                             <h2>Summer in the US</h2>
@@ -268,6 +275,8 @@ $show_rsvp = true;
 
                         </div>
                     </div>
+
+                    <div class="clearfix"></div>
 
                     <div class="column six heart left">
                         <div class="box pattern">
@@ -279,6 +288,7 @@ $show_rsvp = true;
                         </div>
                     </div>
 
+                    <div class="clearfix"></div>
 
                     <div class="column six heart right">
                         <div class="box pattern">
@@ -303,7 +313,9 @@ $show_rsvp = true;
                         </div>
                     </div>
 
-                    <div class="column six heart right movetop">
+                    <div class="clearfix"></div>
+
+                    <div class="column six heart right">
                         <div class="box pattern">
                             <span class="date">January 27</span>
                             <h2>The Proposal</h2>
@@ -363,7 +375,7 @@ $show_rsvp = true;
                             <h2>Taiwan Wedding Ceremony</h2>
                             <div class="details">
                                 <span class="waddress">Kaohsiung, Taiwan</span>
-                                <span class="wdate">Thursday, January 9, 2016</span>
+                                <span class="wdate">Saturday, January 9, 2016</span>
                             </div>
                         </div>
                     </div>
@@ -387,7 +399,10 @@ $show_rsvp = true;
 <!--                             <a href="event.html" class="button">Read More</a>
  -->                        </div>
                     </div>
-                    <div class="column six heart right movetop">
+
+                    <div class="clearfix"></div>
+
+                    <div class="column six heart right">
                         <div class="box center corner">
                             <div class="corners-topleft"></div>
                             <div class="corners-bottomleft"></div>
