@@ -359,7 +359,7 @@ a.button i {
     background-color: #fff;
 }
 .timeline .movetop {
-    margin-top: 100px;
+    margin-top: 250px;
 }
 .timeline .column.right:after {
     right: -11px;
@@ -722,9 +722,9 @@ a.button i {
     right: 0;
     font-weight: 100;
 }
-.hero #countdown2 {
+/*.hero #countdown2 {
     bottom: 55px;
-}
+}*/
 .hero .countdown span {
     font-family: 'Playfair Display', serif;
     font-style: italic;
@@ -3012,4 +3012,16 @@ ul.double-angle li:before {
 .g-recaptcha {
     width: 304px;
     margin: auto;
+}
+
+#main-menu ul li.country a,
+#main-menu ul li.country p {
+    display: inline;
+}
+#main-menu ul li a.selected-country {
+    color: #FF8C89;
+}
+
+#main-menu ul li a.selected-country:hover {
+    cursor: default;
 }

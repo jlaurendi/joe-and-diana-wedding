@@ -653,11 +653,11 @@ if (!Array.prototype.indexOf) {
 
         /* Simple Countdown Timer - change belows date to specific one you want.
         ==================================================================================== */
-        if($("#countdown").length) {
+        if($("#countdown.countdown-tw").length) {
             CountDownTimer('01/09/2016 12:00 AM', 'countdown');
         }
-        if($("#countdown2").length) {
-            CountDownTimer('04/16/2016 12:00 AM', 'countdown2');
+        if($("#countdown.countdown-us").length) {
+            CountDownTimer('04/16/2016 12:00 AM', 'countdown');
         }
         function CountDownTimer(dt, id) {
             var end = new Date(dt);
