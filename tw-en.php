@@ -475,7 +475,7 @@
                         <h2 class="vibe">Bridesmaids</h2>
                         <div class="tabs people-image">
                             <li><a href="#person1" class="active"><img src="images/important-people/bridesmaid4.jpg" alt="Xi-Han Liang"/></a></li>
-                            <li><a href="#person2"><img src="images/important-people/bridesmaid5.jpg" alt="Yi-Fan Zeng" /></a></li>
+                            <li><a href="#person2"><img src="images/important-people/bridesmaid5.jpg" alt="Yi-Fan Tseng" /></a></li>
                             <li><a href="#person3"><img src="images/important-people/bridesmaid6.jpg" alt="Yu-Ling Tsai" /></a></li>
                         </div>
                         <div class="tab-content-wrap">
@@ -492,7 +492,7 @@
                                 </div>
                             </div>
                             <div id="person2" class="tab-content">
-                                <h2>Yi-Fan Zeng</h2>
+                                <h2>Yi-Fan Tseng</h2>
                                 <div class="story">
                                     <p>Yi-Fan used to be classmate with Diana in high school. They got familar with each other in Girl Scouts. She always wears a pleasant smile with people which makes people feel warm. As a crazy fan of Disneyland, she has visited there plenty of times and carried tons of collection. Her hobby is watching types of movies and listening music in great varieties.</p>
                                 </div>

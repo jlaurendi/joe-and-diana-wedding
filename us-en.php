@@ -467,8 +467,8 @@ $show_rsvp = true;
                         <h2 class="vibe">Bridesmaids</h2>
                         <div class="tabs people-image">
                             <li><a href="#person1" class="active"><img src="images/important-people/bridesmaid1.jpg" alt="Wen-Yang Ruan" /></a></li>
-                            <li><a href="#person2"><img src="images/important-people/bridesmaid2.jpg" alt="Ren-Ci Chen" /></a></li>
-                            <li><a href="#person3"><img src="images/important-people/bridesmaid3.jpg" alt="Jing-Ru Zhuo" /></a></li>
+                            <li><a href="#person2"><img src="images/important-people/bridesmaid2.jpg" alt="Ren-Cih Chen" /></a></li>
+                            <li><a href="#person3"><img src="images/important-people/bridesmaid3.jpg" alt="Jing-Ru Jhuo" /></a></li>
                         </div>
                         <div class="tab-content-wrap">
                             <div id="person1" class="tab-content">
@@ -488,9 +488,9 @@ $show_rsvp = true;
                                 </div>
                             </div>
                             <div id="person2" class="tab-content">
-                                <h2>Ren-Ci Chen</h2>
+                                <h2>Ren-Cih Chen</h2>
                                 <div class="story">
-                                    <p>Ren-Ci was also a member of the Girl Scouts and met Diana in high school. They not only went to the same high school but also the same college -- NCCU. With a Mathematical Sciences degree, Ren-Ci is working at ASE which is one of the largest providers of semiconductor manufacturing services in the world.</p>
+                                    <p>Ren-Cih was also a member of the Girl Scouts and met Diana in high school. They not only went to the same high school but also the same college -- NCCU. With a Mathematical Sciences degree, Ren-Cih is working at ASE which is one of the largest providers of semiconductor manufacturing services in the world.</p>
                                 </div>
                                 <div class="social">
                                     <ul>
@@ -504,7 +504,7 @@ $show_rsvp = true;
                                 </div>
                             </div>
                             <div id="person3" class="tab-content">
-                                <h2>Jing-Ru Zhuo</h2>
+                                <h2>Jing-Ru Jhuo</h2>
                                 <div class="story">
                                     <p>Jing-Ru met Diana in Girl Scouts back in high school. She is currently the student club advisor of the scouts at their high school. Otherwise, Jing-Ru works in a middle school as well as a cram school as a teacher. In her leisure time, Jing-Ru enjoys planning trips and traveling.</p>
                                 </div>

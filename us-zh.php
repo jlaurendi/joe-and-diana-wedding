@@ -467,8 +467,8 @@
                         <h2 class="vibe">Bridesmaids</h2>
                         <div class="tabs people-image">
                             <li><a href="#person1" class="active"><img src="images/important-people/bridesmaid1.jpg" alt="Wen-Yang Ruan" /></a></li>
-                            <li><a href="#person2"><img src="images/important-people/bridesmaid2.jpg" alt="Ren-Ci Chen" /></a></li>
-                            <li><a href="#person3"><img src="images/important-people/bridesmaid3.jpg" alt="Jing-Ru Zhuo" /></a></li>
+                            <li><a href="#person2"><img src="images/important-people/bridesmaid2.jpg" alt="Ren-Cih Chen" /></a></li>
+                            <li><a href="#person3"><img src="images/important-people/bridesmaid3.jpg" alt="Jing-Ru Jhuo" /></a></li>
                         </div>
                         <div class="tab-content-wrap">
                             <div id="person1" class="tab-content">
@@ -533,7 +533,7 @@
                             <div id="person4" class="tab-content">
                                 <h2>Richard Yau</h2>
                                 <div class="story">
-                                    <p>Richard和Joe結識於大學，除了是室友，也進入同一個兄弟會－ZBT。大學畢業後，他們都繼續待在波士頓，並且是很要好的朋友。2014年，他們終於一起開創了夢想中的新事業－<a href="www.brightcellars.com">Bright Cellars</a>.</p>
+                                    <p>Richard和Joe過去在MIT就學的期間，同是MIT兄弟會－ZBT的成員。從學校畢業後，他進入一間位在波士頓的新創公司－NutraClick，擔任行銷分析師，過了不久更成為其旗下子公司Bona Clara的主席。2014年，Richard和Joe決定離開各自的工作，一起創立<a href="www.brightcellars.com">Bright Cellars。</p>
                                 </div>
                                 <div class="social">
                                     <ul>
@@ -547,7 +547,7 @@
                             <div id="person5" class="tab-content">
                                 <h2>Mike Kling</h2>
                                 <div class="story">
-                                    <p>Mike和Joe過去在MIT是室友，也參加了同一個兄弟會－ZBT。他們有許多共同的興趣，例如：數學、電腦科學與跑步。在MIT求學期間，他們共同修習許多課程，某年暑假，甚至一起進入紐約市的同間公司實習。</p>
+                                    <p>Mike和Joe過去都屬於MIT的兄弟會－ZBT。他和Joe一樣都熱愛著數學、電腦科學與跑步。結束MIT電腦科學研究所的學業後，他進入紐約的Jane Street Capital擔任金融交易分析師。</p>
                                 </div>
                                 <div class="social">
                                     <ul>
@@ -561,7 +561,7 @@
                             <div id="person6" class="tab-content">
                                 <h2>David Hutchings</h2>
                                 <div class="story">
-                                    <p>David是Joe在兄弟會內同屆的兄弟。大學畢業後，仍和Joe是十分要好的朋友。目前任職於<a href="http://www.brattle.com/">The Brattle Group</a>在多倫多（Toronto）與波士頓（Boston）的分部。</p>
+                                    <p>David和Joe相識於兄弟會－ZBT。David非常活躍於MIT的領導圈，最為人所知的是曾經同時擔任IFC(MIT的兄弟會議會）與ZBT的主席。David在大學時期就非常積極參與MIT的公共事務，目前更擔任ZBT董事會主席。目前在<a href="http://www.brattle.com/">The Brattle Group</a>從事經濟顧問，來自加拿大的他，近期也搬回多倫多（Toronto）。</p>
                                 </div>
                                 <div class="social">
                                     <ul>
@@ -796,9 +796,9 @@
                 <h3 class="section-title">Social Media
                     <div class="social-media-icons"><i class="fa fa-facebook-square"></i><i class="fa fa-twitter-square"></i><i class="fa fa-instagram"></i></div>
                 </h3>
-                <p class="section-tagline">Copy the hashtag below and share your experience from our Wedding :)</p>
+                <p class="section-tagline">想要分享阿喬和玫盈的婚禮嗎？歡迎複製下方的主題標籤，並在社群媒體上標記我們：）</p>
             </header>
-            <span class="hash">#joeanddianawedding</span>
+            <span class="hash">#joeanddianawedding</br>#achiaohemeiyingwedding</span>
         </section>
         <!-- #Instagram Section Ends -->
 
