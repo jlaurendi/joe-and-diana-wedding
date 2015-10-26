@@ -30,7 +30,7 @@ if(isset($_POST['submit'])) {
 		// $message = isset($_POST['message']) ? trim($_POST['message']) : '';
 		$phone = isset($_POST['phone']) ? trim($_POST['phone']) : '';
 		$which_wedding = isset($_POST['which-wedding']) ? trim($_POST['which-wedding']) : '';
-		$subject = isset($_POST['subject']) ? trim($_POST['subject']) : 'Contact Form Submission';
+		$subject = isset($_POST['subject']) ? trim($_POST['subject']) : "Wedding RSVP! ($which_wedding)";
 		$address = isset($_POST['address']) ? trim($_POST['address']) : '';
 
 		if($name && $email && filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -72,7 +72,7 @@ if(isset($_POST['submit'])) {
 
 	  $insert_query = "INSERT INTO rsvps (name, email, guests, phone, attend_taiwan, attend_usa, address) VALUES ('$name', '$email', $persons, '$phone', $attend_taiwan, $attend_usa, '$address');";
 	  if (!$result = $db->query($insert_query)) {
-	    $return['message'] = $db->error;
+	    $return['message'] = "Error signing up -- check that you filled out the entire form";
 	  } else {
 	    $return['message'] = "Success!";
 	  }

@@ -283,7 +283,7 @@ $show_rsvp = true;
                             <span class="date">October 24</span>
                             <h2>Fall in Taichung</h2>
                             <div class="box-content">
-                                <p>On Joe's third trip to Taiwan, him and Diana spent a month in Taichung for the fall. We spent most of our time working at the <a href="https://www.facebook.com/HappenTaichung">Happen coworking space</a>. Joe also got his first taste of training for and running a marathon in Taiwan. The Sun Moon Lake marathon was actually his favorite to date.</p>
+                                <p>On Joe's third trip to Taiwan, he and Diana spent a month in Taichung for the fall. We spent most of our time working at the <a href="https://www.facebook.com/HappenTaichung">Happen coworking space</a>. Joe also got his first taste of training for and running a marathon in Taiwan. The Sun Moon Lake marathon was actually his favorite to date.</p>
                             </div>
                         </div>
                     </div>
@@ -308,7 +308,7 @@ $show_rsvp = true;
                             <span class="date">January 18</span>
                             <h2>Winter in Taiwan</h2>
                             <div class="box-content">
-                                <p>After only being back in the US, Joe finds a cheap flight to Taiwan right before he moves to Madison for 3 months to do a startup accelerator. Knowing it'll be a while before they can see each other again he jumps on it.</p>
+                                <p>After only being back in the US for a month, Joe finds a cheap flight to Taiwan right before he moves to Madison for 3 months to do a startup accelerator. Knowing it'll be a while before they can see each other again he jumps on it.</p>
                             </div>
                         </div>
                     </div>
