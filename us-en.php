@@ -937,6 +937,10 @@ $show_rsvp = true;
                                     <label for="address">Mailing Address</label>
                                     <input type="text" id="address" name="address">
                                 </div>
+                                <div class="column six">
+                                    <label for="dietary">Dietary Restrictions</label>
+                                    <input type="text" id="dietary" name="dietary" placeholder="Vegetarian, food allergies, etc">
+                                </div>
 
     <!--                             <div class="column six">
                                     <label for="which-wedding">Which wedding? 哪一場婚禮？</label>

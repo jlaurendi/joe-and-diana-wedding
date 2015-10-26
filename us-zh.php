@@ -842,6 +842,10 @@
                                 <label for="address">郵寄地址</label>
                                 <input type="text" id="address" name="address">
                             </div>
+                            <div class="column six">
+                                <label for="dietary">飲食限制</label>
+                                <input type="text" id="dietary" name="dietary" placeholder="例如：素食、對某食物過敏">
+                            </div>
 <!--                             <div class="column six">
                                 <label for="which-wedding">哪一場婚禮?</label>
                                 <select name="which-wedding" id="which-wedding">
