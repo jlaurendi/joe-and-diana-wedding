@@ -3030,3 +3030,13 @@ ul.double-angle li:before {
     line-height: 20px;
     margin-top: 14px;
 }
+
+#guestbook-loading-icon {
+    margin-top: 10px !important;
+}
+
+#rsvp-loading-icon {
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+}

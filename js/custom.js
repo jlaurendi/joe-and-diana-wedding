@@ -853,8 +853,8 @@ if (!Array.prototype.indexOf) {
                 'dataType': 'json',
                 'data': $(this).serialize()
             }).done(function(response) {
-                $('#rsvp-loading-icon').show();
-                $this.find('.loading').hide();
+                $('#rsvp-loading-icon').hide();
+                // $this.find('.loading').hide();
                 if (typeof response.type != 'undefined' && typeof response.message != 'undefined') {
                     $this.find('.notification')
                         .addClass(response.type + 'msg')
