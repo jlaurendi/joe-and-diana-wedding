@@ -845,6 +845,7 @@ if (!Array.prototype.indexOf) {
             $this.find('.notification').text('');
 
             // $this.find('.loading').show();
+            $('#rsvp-loading-icon').show();
 
             $.ajax({
                 'url': $this.attr('action'),
@@ -852,6 +853,7 @@ if (!Array.prototype.indexOf) {
                 'dataType': 'json',
                 'data': $(this).serialize()
             }).done(function(response) {
+                $('#rsvp-loading-icon').show();
                 $this.find('.loading').hide();
                 if (typeof response.type != 'undefined' && typeof response.message != 'undefined') {
                     $this.find('.notification')
