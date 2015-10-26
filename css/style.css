@@ -3025,3 +3025,8 @@ ul.double-angle li:before {
 #main-menu ul li a.selected-country:hover {
     cursor: default;
 }
+
+.info_content p {
+    line-height: 20px;
+    margin-top: 14px;
+}

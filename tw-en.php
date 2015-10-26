@@ -445,9 +445,9 @@
                 <div id="taiwan-map-pins" class="map-pins">
                     <ul>
                         <li class="wedding">Wedding</li>
-                        <li class="weddingParty">Wedding Party</li>
-                        <li class="bachelor">Bachelor</li>
-                        <li class="bachelorette">Bachelorette</li>
+                        <!-- <li class="weddingParty">Wedding Party</li> -->
+                        <!-- <li class="bachelor">Bachelor</li> -->
+                        <!-- <li class="bachelorette">Bachelorette</li> -->
                         <li class="hotels">Hotels</li>
                         <li class="airport">Airport</li>
                         <li class="attractions">Attractions</li>
@@ -528,7 +528,12 @@
                             <div id="person4" class="tab-content">
                                 <h2>Richard Yau</h2>
                                 <div class="story">
-                                    <p>Richard and Joe go back to college where they were friends, roommates, and brothers in ZBT. After college they both stayed in Boston and remained close friends. In 2014 they finally embarked on their dream of starting a company together, <a href="www.brightcellars.com">Bright Cellars</a>.</p>
+                                    <p>
+                                        Richard and Joe's friendship dates back to college where they were brothers
+                                        in the MIT fraternity ZBT. After college Richard began
+                                        working at a Boston startup NutraClick as a marketing analyst and, later, president
+                                        of a subsidiary company, Bona Clara. In 2014, Richard and Joe both left their jobs to found <a href="www.brightcellars.com">Bright Cellars</a>.
+                                    </p>
                                 </div>
                                 <div class="social">
                                     <ul>
@@ -542,7 +547,11 @@
                             <div id="person5" class="tab-content">
                                 <h2>Mike Kling</h2>
                                 <div class="story">
-                                    <p>Mike and Joe were also roommates at MIT (and brothers in ZBT). They share a handful of interests including math, CS, and running. At MIT they took a handful of classes together as well as having interned at the same company together in NYC one summer.</p>
+                                    <p>
+                                        Mike and Joe also met as brothers of ZBT at MIT. Like Joe, Mike loves math, computer science
+                                        and running. After completing his Masters in CS at MIT, Mike began working as a financial
+                                        trading analyst at Jane Street Capital in NYC.
+                                    </p>
                                 </div>
                                 <div class="social">
                                     <ul>
@@ -556,7 +565,13 @@
                             <div id="person6" class="tab-content">
                                 <h2>David Hutchings</h2>
                                 <div class="story">
-                                    <p>David, along with Richard, is another member of Joe's class in ZBT. After college Joe and David remained close friends. David currently works at The Brattle Group in Toronto / Boston.</p>
+                                    <p>
+                                        David and Joe also met as brothers of ZBT. David was incredibly active in leadership positions at MIT,
+                                        most notably holding the IFC president position while also being ZBT president. Since college David
+                                        has remained heavily involved in MIT (currently ZBT trustee president) and works as an economic consultant
+                                        at The Brattle Group. A Canadian at heart (and by birth),
+                                        Hutch has recently relocated to Toronto.
+                                    </p>
                                 </div>
                                 <div class="social">
                                     <ul>
@@ -997,8 +1012,6 @@
             ['Taipei Main Station', 25.047923, 121.517079, 'special','台北車站'],
             ['Kaohsiung Train Station', 22.640835, 120.302108, 'special','高雄火車站']
         ];
-
-
     </script>
 </body>
 

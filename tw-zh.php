@@ -455,9 +455,9 @@
                 <div id="taiwan-map-pins" class="map-pins">
                     <ul>
                         <li class="wedding">Wedding</li>
-                        <li class="weddingParty">Wedding Party</li>
-                        <li class="bachelor">Bachelor</li>
-                        <li class="bachelorette">Bachelorette</li>
+                        <!-- <li class="weddingParty">Wedding Party</li> -->
+                        <!-- <li class="bachelor">Bachelor</li> -->
+                        <!-- <li class="bachelorette">Bachelorette</li> -->
                         <li class="hotels">Hotels</li>
                         <li class="airport">Airport</li>
                         <li class="attractions">Attractions</li>

@@ -437,15 +437,15 @@
                 <div id="usa-map-pins" class="map-pins">
                     <ul>
                         <li class="wedding">Wedding</li>
-                        <li class="weddingParty">Wedding Party</li>
-                        <li class="bachelor">Bachelor</li>
-                        <li class="bachelorette">Bachelorette</li>
+                        <!-- <li class="weddingParty">Wedding Party</li> -->
+                        <!-- <li class="bachelor">Bachelor</li> -->
+                        <!-- <li class="bachelorette">Bachelorette</li> -->
                         <li class="hotels">Hotels</li>
                         <li class="airport">Airport</li>
                         <li class="attractions">Attractions</li>
                         <li class="restaurants">Restaurants</li>
-                        <li class="shopping">Shopping</li>
-                        <li class="special">Special</li>
+                        <!-- <li class="shopping">Shopping</li> -->
+                        <!-- <li class="special">Special</li> -->
                     </ul>
                 </div>
             </div>
@@ -899,10 +899,19 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApYs2sM_nF1OI_udCnH5Jyyz4U2xe_-QA&amp;sensor=false"></script>
     <script src="js/custom.js"></script>
     <script>
-
         var usa_markers = [
             ['CHS Airport', 32.894547, -80.038164, 'airport', 'Charleston Airport'],
-            ['Parents', 33.029564, -80.248404, 'house', 'Parents House']
+            ['Wedding Ceremony', 32.664664, -79.916277, 'wedding', 'The wedding will take place right on Folly Beach right behind the beach house where the reception will be.'],
+            ['Wedding Reception', 32.664953, -79.916428, 'wedding', 'The wedding reception will take place in a beach house right on the water.'],
+            ['The Battery', 32.770149, -79.930320, 'attraction', 'Originally constructed as a Civil War coastal defensive seawall, the battery is today famous for the beautiful antebellum houses that line the seafront.'],
+            ['Arthur Ravenel Jr. Bridge', 32.804928, -79.931910, 'attraction', 'Known colloquially as the Cooper River bridge, the Arthur Ravenel Jr. Bridge is one of the best places to run or bike in Charleston with incredible views of the river and bay.'],
+            ['Charleston Waterfront Park', 32.778027, -79.925253, 'attraction', 'A beautiful park along the Charleston waterfront.'],
+            ['Magnolia Plantation', 32.878602, -80.090794, 'attraction', 'A historic plantation and popular tourist spot.'],
+            ['College of Charleston', 32.783735, -79.937771, 'attraction', 'The top college in the city -- CofC boasts a beautiful campus'],
+            ['Historic Charleston City Market', 32.781352, -79.927879, 'attraction', 'A must-see, this historic destination boasts a multitude of vendors and handmade, local products.'],
+            ['Tides Folly Beach', 32.654533, -79.940278, 'hotel', 'Located right on Folly Beach, Tides is ideally located and well-reviewed.'],
+            ['Water\'s Edge Inn', 32.657767, -79.944979, 'hotel', 'Within walking distance of Folly Beach, but in a little quieter area.'],
+            ['Beach house rentals', 32.655175, -79.938563, 'hotel', 'Instead of getting a hotel room, another option is to rent a beach house. <a href="http://www.fredhollandrealty.com/" target="_blank">Fred Holland Realty</a> and <a href="http://www.avocetproperties.net/" target="_blank">Avocet Properties</a> are the two main companies'],
         ];
     </script>
 </body>

@@ -436,15 +436,15 @@ $show_rsvp = true;
                 <div id="usa-map-pins" class="map-pins">
                     <ul>
                         <li class="wedding">Wedding</li>
-                        <li class="weddingParty">Wedding Party</li>
-                        <li class="bachelor">Bachelor</li>
-                        <li class="bachelorette">Bachelorette</li>
+                        <!-- <li class="weddingParty">Wedding Party</li> -->
+                        <!-- <li class="bachelor">Bachelor</li> -->
+                        <!-- <li class="bachelorette">Bachelorette</li> -->
                         <li class="hotels">Hotels</li>
                         <li class="airport">Airport</li>
                         <li class="attractions">Attractions</li>
                         <li class="restaurants">Restaurants</li>
-                        <li class="shopping">Shopping</li>
-                        <li class="special">Special</li>
+                        <!-- <li class="shopping">Shopping</li> -->
+                        <!-- <li class="special">Special</li> -->
                     </ul>
                 </div>
             </div>
@@ -474,7 +474,7 @@ $show_rsvp = true;
                             <div id="person1" class="tab-content">
                                 <h2>Wen-Yang Ruan</h2>
                                 <div class="story">
-                                    <p>Wen-Yang and Diana met in high school when they both joined the Girl Scouts. While majoring in Japanese, Wen-Yang spent a year in Japan doing an exchange program. After working in the iron and steel industry as a sales representative for a few year, she's looking forward to getting started in a new career field.</p>
+                                    <p>Wen-Yang and Diana met in high school when they both joined the Girl Scouts. While majoring in Japanese, Wen-Yang spent a year in Japan doing an exchange program. After working in the iron and steel industry as a sales representative for a few years, she's looking forward to getting started in a new career field.</p>
                                 </div>
                                 <div class="social">
                                     <ul>
@@ -506,7 +506,7 @@ $show_rsvp = true;
                             <div id="person3" class="tab-content">
                                 <h2>Jing-Ru Zhuo</h2>
                                 <div class="story">
-                                    <p>Jing-Ru met Diana in Girl Scouts back in high school. She is currently the student club advisor of the scouts in their high school. Otherwise, Jing-Ru works in a middle school as well as a cram school as a teacher. In her leisure time, Jing-Ru enjoys planning trips and traveling.</p>
+                                    <p>Jing-Ru met Diana in Girl Scouts back in high school. She is currently the student club advisor of the scouts at their high school. Otherwise, Jing-Ru works in a middle school as well as a cram school as a teacher. In her leisure time, Jing-Ru enjoys planning trips and traveling.</p>
                                 </div>
                                 <div class="social">
                                     <ul>
@@ -533,7 +533,12 @@ $show_rsvp = true;
                             <div id="person4" class="tab-content">
                                 <h2>Richard Yau</h2>
                                 <div class="story">
-                                    <p>Richard and Joe go back to college where they were friends, roommates, and brothers in ZBT. After college they both stayed in Boston and remained close friends. In 2014 they finally embarked on their dream of starting a company together, <a href="www.brightcellars.com">Bright Cellars</a>.</p>
+                                    <p>
+                                        Richard and Joe's friendship dates back to college where they were brothers
+                                        in the MIT fraternity ZBT. After college Richard began
+                                        working at a Boston startup NutraClick as a marketing analyst and, later, president
+                                        of a subsidiary company, Bona Clara. In 2014, Richard and Joe both left their jobs to found <a href="www.brightcellars.com">Bright Cellars</a>.
+                                    </p>
                                 </div>
                                 <div class="social">
                                     <ul>
@@ -547,7 +552,11 @@ $show_rsvp = true;
                             <div id="person5" class="tab-content">
                                 <h2>Mike Kling</h2>
                                 <div class="story">
-                                    <p>Mike and Joe were also roommates at MIT (and brothers in ZBT). They share a handful of interests including math, CS, and running. At MIT they took a handful of classes together as well as having interned at the same company together in NYC one summer.</p>
+                                    <p>
+                                        Mike and Joe also met as brothers of ZBT at MIT. Like Joe, Mike loves math, computer science
+                                        and running. After completing his Masters in CS at MIT, Mike began working as a financial
+                                        trading analyst at Jane Street Capital in NYC.
+                                    </p>
                                 </div>
                                 <div class="social">
                                     <ul>
@@ -561,7 +570,13 @@ $show_rsvp = true;
                             <div id="person6" class="tab-content">
                                 <h2>David Hutchings</h2>
                                 <div class="story">
-                                    <p>David, along with Richard, is another member of Joe's class in ZBT. After college Joe and David remained close friends. David currently works at The Brattle Group in Toronto / Boston.</p>
+                                    <p>
+                                        David and Joe also met as brothers of ZBT. David was incredibly active in leadership positions at MIT,
+                                        most notably holding the IFC president position while also being ZBT president. Since college David
+                                        has remained heavily involved in MIT (currently ZBT trustee president) and works as an economic consultant
+                                        at The Brattle Group. A Canadian at heart (and by birth),
+                                        Hutch has recently relocated to Toronto.
+                                    </p>
                                 </div>
                                 <div class="social">
                                     <ul>
@@ -980,10 +995,19 @@ $show_rsvp = true;
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApYs2sM_nF1OI_udCnH5Jyyz4U2xe_-QA&amp;sensor=false"></script>
     <script src="js/custom.js"></script>
     <script>
-
         var usa_markers = [
             ['CHS Airport', 32.894547, -80.038164, 'airport', 'Charleston Airport'],
-            ['Parents', 33.029564, -80.248404, 'house', 'Parents House']
+            ['Wedding Ceremony', 32.664664, -79.916277, 'wedding', 'The wedding will take place right on Folly Beach right behind the beach house where the reception will be.'],
+            ['Wedding Reception', 32.664953, -79.916428, 'wedding', 'The wedding reception will take place in a beach house right on the water.'],
+            ['The Battery', 32.770149, -79.930320, 'attraction', 'Originally constructed as a Civil War coastal defensive seawall, the battery is today famous for the beautiful antebellum houses that line the seafront.'],
+            ['Arthur Ravenel Jr. Bridge', 32.804928, -79.931910, 'attraction', 'Known colloquially as the Cooper River bridge, the Arthur Ravenel Jr. Bridge is one of the best places to run or bike in Charleston with incredible views of the river and bay.'],
+            ['Charleston Waterfront Park', 32.778027, -79.925253, 'attraction', 'A beautiful park along the Charleston waterfront.'],
+            ['Magnolia Plantation', 32.878602, -80.090794, 'attraction', 'A historic plantation and popular tourist spot.'],
+            ['College of Charleston', 32.783735, -79.937771, 'attraction', 'The top college in the city -- CofC boasts a beautiful campus'],
+            ['Historic Charleston City Market', 32.781352, -79.927879, 'attraction', 'A must-see, this historic destination boasts a multitude of vendors and handmade, local products.'],
+            ['Tides Folly Beach', 32.654533, -79.940278, 'hotel', 'Located right on Folly Beach, Tides is ideally located and well-reviewed.'],
+            ['Water\'s Edge Inn', 32.657767, -79.944979, 'hotel', 'Within walking distance of Folly Beach, but in a little quieter area.'],
+            ['Beach house rentals', 32.655175, -79.938563, 'hotel', 'Instead of getting a hotel room, another option is to rent a beach house. <a href="http://www.fredhollandrealty.com/" target="_blank">Fred Holland Realty</a> and <a href="http://www.avocetproperties.net/" target="_blank">Avocet Properties</a> are the two main companies'],
         ];
     </script>
 </body>
