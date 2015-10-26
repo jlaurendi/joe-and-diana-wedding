@@ -808,7 +808,8 @@ $show_rsvp = true;
                     <?php
                         $db = new mysqli('localhost', 'fourplat_admin', 'l%9,wPfmG;k}', 'fourplat_wedding');
                         if ($db->connect_errno == 0) {
-                            $query = "SELECT * FROM guestbook WHERE wedding='us'";
+//                            $query = "SELECT * FROM guestbook WHERE wedding='us'";
+			    $query = "SELECT * FROM guestbook";
                             $posts = $db->query($query);
                             $posts_by_year = array();
                             foreach ($posts as $post) {

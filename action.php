@@ -32,7 +32,7 @@ if(isset($_POST['submit'])) {
 		$which_wedding = isset($_POST['which-wedding']) ? trim($_POST['which-wedding']) : '';
 		$subject = isset($_POST['subject']) ? trim($_POST['subject']) : "Wedding RSVP! ($which_wedding)";
 		$address = isset($_POST['address']) ? trim($_POST['address']) : '';
-        $dietary = isset($_POST['dietary']) ? trim($_POST['dietary']) : '';
+        	$dietary = isset($_POST['dietary']) ? trim($_POST['dietary']) : '';
 
 		if($name && $email && filter_var($email, FILTER_VALIDATE_EMAIL)) {
 			$headers  = 'MIME-Version: 1.0' . "\r\n";
@@ -72,9 +72,16 @@ if(isset($_POST['submit'])) {
 			$attend_taiwan = 1;
 		}
 
+		$name = $db->real_escape_string($name);
+		$email = $db->real_escape_string($email);
+		$persons = $db->real_escape_string($persons);
+		$phone = $db->real_escape_string($phone);
+		$address = $db->real_escape_string($address);
+		$dietary = $db->real_escape_string($dietary);
+
 	  $insert_query = "INSERT INTO rsvps (name, email, guests, phone, attend_taiwan, attend_usa, address, dietary) VALUES ('$name', '$email', $persons, '$phone', $attend_taiwan, $attend_usa, '$address', '$dietary');";
 	  if (!$result = $db->query($insert_query)) {
-	    $return['message'] = "Error signing up -- check that you filled out the entire form";
+	    $return['message'] = "Error signing up -- check that you filled out the entire form. If you keep getting this error, contact Joe and Diana.";
 	  } else {
 	    $return['message'] = "Success!";
 	  }
