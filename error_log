@@ -568,3 +568,8 @@
 [25-Oct-2015 20:50:19 America/Denver] PHP Notice:  Undefined variable: message in /home1/fourplat/public_html/wedding/action.php on line 41
 [25-Oct-2015 20:51:03 America/Denver] PHP Notice:  Undefined variable: message in /home1/fourplat/public_html/wedding/action.php on line 41
 [25-Oct-2015 20:51:57 America/Denver] PHP Notice:  Undefined variable: message in /home1/fourplat/public_html/wedding/action.php on line 41
+[25-Oct-2015 21:05:35 America/Denver] PHP Notice:  Undefined variable: message in /home1/fourplat/public_html/wedding/action.php on line 41
+[25-Oct-2015 21:08:36 America/Denver] PHP Notice:  Undefined variable: message in /home1/fourplat/public_html/wedding/action.php on line 41
+[25-Oct-2015 21:27:17 America/Denver] PHP Notice:  Undefined variable: message in /home1/fourplat/public_html/wedding/action.php on line 41
+[25-Oct-2015 21:29:50 America/Denver] PHP Notice:  Undefined variable: message in /home1/fourplat/public_html/wedding/action.php on line 41
+[25-Oct-2015 21:30:18 America/Denver] PHP Notice:  Undefined variable: message in /home1/fourplat/public_html/wedding/guestbook.php on line 67
