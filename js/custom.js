@@ -845,6 +845,7 @@ if (!Array.prototype.indexOf) {
             $this.find('.notification').text('');
 
             // $this.find('.loading').show();
+            $('#rsvp-loading-icon').width('70px').show();
 
             $.ajax({
                 'url': $this.attr('action'),
@@ -852,7 +853,8 @@ if (!Array.prototype.indexOf) {
                 'dataType': 'json',
                 'data': $(this).serialize()
             }).done(function(response) {
-                $this.find('.loading').hide();
+                $('#rsvp-loading-icon').hide();
+                // $this.find('.loading').hide();
                 if (typeof response.type != 'undefined' && typeof response.message != 'undefined') {
                     $this.find('.notification')
                         .addClass(response.type + 'msg')
@@ -874,6 +876,9 @@ if (!Array.prototype.indexOf) {
             data['email'] = $('.guestbook').find('#email').val();
             data['comment'] = $('.guestbook').find('textarea').val();
             data['g-recaptcha-response'] = $('.guestbook').find('.g-recaptcha-response').val();
+            data['wedding'] = $('.guestbook').find('input[name="wedding"]').val();
+
+            $('#guestbook-loading-icon').width('70px').show();
             $.ajax({
                 'url': 'guestbook.php',
                 'type': 'POST',
@@ -883,6 +888,7 @@ if (!Array.prototype.indexOf) {
                 $('.guestbook').find('.notification')
                     .addClass(response.type + 'msg')
                     .text(response.message);
+                $('#guestbook-loading-icon').hide();
             });
 
             e.preventDefault();

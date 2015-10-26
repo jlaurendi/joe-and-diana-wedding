@@ -786,6 +786,7 @@
                             <input type="hidden" name="wedding" value="tw" />
                             <div class="g-recaptcha" data-sitekey="6LedjgwTAAAAAKfuW18H60B02wbKbo_JLHAVxO5i"></div>
                             <input type="submit" class="color" value="Send your message &rarr;">
+                            <img id="guestbook-loading-icon" src="/images/loading-white-bg.gif" style="display: none;" />
                             <div class="clearfix"></div>
                             <div class="notification"></div>
                         </form>
@@ -864,6 +865,7 @@
                             <input type="hidden" name="submit">
                             <div class="clearfix"></div>
                             <input type="submit" value="我要參加 &rarr;">
+                            <img id="rsvp-loading-icon" src="/images/loading-pink-bg.gif" style="display: none;" />
                             <div class="clearfix"></div>
                         </form>
                     </div>
