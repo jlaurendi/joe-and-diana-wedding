@@ -878,6 +878,7 @@ $show_rsvp = true;
                             <input type="hidden" name="wedding" value="us" />
                             <div class="g-recaptcha" data-sitekey="6LedjgwTAAAAAKfuW18H60B02wbKbo_JLHAVxO5i"></div>
                             <input type="submit" class="color" value="Send your message &rarr;">
+                            <i id="guestbook-loading-icon" style="display: none;" class="fa fa-heart animate-spin"></i>
                             <div class="clearfix"></div>
                             <div class="notification"></div>
                         </form>
@@ -956,6 +957,7 @@ $show_rsvp = true;
                                 <input type="hidden" name="submit">
                                 <div class="clearfix"></div>
                                 <input type="submit" value="I am attending &rarr;">
+                                <i id="rsvp-loading-icon" style="display: none;" class="fa fa-heart animate-spin"></i>
                                 <div class="clearfix"></div>
                             </form>
                         </div>

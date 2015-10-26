@@ -875,6 +875,8 @@ if (!Array.prototype.indexOf) {
             data['comment'] = $('.guestbook').find('textarea').val();
             data['g-recaptcha-response'] = $('.guestbook').find('.g-recaptcha-response').val();
             data['wedding'] = $('.guestbook').find('input[name="wedding"]').val();
+
+            $('#guestbook-loading-icon').show();
             $.ajax({
                 'url': 'guestbook.php',
                 'type': 'POST',
@@ -884,6 +886,7 @@ if (!Array.prototype.indexOf) {
                 $('.guestbook').find('.notification')
                     .addClass(response.type + 'msg')
                     .text(response.message);
+                $('#guestbook-loading-icon').hide();
             });
 
             e.preventDefault();
