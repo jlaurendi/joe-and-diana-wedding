@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Joe and Mei-Ying's Wedding">
     <meta name="keywords" content="wedding,Laurendi,mei-ying,joe,wu">
-    <meta property="og:image" content="images/hero.jpg">
+    <meta property="og:image" content="http://achiaohemeiying.com/images/hero.jpg">
     <meta property="og:image:type" content="image/jpg">
 
     <!-- Title
