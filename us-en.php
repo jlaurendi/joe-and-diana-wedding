@@ -15,6 +15,8 @@ $show_rsvp = true;
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Joe and Mei-Ying's Wedding">
     <meta name="keywords" content="wedding,Laurendi,mei-ying,joe,wu">
+    <meta property="og:image" content="images/hero.jpg">
+    <meta property="og:image:type" content="image/jpg">
 
     <!-- Title
     ================================================== -->
@@ -165,9 +167,9 @@ $show_rsvp = true;
                         </div>
                         <div class="social">
                             <ul>
-                                <li><a href="http://www.facebook.com/darkplum"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="https://twitter.com/darkplumwu"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="https://www.linkedin.com/profile/view?id=325163428"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="http://www.facebook.com/darkplum" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/darkplumwu" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.linkedin.com/profile/view?id=325163428" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -175,13 +177,13 @@ $show_rsvp = true;
                         <h2 class="vibe">Groom’s story</h2>
                         <div class="story">
                             <p>Joe was born and raised in the USA. He shares in Diana's passion for life and pursuit of excellence with intellectual challenges at the forefront of his attention. Math, computer science, and entrepreneurship are the main disciplines he focuses on. Beyond intellectual pursuits, he loves running and exploring the world (which he often combines).</p>
-                            <p>Recently Joe founded <a href="www.brightcellars.com">Bright Cellars</a>, an online wine company that makes discovering wine fun and easy, with his best man, Richard Yau.</p>
+                            <p>Recently Joe founded <a href="http://www.brightcellars.com" target="_blank">Bright Cellars</a>, an online wine company that makes discovering wine fun and easy, with his best man, Richard Yau.</p>
                         </div>
                         <div class="social">
                             <ul>
-                                <li><a href="http://www.facebook.com/jlaurendi"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="https://twitter.com/jlaurendi"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="https://www.linkedin.com/profile/view?id=18122897"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="http://www.facebook.com/jlaurendi" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/jlaurendi" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.linkedin.com/profile/view?id=18122897" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -283,7 +285,7 @@ $show_rsvp = true;
                             <span class="date">October 24</span>
                             <h2>Fall in Taichung</h2>
                             <div class="box-content">
-                                <p>On Joe's third trip to Taiwan, he and Diana spent a month in Taichung for the fall. We spent most of our time working at the <a href="https://www.facebook.com/HappenTaichung">Happen coworking space</a>. Joe also got his first taste of training for and running a marathon in Taiwan. The Sun Moon Lake marathon was actually his favorite to date.</p>
+                                <p>On Joe's third trip to Taiwan, he and Diana spent a month in Taichung for the fall. We spent most of our time working at the <a href="https://www.facebook.com/HappenTaichung" target="_blank">Happen coworking space</a>. Joe also got his first taste of training for and running a marathon in Taiwan. The Sun Moon Lake marathon was actually his favorite to date.</p>
                             </div>
                         </div>
                     </div>
@@ -478,7 +480,7 @@ $show_rsvp = true;
                                 </div>
                                 <div class="social">
                                     <ul>
-                                        <li><a href="https://www.facebook.com/softsheep"><i class="fa fa-facebook"></i></a>
+                                        <li><a href="https://www.facebook.com/softsheep" target="_blank"><i class="fa fa-facebook"></i></a>
                                         </li>
                                         <!-- <li><a href="#"><i class="fa fa-twitter"></i></a>
                                         </li>
@@ -494,7 +496,7 @@ $show_rsvp = true;
                                 </div>
                                 <div class="social">
                                     <ul>
-                                        <li><a href="https://www.facebook.com/profile.php?id=100000157616236"><i class="fa fa-facebook"></i></a>
+                                        <li><a href="https://www.facebook.com/profile.php?id=100000157616236" target="_blank"><i class="fa fa-facebook"></i></a>
                                         </li>
                                         <!-- <li><a href="#"><i class="fa fa-twitter"></i></a>
                                         </li>
@@ -510,7 +512,7 @@ $show_rsvp = true;
                                 </div>
                                 <div class="social">
                                     <ul>
-                                        <li><a href="https://www.facebook.com/jingru.jhuo"><i class="fa fa-facebook"></i></a>
+                                        <li><a href="https://www.facebook.com/jingru.jhuo" target="_blank"><i class="fa fa-facebook"></i></a>
                                         </li>
                                        <!--  <li><a href="#"><i class="fa fa-twitter"></i></a>
                                         </li>
@@ -537,14 +539,14 @@ $show_rsvp = true;
                                         Richard and Joe's friendship dates back to college where they were brothers
                                         in the MIT fraternity ZBT. After college Richard began
                                         working at a Boston startup NutraClick as a marketing analyst and, later, president
-                                        of a subsidiary company, Bona Clara. In 2014, Richard and Joe both left their jobs to found <a href="www.brightcellars.com">Bright Cellars</a>.
+                                        of a subsidiary company, Bona Clara. In 2014, Richard and Joe both left their jobs to found <a href="http://www.brightcellars.com" target="_blank">Bright Cellars</a>.
                                     </p>
                                 </div>
                                 <div class="social">
                                     <ul>
-                                        <li><a href="https://twitter.com/richard_yau"><i class="fa fa-twitter"></i></a>
+                                        <li><a href="https://twitter.com/richard_yau" target="_blank"><i class="fa fa-twitter"></i></a>
                                         </li>
-                                        <li><a href="www.linkedin.com/profile/view?id=38969067"><i class="fa fa-linkedin"></i></a>
+                                        <li><a href="https://www.linkedin.com/profile/view?id=38969067" target="_blank"><i class="fa fa-linkedin"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -560,9 +562,9 @@ $show_rsvp = true;
                                 </div>
                                 <div class="social">
                                     <ul>
-                                        <li><a href="https://www.facebook.com/mike.kling"><i class="fa fa-facebook"></i></a>
+                                        <li><a href="https://www.facebook.com/mike.kling" target="_blank"><i class="fa fa-facebook"></i></a>
                                         </li>
-                                        <li><a href="www.linkedin.com/profile/view?id=169949679"><i class="fa fa-linkedin"></i></a>
+                                        <li><a href="http://www.linkedin.com/profile/view?id=169949679" target="_blank"><i class="fa fa-linkedin"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -580,9 +582,9 @@ $show_rsvp = true;
                                 </div>
                                 <div class="social">
                                     <ul>
-                                        <li><a href="https://www.facebook.com/david.hutchings.184"><i class="fa fa-facebook"></i></a>
+                                        <li><a href="https://www.facebook.com/david.hutchings.184" target="_blank"><i class="fa fa-facebook"></i></a>
                                         </li>
-                                        <li><a href="www.linkedin.com/profile/view?id=73006531"><i class="fa fa-linkedin"></i></a>
+                                        <li><a href="http://www.linkedin.com/profile/view?id=73006531" target="_blank"><i class="fa fa-linkedin"></i></a>
                                         </li>
                                     </ul>
                                 </div>

@@ -10,6 +10,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Joe and Mei-Ying's Wedding">
     <meta name="keywords" content="wedding,Laurendi,mei-ying,joe,wu">
+    <meta property="og:image" content="images/hero.jpg">
+    <meta property="og:image:type" content="image/jpg">
 
     <!-- Title
     ================================================== -->
@@ -151,9 +153,9 @@
                         </div>
                         <div class="social">
                             <ul>
-                                <li><a href="http://www.facebook.com/darkplum"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="https://twitter.com/darkplumwu"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="https://www.linkedin.com/profile/view?id=325163428"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="http://www.facebook.com/darkplum" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/darkplumwu" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.linkedin.com/profile/view?id=325163428" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -162,13 +164,13 @@
                         <div class="story">
                             <p>Joseph Laurendi，道地美利堅合眾國人，出生在馬里蘭州，住過佛羅里達州、南卡羅來納州，大學時搬到麻薩諸塞州，開始一連串的冒險。</p>
                             <p>對生命充滿熱情，無可救藥地熱衷於追求卓越的益智表現，喜歡接受挑戰，享受抽絲剝繭的腦力激盪，數學、電腦科學與創業是最愛。在智力挑戰以外，熱愛跑步與探索新世界，已經跑過13個馬拉松的他，目標是跑遍全世界的馬拉松。人生最大的夢想就是成為「對這個世界有貢獻」的人。</p>
-                            <p>和主伴郎 Richard Yau 一起創立了正在持續成長的<a href="www.brightcellars.com"> Bright Cellars</a>－致力於讓消費者以更有趣、簡單的方式品味葡萄酒的公司。</p>
+                            <p>和主伴郎 Richard Yau 一起創立了正在持續成長的<a href="http://www.brightcellars.com" target="_blank"> Bright Cellars</a>－致力於讓消費者以更有趣、簡單的方式品味葡萄酒的公司。</p>
                         </div>
                         <div class="social">
                             <ul>
-                                <li><a href="http://www.facebook.com/jlaurendi"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="https://twitter.com/jlaurendi"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="https://www.linkedin.com/profile/view?id=18122897"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="http://www.facebook.com/jlaurendi" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/jlaurendi" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.linkedin.com/profile/view?id=18122897" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -268,7 +270,7 @@
                             <span class="date">October 24</span>
                             <h2>Fall in Taichung</h2>
                             <div class="box-content">
-                                <p>阿喬第三次來到台灣，我們決定在台中落腳一個月，一起進駐共同工作空間，對從未長住過臺中的我們來說，是很新鮮的體驗。阿喬這次來台灣還有一個目的，參加日月潭環湖馬拉松，也是他第一個在美國境外參加的馬拉松！</p>
+                                <p>阿喬第三次來到台灣，我們決定在台中落腳一個月，一起進駐<a href="https://www.facebook.com/HappenTaichung" target="_blank">好伴共同工作空間</a>，對從未長住過臺中的我們來說，是很新鮮的體驗。阿喬這次來台灣還有一個目的，參加日月潭環湖馬拉松，也是他第一個在美國境外參加的馬拉松！</p>
                             </div>
                         </div>
                     </div>
@@ -478,7 +480,7 @@
                                 </div>
                                 <div class="social">
                                     <ul>
-                                        <li><a href="https://www.facebook.com/softsheep"><i class="fa fa-facebook"></i></a>
+                                        <li><a href="https://www.facebook.com/softsheep" target="_blank"><i class="fa fa-facebook"></i></a>
                                         </li>
                                         <!-- <li><a href="#"><i class="fa fa-twitter"></i></a>
                                         </li>
@@ -494,7 +496,7 @@
                                 </div>
                                 <div class="social">
                                     <ul>
-                                        <li><a href="https://www.facebook.com/profile.php?id=100000157616236"><i class="fa fa-facebook"></i></a>
+                                        <li><a href="https://www.facebook.com/profile.php?id=100000157616236" target="_blank"><i class="fa fa-facebook"></i></a>
                                         </li>
                                         <!-- <li><a href="#"><i class="fa fa-twitter"></i></a>
                                         </li>
@@ -510,7 +512,7 @@
                                 </div>
                                 <div class="social">
                                     <ul>
-                                        <li><a href="https://www.facebook.com/jingru.jhuo"><i class="fa fa-facebook"></i></a>
+                                        <li><a href="https://www.facebook.com/jingru.jhuo" target="_blank"><i class="fa fa-facebook"></i></a>
                                         </li>
                                        <!--  <li><a href="#"><i class="fa fa-twitter"></i></a>
                                         </li>
@@ -533,13 +535,13 @@
                             <div id="person4" class="tab-content">
                                 <h2>Richard Yau</h2>
                                 <div class="story">
-                                    <p>Richard和Joe過去在MIT就學的期間，同是MIT兄弟會－ZBT的成員。從學校畢業後，他進入一間位在波士頓的新創公司－NutraClick，擔任行銷分析師，過了不久更成為其旗下子公司Bona Clara的主席。2014年，Richard和Joe決定離開各自的工作，一起創立<a href="www.brightcellars.com">Bright Cellars。</p>
+                                    <p>Richard和Joe過去在MIT就學的期間，同是MIT兄弟會－ZBT的成員。從學校畢業後，他進入一間位在波士頓的新創公司－NutraClick，擔任行銷分析師，過了不久更成為其旗下子公司Bona Clara的主席。2014年，Richard和Joe決定離開各自的工作，一起創立<a href="http://www.brightcellars.com" target="_blank">Bright Cellars。</p>
                                 </div>
                                 <div class="social">
                                     <ul>
-                                        <li><a href="https://twitter.com/richard_yau"><i class="fa fa-twitter"></i></a>
+                                        <li><a href="https://twitter.com/richard_yau" target="_blank"><i class="fa fa-twitter"></i></a>
                                         </li>
-                                        <li><a href="www.linkedin.com/profile/view?id=38969067"><i class="fa fa-linkedin"></i></a>
+                                        <li><a href="www.linkedin.com/profile/view?id=38969067" target="_blank"><i class="fa fa-linkedin"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -551,9 +553,9 @@
                                 </div>
                                 <div class="social">
                                     <ul>
-                                        <li><a href="https://www.facebook.com/mike.kling"><i class="fa fa-facebook"></i></a>
+                                        <li><a href="https://www.facebook.com/mike.kling" target="_blank"><i class="fa fa-facebook"></i></a>
                                         </li>
-                                        <li><a href="www.linkedin.com/profile/view?id=169949679"><i class="fa fa-linkedin"></i></a>
+                                        <li><a href="https://www.linkedin.com/profile/view?id=169949679" target="_blank"><i class="fa fa-linkedin"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -561,13 +563,13 @@
                             <div id="person6" class="tab-content">
                                 <h2>David Hutchings</h2>
                                 <div class="story">
-                                    <p>David和Joe相識於兄弟會－ZBT。David非常活躍於MIT的領導圈，最為人所知的是曾經同時擔任IFC(MIT的兄弟會議會）與ZBT的主席。David在大學時期就非常積極參與MIT的公共事務，目前更擔任ZBT董事會主席。目前在<a href="http://www.brattle.com/">The Brattle Group</a>從事經濟顧問，來自加拿大的他，近期也搬回多倫多（Toronto）。</p>
+                                    <p>David和Joe相識於兄弟會－ZBT。David非常活躍於MIT的領導圈，最為人所知的是曾經同時擔任IFC(MIT的兄弟會議會）與ZBT的主席。David在大學時期就非常積極參與MIT的公共事務，目前更擔任ZBT董事會主席。目前在<a href="http://www.brattle.com/" target="_blank">The Brattle Group</a>從事經濟顧問，來自加拿大的他，近期也搬回多倫多（Toronto）。</p>
                                 </div>
                                 <div class="social">
                                     <ul>
-                                        <li><a href="https://www.facebook.com/david.hutchings.184"><i class="fa fa-facebook"></i></a>
+                                        <li><a href="https://www.facebook.com/david.hutchings.184" target="_blank"><i class="fa fa-facebook"></i></a>
                                         </li>
-                                        <li><a href="www.linkedin.com/profile/view?id=73006531"><i class="fa fa-linkedin"></i></a>
+                                        <li><a href="https://www.linkedin.com/profile/view?id=73006531" target="_blank"><i class="fa fa-linkedin"></i></a>
                                         </li>
                                     </ul>
                                 </div>
