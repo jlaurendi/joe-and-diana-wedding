@@ -804,6 +804,7 @@
                 <div class="row">
                     <?php
                         $db = new mysqli('localhost', 'fourplat_admin', 'l%9,wPfmG;k}', 'fourplat_wedding');
+			$db->set_charset('utf8');
                         if ($db->connect_errno == 0) {
 //                            $query = "SELECT * FROM guestbook WHERE wedding='tw'";
                             $query = "SELECT * FROM guestbook";
@@ -902,7 +903,7 @@
         <section id="contact" class="bgcolor">
             <header class="section-header">
                 <h3 class="section-title">SIGN YOUR RSVP</h3>
-                <p class="section-tagline">Please RSVP before 30 November 2015.</p>
+                <p class="section-tagline">Please RSVP before 15 November 2015.</p>
             </header>
             <div class="form">
                 <div class="container smaller">

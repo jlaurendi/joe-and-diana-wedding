@@ -2,6 +2,7 @@
 
 session_start();
 $db = new mysqli('localhost', 'fourplat_admin', 'l%9,wPfmG;k}', 'fourplat_wedding');
+$db->set_charset('utf8');
 
 //for use with javascript unescape function
 function encode($input) {

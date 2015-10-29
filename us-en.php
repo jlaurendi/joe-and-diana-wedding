@@ -809,6 +809,7 @@ $show_rsvp = true;
                 <div class="row">
                     <?php
                         $db = new mysqli('localhost', 'fourplat_admin', 'l%9,wPfmG;k}', 'fourplat_wedding');
+			$db->set_charset('utf8');
                         if ($db->connect_errno == 0) {
 //                            $query = "SELECT * FROM guestbook WHERE wedding='us'";
 			    $query = "SELECT * FROM guestbook";
