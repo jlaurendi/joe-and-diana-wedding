@@ -22,7 +22,7 @@ if(isset($_POST['submit'])) {
 	// if(!isset($_SESSION['_form_validate']) || !$answer || $_SESSION['_form_validate'] != $answer) {
 	// 	$return['message'] = 'Error validating security question.';
 	// } else {
-		$to = 'jlaurendi@gmail.com';
+		$to = 'darkplumwu@gmail.com, jlaurendi@gmail.com';
 
 		$name = isset($_POST['name']) ? trim($_POST['name']) : '';
 		$email = isset($_POST['email']) ? trim($_POST['email']) : '';
