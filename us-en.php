@@ -810,7 +810,8 @@ $show_rsvp = true;
                     <?php
                         $db = new mysqli('localhost', 'fourplat_admin', 'l%9,wPfmG;k}', 'fourplat_wedding');
                         if ($db->connect_errno == 0) {
-                            $query = "SELECT * FROM guestbook WHERE wedding='us'";
+//                            $query = "SELECT * FROM guestbook WHERE wedding='us'";
+			    $query = "SELECT * FROM guestbook";
                             $posts = $db->query($query);
                             $posts_by_year = array();
                             foreach ($posts as $post) {
@@ -938,6 +939,10 @@ $show_rsvp = true;
                                 <div class="column six">
                                     <label for="address">Mailing Address</label>
                                     <input type="text" id="address" name="address">
+                                </div>
+                                <div class="column six">
+                                    <label for="dietary">Dietary Restrictions</label>
+                                    <input type="text" id="dietary" name="dietary" placeholder="Vegetarian, food allergies, etc">
                                 </div>
 
     <!--                             <div class="column six">

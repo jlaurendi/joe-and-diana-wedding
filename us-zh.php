@@ -712,7 +712,8 @@
                     <?php
                         $db = new mysqli('localhost', 'fourplat_admin', 'l%9,wPfmG;k}', 'fourplat_wedding');
                         if ($db->connect_errno == 0) {
-                            $query = "SELECT * FROM guestbook WHERE wedding='us'";
+//                            $query = "SELECT * FROM guestbook WHERE wedding='us'";
+                            $query = "SELECT * FROM guestbook";
                             $posts = $db->query($query);
                             $posts_by_year = array();
                             foreach ($posts as $post) {
@@ -843,6 +844,10 @@
                             <div class="column six">
                                 <label for="address">郵寄地址</label>
                                 <input type="text" id="address" name="address">
+                            </div>
+                            <div class="column six">
+                                <label for="dietary">飲食限制</label>
+                                <input type="text" id="dietary" name="dietary" placeholder="例如：素食、對某食物過敏">
                             </div>
 <!--                             <div class="column six">
                                 <label for="which-wedding">哪一場婚禮?</label>
