@@ -382,7 +382,7 @@
                             <div class="corners-bottomright"></div>
                             <h2>Wedding Reception</h2>
                             <div class="details">
-                                <span class="waddress">Quan Mei Wedding Banquet Restaurant</span>
+                                <span class="waddress">Chuan Mei Banqueting Hall</span>
                                 <span class="waddress">高雄縣鳳山市經武路78號1樓</span>
                                 <span class="wdate">Saturday, January 9, 2016</span>
                                 <span class="wtime">12:00 PM - 2:30 PM</span>
