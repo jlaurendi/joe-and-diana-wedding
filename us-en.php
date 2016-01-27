@@ -929,7 +929,7 @@ $show_rsvp = true;
                                     <label for="phone">Phone</label>
                                     <input type="text" id="phone" name="phone">
                                 </div>
-                                <div class="column six">
+                                <div class="column six" style="display:none;">
                                     <label for="persons">Number of guests</label>
                                     <select name="persons" id="persons">
                                         <option value="1" disabled selected="selected"> How many people? </option>

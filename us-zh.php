@@ -830,7 +830,7 @@
                                 <label for="phone">聯絡電話</label>
                                 <input type="text" id="phone" name="phone">
                             </div>
-                            <div class="column six">
+                            <div class="column six" style="display: none;">
                                 <label for="persons">賓客人數</label>
                                 <select name="persons" id="persons">
                                     <option value="1" disabled selected="selected"> 幾位？</option>
