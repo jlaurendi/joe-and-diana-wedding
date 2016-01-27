@@ -833,8 +833,8 @@
                             <div class="column six" style="display: none;">
                                 <label for="persons">賓客人數</label>
                                 <select name="persons" id="persons">
-                                    <option value="1" disabled selected="selected"> 幾位？</option>
-                                    <option value="1">1位</option>
+                                    <option value="1" disabled> 幾位？</option>
+                                    <option value="1" selected="selected">1位</option>
                                     <option value="2">2位</option>
                                     <option value="3">3位</option>
                                     <option value="4">4位</option>

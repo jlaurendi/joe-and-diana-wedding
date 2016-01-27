@@ -932,8 +932,8 @@ $show_rsvp = true;
                                 <div class="column six" style="display:none;">
                                     <label for="persons">Number of guests</label>
                                     <select name="persons" id="persons">
-                                        <option value="1" disabled selected="selected"> How many people? </option>
-                                        <option value="1">One</option>
+                                        <option value="1" disabled > How many people? </option>
+                                        <option value="1" selected="selected">One</option>
                                         <option value="2">Two</option>
                                     </select>
                                 </div>
