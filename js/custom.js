@@ -666,7 +666,7 @@ if (!Array.prototype.indexOf) {
             CountDownTimer('01/09/2016 12:00 AM', 'countdown');
         }
         if($("#countdown.countdown-us").length) {
-            CountDownTimer('04/16/2016 12:00 AM', 'countdown');
+            CountDownTimer('04/16/2016 05:00 PM', 'countdown');
         }
         function CountDownTimer(dt, id) {
             var end = new Date(dt);
