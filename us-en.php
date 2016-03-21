@@ -720,22 +720,8 @@ $show_rsvp = true;
                 <h3 class="section-title">Gift Registry</h3>
                 <p class="section-tagline">We're currently working on our registries. Come back soon!</p>
             </header>
-<!--             <div class="container">
+             <div class="container">
                 <ul class="small-box corner">
-                    <li>
-                        <a class="product" href="#"><img src="images/gifts/registry-amazon.png" alt=""></a>
-                        <div class="corners-topleft"></div>
-                        <div class="corners-bottomleft"></div>
-                        <div class="corners-topright"></div>
-                        <div class="corners-bottomright"></div>
-                    </li>
-                    <li>
-                        <a class="product" href="#"><img src="images/gifts/registry-crate.png" alt=""></a>
-                        <div class="corners-topleft"></div>
-                        <div class="corners-bottomleft"></div>
-                        <div class="corners-topright"></div>
-                        <div class="corners-bottomright"></div>
-                    </li>
                     <li>
                         <a class="product" href="#"><img src="images/gifts/registry-macys.png" alt=""></a>
                         <div class="corners-topleft"></div>
@@ -744,13 +730,14 @@ $show_rsvp = true;
                         <div class="corners-bottomright"></div>
                     </li>
                     <li>
-                        <a class="product" href="#"><img src="images/gifts/registry-tiffany.png" alt=""></a>
+                        <a class="product" href="https://www-secure.target.com/gift-registry/giftgiver?registryId=i8Xz14ddvy7jBahcqLXyMw"><img src="images/gifts/registry-target.png" alt=""></a>
                         <div class="corners-topleft"></div>
                         <div class="corners-bottomleft"></div>
                         <div class="corners-topright"></div>
                         <div class="corners-bottomright"></div>
                     </li>
                 </ul>
+<!--
                 <ul class="small-box corner">
                     <li>
                         <div class="money">
@@ -793,8 +780,9 @@ $show_rsvp = true;
                         </div>
                     </li>
                 </ul>
-            </div>
  -->
+            </div>
+
         </section>
         <!-- #Gift Registry Section Ends -->
 
