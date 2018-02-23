@@ -77,16 +77,12 @@
 <!--                             <li><a href="#wedding-gallery">Gallery</a></li>
  -->                            <li><a href="#gift-registry">Gifts</a></li>
                             <li><a href="#guestbook">GuestBook</a></li>
-
-                            <?php if ($show_rsvp) { ?>
-                                <li><a href="#contact">RSVP</a></li>
-                            <?php } ?>
                             <li class="country">
-                                <a href="/tw-en.html">TW</a>
+                                <a href="/joe-and-diana-wedding/tw-en.html">TW</a>
                                 <p>/</p>
-                                <a href="/us-en.html" class="selected-country">US</a>
+                                <a href="/joe-and-diana-wedding/us-en.html" class="selected-country">US</a>
                             </li>
-                            <li><a href="/us-zh.html">中文</a></li>
+                            <li><a href="/joe-and-diana-wedding/us-zh.html">中文</a></li>
                         </ul>
                     </nav>
                     <a href="#" id="menu-toggle-wrapper">
@@ -115,18 +111,9 @@
 
     <section id="home-content" class="top-menu">
 
-        <?php if ($show_rsvp) { ?>
-            <!-- RSVP Now -->
-            <section id="invitation" class="pattern">
-                <span>You’re invited to our Wedding!</span>
-                <a id="to-rsvp" href="#contact" class="button scrollTo">RSVP NOW</a>
-            </section>
-            <!-- #RSVP Now -->
-        <?php } else { ?>
             <section id="invitation" class="pattern">
                 <span>Welcome to our wedding website!</span>
             </section>
-        <?php } ?>
 
         <!-- Couple Images -->
         <section id="couple">
@@ -795,7 +782,7 @@
                 </header>
                 <div class="container smaller">
                     <div class="row">
-                        <form action="guestbook.php" method="POST" class="guestbook">
+                        <form onsubmit="return false;" method="POST" class="guestbook">
                             <div class="column six">
                                 <label for="name">Name</label>
                                 <input type="text" id="name" name="name">
