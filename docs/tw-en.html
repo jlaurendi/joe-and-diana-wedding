@@ -569,61 +569,6 @@
         </section>
         <!-- #Gift Registry Section Ends -->
 
-        <!-- Guestbook Section -->
-        <section id="guestbook">
-            <header class="section-header">
-                <h3 class="section-title">Guestbook</h3>
-            </header>
-            <div class="container timeline">
-                <span class="arrow-up"></span>
-                <span class="arrow-down"></span>
-                <div class="row">
-                            <div class="timeline-year start"><span><?php echo $year; ?></span></div>
-
-                                <div class="column six heart <?php echo $class; ?>">
-                                    <div class="box pattern">
-                                        <span class="date"><?php echo $date; ?></span>
-                                        <div class="guest">
-                                            <p style="white-space: pre-line;"><?php echo $comment; ?></p>
-                                            <span class="name"><?php echo $name; ?></span>
-                                        </div>
-                                    </div>
-                                </div>
-                </div>
-            </div>
-            <div class="form color">
-                <header class="section-header">
-                    <h3>Write Something</h3>
-                </header>
-                <div class="container smaller">
-                    <div class="row">
-                        <form action="guestbook.php" method="POST" class="guestbook">
-                            <div class="column six">
-                                <label for="name">Name</label>
-                                <input type="text" id="name" name="name">
-                            </div>
-                            <div class="column six">
-                                <label for="email">Email</label>
-                                <input type="text" id="email" name="email">
-                            </div>
-                            <div class="column twelve">
-                                <label for="comment">Comment</label>
-                                <textarea name="comment" cols="30" rows="10"></textarea>
-                            </div>
-                            <div class="clearfix"></div>
-                            <input type="hidden" name="wedding" value="tw" />
-                            <div class="g-recaptcha" data-sitekey="6LedjgwTAAAAAKfuW18H60B02wbKbo_JLHAVxO5i"></div>
-                            <input type="submit" class="color" value="Send your message &rarr;">
-                            <img id="guestbook-loading-icon" src="/images/loading-white-bg.gif" style="display: none;" />
-                            <div class="clearfix"></div>
-                            <div class="notification"></div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- #Guestbook Section Ends -->
-
         <!-- Instagram Section -->
         <section id="instagram-section" class="pattern">
             <header class="section-header">
